@@ -1,0 +1,882 @@
+zip,lat,lng,city,state_id,state_name,zcta,parent_zcta,population,density,county_fips,county_name,county_weights,county_names_all,county_fips_all,imprecise,military,timezone
+55001,44.90138,-92.81969,Afton,MN,Minnesota,TRUE,,2956,42.2,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55003,45.01183,-92.77883,Bayport,MN,Minnesota,TRUE,,3948,733.8,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55005,45.39281,-93.21725,Bethel,MN,Minnesota,TRUE,,4756,96.9,27003,Anoka,"{""27003"": 100}",Anoka,27003,FALSE,FALSE,America/Chicago
+55006,45.74002,-93.20504,Braham,MN,Minnesota,TRUE,,3655,18.5,27065,Kanabec,"{""27065"": 38.18, ""27059"": 34.51, ""27115"": 19.61, ""27025"": 7.71}",Kanabec|Isanti|Pine|Chisago,27065|27059|27115|27025,FALSE,FALSE,America/Chicago
+55007,45.97511,-93.12223,Brook Park,MN,Minnesota,TRUE,,2158,7,27065,Kanabec,"{""27065"": 61.85, ""27115"": 38.15}",Kanabec|Pine,27065|27115,FALSE,FALSE,America/Chicago
+55008,45.57149,-93.26734,Cambridge,MN,Minnesota,TRUE,,16091,61.9,27059,Isanti,"{""27059"": 99.31, ""27025"": 0.69}",Isanti|Chisago,27059|27025,FALSE,FALSE,America/Chicago
+55009,44.48378,-92.86686,Cannon Falls,MN,Minnesota,TRUE,,8258,26,27049,Goodhue,"{""27049"": 81.65, ""27037"": 18.35}",Goodhue|Dakota,27049|27037,FALSE,FALSE,America/Chicago
+55011,45.34108,-93.2521,Cedar,MN,Minnesota,TRUE,,11025,92.8,27003,Anoka,"{""27003"": 100}",Anoka,27003,FALSE,FALSE,America/Chicago
+55012,45.44166,-92.78952,Center City,MN,Minnesota,TRUE,,1995,32.5,27025,Chisago,"{""27025"": 100}",Chisago,27025,FALSE,FALSE,America/Chicago
+55013,45.35558,-92.89469,Chisago City,MN,Minnesota,TRUE,,7030,98.2,27025,Chisago,"{""27025"": 100}",Chisago,27025,FALSE,FALSE,America/Chicago
+55014,45.16802,-93.12431,Circle Pines,MN,Minnesota,TRUE,,28975,552,27003,Anoka,"{""27003"": 100}",Anoka,27003,FALSE,FALSE,America/Chicago
+55016,44.8172,-92.93373,Cottage Grove,MN,Minnesota,TRUE,,39925,512.1,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55017,45.67291,-93.4314,Dalbo,MN,Minnesota,TRUE,,971,14.5,27059,Isanti,"{""27059"": 100}",Isanti,27059,FALSE,FALSE,America/Chicago
+55018,44.41832,-92.98822,Dennison,MN,Minnesota,TRUE,,931,8.1,27049,Goodhue,"{""27049"": 91.18, ""27131"": 8.82}",Goodhue|Rice,27049|27131,FALSE,FALSE,America/Chicago
+55019,44.41318,-93.25016,Dundas,MN,Minnesota,TRUE,,2336,44.1,27131,Rice,"{""27131"": 100}",Rice,27131,FALSE,FALSE,America/Chicago
+55020,44.57707,-93.37387,Elko New Market,MN,Minnesota,TRUE,,4391,71.2,27139,Scott,"{""27139"": 100}",Scott,27139,FALSE,FALSE,America/Chicago
+55021,44.2973,-93.27414,Faribault,MN,Minnesota,TRUE,,30860,67.3,27131,Rice,"{""27131"": 100}",Rice,27131,FALSE,FALSE,America/Chicago
+55024,44.62738,-93.13605,Farmington,MN,Minnesota,TRUE,,36681,166.5,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55025,45.26391,-93.0212,Forest Lake,MN,Minnesota,TRUE,,25759,129.1,27003,Anoka,"{""27003"": 52.25, ""27163"": 40.78, ""27025"": 6.97}",Anoka|Washington|Chisago,27003|27163|27025,FALSE,FALSE,America/Chicago
+55026,44.52179,-92.3369,Frontenac,MN,Minnesota,TRUE,,451,48.6,27049,Goodhue,"{""27049"": 100}",Goodhue,27049,FALSE,FALSE,America/Chicago
+55027,44.40868,-92.62058,Goodhue,MN,Minnesota,TRUE,,2948,9.7,27049,Goodhue,"{""27049"": 99.19, ""27157"": 0.81}",Goodhue|Wabasha,27049|27157,FALSE,FALSE,America/Chicago
+55029,45.63573,-93.20098,Grandy,MN,Minnesota,TRUE,,27,40.7,27059,Isanti,"{""27059"": 100}",Isanti,27059,FALSE,FALSE,America/Chicago
+55030,45.83911,-93.11493,Grasston,MN,Minnesota,TRUE,,1425,14,27115,Pine,"{""27115"": 79.91, ""27065"": 20.09}",Pine|Kanabec,27115|27065,FALSE,FALSE,America/Chicago
+55031,44.60772,-92.96647,Hampton,MN,Minnesota,TRUE,,1682,16,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55032,45.58851,-92.99279,Harris,MN,Minnesota,TRUE,,3353,19.1,27025,Chisago,"{""27025"": 100}",Chisago,27025,FALSE,FALSE,America/Chicago
+55033,44.71139,-92.8585,Hastings,MN,Minnesota,TRUE,,29241,78.3,27037,Dakota,"{""27037"": 75.39, ""27163"": 21.46, ""27049"": 3.15}",Dakota|Washington|Goodhue,27037|27163|27049,FALSE,FALSE,America/Chicago
+55036,45.87114,-93.11999,Henriette,MN,Minnesota,TRUE,,34,46.8,27115,Pine,"{""27115"": 100}",Pine,27115,FALSE,FALSE,America/Chicago
+55037,46.01071,-92.78934,Hinckley,MN,Minnesota,TRUE,,5077,6.4,27115,Pine,"{""27115"": 92.98, ""27065"": 7.02}",Pine|Kanabec,27115|27065,FALSE,FALSE,America/Chicago
+55038,45.169,-92.98059,Hugo,MN,Minnesota,TRUE,,24246,185.4,27163,Washington,"{""27163"": 68.95, ""27003"": 30.73, ""27123"": 0.32}",Washington|Anoka|Ramsey,27163|27003|27123,FALSE,FALSE,America/Chicago
+55040,45.4678,-93.27951,Isanti,MN,Minnesota,TRUE,,14451,56.9,27059,Isanti,"{""27059"": 100}",Isanti,27059,FALSE,FALSE,America/Chicago
+55041,44.39544,-92.31923,Lake City,MN,Minnesota,TRUE,,7532,20.2,27157,Wabasha,"{""27157"": 83.45, ""27049"": 16.55}",Wabasha|Goodhue,27157|27049,FALSE,FALSE,America/Chicago
+55042,44.99253,-92.898,Lake Elmo,MN,Minnesota,TRUE,,13156,204.2,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55043,44.94064,-92.76902,Lakeland,MN,Minnesota,TRUE,,3471,356.1,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55044,44.64156,-93.27858,Lakeville,MN,Minnesota,TRUE,,63280,374.3,27037,Dakota,"{""27037"": 70.38, ""27139"": 29.62}",Dakota|Scott,27037|27139,FALSE,FALSE,America/Chicago
+55045,45.39777,-92.83074,Lindstrom,MN,Minnesota,TRUE,,7854,87.1,27025,Chisago,"{""27025"": 100}",Chisago,27025,FALSE,FALSE,America/Chicago
+55046,44.44629,-93.4162,Lonsdale,MN,Minnesota,TRUE,,6030,52.2,27131,Rice,"{""27131"": 100}",Rice,27131,FALSE,FALSE,America/Chicago
+55047,45.20553,-92.82137,Marine On Saint Croix,MN,Minnesota,TRUE,,2230,29.4,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55049,44.17628,-93.24101,Medford,MN,Minnesota,TRUE,,2634,22,27147,Steele,"{""27147"": 90.85, ""27131"": 9.15}",Steele|Rice,27147|27131,FALSE,FALSE,America/Chicago
+55051,45.93818,-93.33201,Mora,MN,Minnesota,TRUE,,9927,17.6,27065,Kanabec,"{""27065"": 86.48, ""27095"": 13.52}",Kanabec|Mille Lacs,27065|27095,FALSE,FALSE,America/Chicago
+55052,44.23369,-93.4398,Morristown,MN,Minnesota,TRUE,,1894,16.3,27131,Rice,"{""27131"": 84.91, ""27161"": 9.59, ""27147"": 5.5}",Rice|Waseca|Steele,27131|27161|27147,FALSE,FALSE,America/Chicago
+55053,44.34957,-93.06579,Nerstrand,MN,Minnesota,TRUE,,995,7.8,27131,Rice,"{""27131"": 68.7, ""27049"": 31.3}",Rice|Goodhue,27131|27049,FALSE,FALSE,America/Chicago
+55054,44.57148,-93.35087,Elko New Market,MN,Minnesota,TRUE,,2582,973.7,27139,Scott,"{""27139"": 100}",Scott,27139,FALSE,FALSE,America/Chicago
+55055,44.87437,-92.99746,Newport,MN,Minnesota,TRUE,,4460,475.3,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55056,45.50915,-92.9543,North Branch,MN,Minnesota,TRUE,,14279,55.4,27025,Chisago,"{""27025"": 69.39, ""27059"": 30.61}",Chisago|Isanti,27025|27059,FALSE,FALSE,America/Chicago
+55057,44.47281,-93.17939,Northfield,MN,Minnesota,TRUE,,25458,78.8,27131,Rice,"{""27131"": 53.89, ""27037"": 45.88, ""27049"": 0.23}",Rice|Dakota|Goodhue,27131|27037|27049,FALSE,FALSE,America/Chicago
+55060,44.05966,-93.22639,Owatonna,MN,Minnesota,TRUE,,29601,56.2,27147,Steele,"{""27147"": 100}",Steele,27147,FALSE,FALSE,America/Chicago
+55063,45.83263,-92.90584,Pine City,MN,Minnesota,TRUE,,9270,22.5,27115,Pine,"{""27115"": 100}",Pine,27115,FALSE,FALSE,America/Chicago
+55065,44.54662,-93.01835,Randolph,MN,Minnesota,TRUE,,1320,15.6,27037,Dakota,"{""27037"": 98.36, ""27049"": 1.64}",Dakota|Goodhue,27037|27049,FALSE,FALSE,America/Chicago
+55066,44.51581,-92.5441,Red Wing,MN,Minnesota,TRUE,,19125,61.1,27049,Goodhue,"{""27049"": 100}",Goodhue,27049,FALSE,FALSE,America/Chicago
+55068,44.73555,-93.06876,Rosemount,MN,Minnesota,TRUE,,32194,270.4,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55069,45.6928,-92.96768,Rush City,MN,Minnesota,TRUE,,5936,31,27025,Chisago,"{""27025"": 83.14, ""27115"": 16.86}",Chisago|Pine,27025|27115,FALSE,FALSE,America/Chicago
+55070,45.41413,-93.3849,Saint Francis,MN,Minnesota,TRUE,,8403,127.3,27003,Anoka,"{""27003"": 63.78, ""27059"": 36.22}",Anoka|Isanti,27003|27059,FALSE,FALSE,America/Chicago
+55071,44.82257,-92.99677,Saint Paul Park,MN,Minnesota,TRUE,,5807,448.6,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55072,46.15118,-92.59274,Sandstone,MN,Minnesota,TRUE,,4409,4.8,27115,Pine,"{""27115"": 94.04, ""27065"": 5.96}",Pine|Kanabec,27115|27065,FALSE,FALSE,America/Chicago
+55073,45.27363,-92.82783,Scandia,MN,Minnesota,TRUE,,4145,57.1,27163,Washington,"{""27163"": 86.47, ""27025"": 13.53}",Washington|Chisago,27163|27025,FALSE,FALSE,America/Chicago
+55074,45.38351,-92.73292,Shafer,MN,Minnesota,TRUE,,2260,25.4,27025,Chisago,"{""27025"": 100}",Chisago,27025,FALSE,FALSE,America/Chicago
+55075,44.88794,-93.0411,South Saint Paul,MN,Minnesota,TRUE,,20651,1426.4,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55076,44.83318,-93.0334,Inver Grove Heights,MN,Minnesota,TRUE,,21258,827.3,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55077,44.81989,-93.07574,Inver Grove Heights,MN,Minnesota,TRUE,,14585,310.2,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55079,45.41385,-93.03117,Stacy,MN,Minnesota,TRUE,,8840,53.6,27025,Chisago,"{""27025"": 42.59, ""27059"": 30.71, ""27003"": 26.7}",Chisago|Isanti|Anoka,27025|27059|27003,FALSE,FALSE,America/Chicago
+55080,45.66322,-93.21881,Stanchfield,MN,Minnesota,TRUE,,3281,18.5,27059,Isanti,"{""27059"": 75.36, ""27025"": 24.64}",Isanti|Chisago,27059|27025,FALSE,FALSE,America/Chicago
+55082,45.07446,-92.84006,Stillwater,MN,Minnesota,TRUE,,36414,177.5,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55084,45.46029,-92.70747,Taylors Falls,MN,Minnesota,TRUE,,1942,30.2,27025,Chisago,"{""27025"": 100}",Chisago,27025,FALSE,FALSE,America/Chicago
+55085,44.6731,-92.96432,Vermillion,MN,Minnesota,TRUE,,409,171.7,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55087,44.23894,-93.40614,Warsaw,MN,Minnesota,TRUE,,425,148.5,27131,Rice,"{""27131"": 100}",Rice,27131,FALSE,FALSE,America/Chicago
+55088,44.52945,-93.38479,Webster,MN,Minnesota,TRUE,,1727,18.1,27131,Rice,"{""27131"": 75.5, ""27139"": 24.5}",Rice|Scott,27131|27139,FALSE,FALSE,America/Chicago
+55089,44.59296,-92.70223,Welch,MN,Minnesota,TRUE,,1760,10.1,27049,Goodhue,"{""27049"": 97.24, ""27037"": 2.76}",Goodhue|Dakota,27049|27037,FALSE,FALSE,America/Chicago
+55090,45.05382,-92.9573,Willernie,MN,Minnesota,TRUE,,377,1279.8,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55092,45.33647,-93.07214,Wyoming,MN,Minnesota,TRUE,,11103,127.5,27003,Anoka,"{""27003"": 67.16, ""27025"": 32.84}",Anoka|Chisago,27003|27025,FALSE,FALSE,America/Chicago
+55101,44.95111,-93.08739,Saint Paul,MN,Minnesota,TRUE,,7937,3939.2,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55102,44.93216,-93.12149,Saint Paul,MN,Minnesota,TRUE,,19565,2301,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55103,44.96399,-93.12418,Saint Paul,MN,Minnesota,TRUE,,13892,2717.8,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55104,44.95423,-93.16283,Saint Paul,MN,Minnesota,TRUE,,45777,2928.8,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55105,44.93465,-93.16689,Saint Paul,MN,Minnesota,TRUE,,27470,3031.6,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55106,44.95743,-93.04679,Saint Paul,MN,Minnesota,TRUE,,56969,2334.7,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55107,44.93105,-93.07945,Saint Paul,MN,Minnesota,TRUE,,15533,1459.6,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55108,44.98095,-93.1749,Saint Paul,MN,Minnesota,TRUE,,15339,1481.8,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55109,45.0144,-93.02616,Saint Paul,MN,Minnesota,TRUE,,34266,1132.4,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55110,45.08961,-93.00418,Saint Paul,MN,Minnesota,TRUE,,37272,581.9,27123,Ramsey,"{""27123"": 63.48, ""27163"": 32.71, ""27003"": 3.81}",Ramsey|Washington|Anoka,27123|27163|27003,FALSE,FALSE,America/Chicago
+55111,44.885,-93.19518,Saint Paul,MN,Minnesota,TRUE,,100,16.8,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55112,45.07443,-93.19169,Saint Paul,MN,Minnesota,TRUE,,45680,1010,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55113,45.01295,-93.15512,Saint Paul,MN,Minnesota,TRUE,,40786,1060.8,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55114,44.9662,-93.19407,Saint Paul,MN,Minnesota,TRUE,,4655,1355,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55115,45.06675,-92.95087,Saint Paul,MN,Minnesota,TRUE,,8926,565.9,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55116,44.91001,-93.17033,Saint Paul,MN,Minnesota,TRUE,,26099,1822.1,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55117,44.99918,-93.09713,Saint Paul,MN,Minnesota,TRUE,,44095,1859.3,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55118,44.8968,-93.10365,Saint Paul,MN,Minnesota,TRUE,,29396,1084.4,27037,Dakota,"{""27037"": 99.87, ""27123"": 0.13}",Dakota|Ramsey,27037|27123,FALSE,FALSE,America/Chicago
+55119,44.93972,-93.0066,Saint Paul,MN,Minnesota,TRUE,,44068,1288.5,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55120,44.87259,-93.14881,Saint Paul,MN,Minnesota,TRUE,,5080,362.8,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55121,44.84591,-93.15932,Saint Paul,MN,Minnesota,TRUE,,9329,374.8,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55122,44.80326,-93.1962,Saint Paul,MN,Minnesota,TRUE,,31483,1129,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55123,44.8043,-93.13699,Saint Paul,MN,Minnesota,TRUE,,27288,978.8,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55124,44.74566,-93.20042,Saint Paul,MN,Minnesota,TRUE,,55675,1274.7,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55125,44.91998,-92.94388,Saint Paul,MN,Minnesota,TRUE,,44929,1130.2,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55126,45.08614,-93.13581,Saint Paul,MN,Minnesota,TRUE,,27484,774,27123,Ramsey,"{""27123"": 96.82, ""27003"": 3.18}",Ramsey|Anoka,27123|27003,FALSE,FALSE,America/Chicago
+55127,45.08394,-93.08243,Saint Paul,MN,Minnesota,TRUE,,18607,533.5,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55128,44.98812,-92.96405,Saint Paul,MN,Minnesota,TRUE,,28945,995.2,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55129,44.89422,-92.90638,Saint Paul,MN,Minnesota,TRUE,,32016,633.1,27163,Washington,"{""27163"": 100}",Washington,27163,FALSE,FALSE,America/Chicago
+55130,44.97315,-93.08241,Saint Paul,MN,Minnesota,TRUE,,18634,3563.4,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55150,44.88717,-93.16157,Mendota,MN,Minnesota,TRUE,,181,232.4,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55155,44.95419,-93.09756,Saint Paul,MN,Minnesota,TRUE,,0,0,27123,Ramsey,"{""27123"": 100}",Ramsey,27123,FALSE,FALSE,America/Chicago
+55301,45.24448,-93.66219,Albertville,MN,Minnesota,TRUE,,13485,636.8,27171,Wright,"{""27171"": 100}",Wright,27171,FALSE,FALSE,America/Chicago
+55302,45.24464,-94.11638,Annandale,MN,Minnesota,TRUE,,7348,41.8,27171,Wright,"{""27171"": 100}",Wright,27171,FALSE,FALSE,America/Chicago
+55303,45.28872,-93.42333,Anoka,MN,Minnesota,TRUE,,52121,312.7,27003,Anoka,"{""27003"": 100}",Anoka,27003,FALSE,FALSE,America/Chicago
+55304,45.25583,-93.26455,Andover,MN,Minnesota,TRUE,,49452,278.3,27003,Anoka,"{""27003"": 100}",Anoka,27003,FALSE,FALSE,America/Chicago
+55305,44.95477,-93.43229,Hopkins,MN,Minnesota,TRUE,,21274,882.2,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55306,44.73071,-93.29195,Burnsville,MN,Minnesota,TRUE,,16191,1005.1,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55307,44.59871,-94.10475,Arlington,MN,Minnesota,TRUE,,3236,16.9,27143,Sibley,"{""27143"": 100}",Sibley,27143,FALSE,FALSE,America/Chicago
+55308,45.42944,-93.83561,Becker,MN,Minnesota,TRUE,,9788,62.5,27141,Sherburne,"{""27141"": 100}",Sherburne,27141,FALSE,FALSE,America/Chicago
+55309,45.37758,-93.74107,Big Lake,MN,Minnesota,TRUE,,21406,132.6,27141,Sherburne,"{""27141"": 100}",Sherburne,27141,FALSE,FALSE,America/Chicago
+55310,44.75599,-94.87624,Bird Island,MN,Minnesota,TRUE,,1386,5.6,27129,Renville,"{""27129"": 100}",Renville,27129,FALSE,FALSE,America/Chicago
+55311,45.1052,-93.49495,Maple Grove,MN,Minnesota,TRUE,,37873,890.1,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55312,44.70853,-94.34489,Brownton,MN,Minnesota,TRUE,,1412,7.4,27085,McLeod,"{""27085"": 99.27, ""27143"": 0.73}",McLeod|Sibley,27085|27143,FALSE,FALSE,America/Chicago
+55313,45.17382,-93.84859,Buffalo,MN,Minnesota,TRUE,,24862,89.1,27171,Wright,"{""27171"": 99.9, ""27053"": 0.1}",Wright|Hennepin,27171|27053,FALSE,FALSE,America/Chicago
+55314,44.77214,-94.6,Buffalo Lake,MN,Minnesota,TRUE,,1148,6.1,27129,Renville,"{""27129"": 75.62, ""27143"": 24.38}",Renville|Sibley,27129|27143,FALSE,FALSE,America/Chicago
+55315,44.71731,-93.68347,Carver,MN,Minnesota,TRUE,,7034,99,27019,Carver,"{""27019"": 99.67, ""27139"": 0.33}",Carver|Scott,27019|27139,FALSE,FALSE,America/Chicago
+55316,45.17021,-93.39032,Champlin,MN,Minnesota,TRUE,,23450,1110.8,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55317,44.85711,-93.55096,Chanhassen,MN,Minnesota,TRUE,,22373,657,27019,Carver,"{""27019"": 98.36, ""27053"": 1.64}",Carver|Hennepin,27019|27053,FALSE,FALSE,America/Chicago
+55318,44.81169,-93.63703,Chaska,MN,Minnesota,TRUE,,29884,289,27019,Carver,"{""27019"": 100}",Carver,27019,FALSE,FALSE,America/Chicago
+55319,45.47181,-93.94359,Clear Lake,MN,Minnesota,TRUE,,5490,29.7,27141,Sherburne,"{""27141"": 100}",Sherburne,27141,FALSE,FALSE,America/Chicago
+55320,45.39613,-94.08366,Clearwater,MN,Minnesota,TRUE,,5676,44.9,27145,Stearns,"{""27145"": 58.6, ""27171"": 41.21, ""27141"": 0.19}",Stearns|Wright|Sherburne,27145|27171|27141,FALSE,FALSE,America/Chicago
+55321,45.08406,-94.193,Cokato,MN,Minnesota,TRUE,,5592,26.7,27171,Wright,"{""27171"": 100}",Wright,27171,FALSE,FALSE,America/Chicago
+55322,44.77006,-93.7861,Cologne,MN,Minnesota,TRUE,,3548,24,27019,Carver,"{""27019"": 100}",Carver,27019,FALSE,FALSE,America/Chicago
+55324,45.05676,-94.42554,Darwin,MN,Minnesota,TRUE,,1193,13.1,27093,Meeker,"{""27093"": 100}",Meeker,27093,FALSE,FALSE,America/Chicago
+55325,45.08432,-94.32031,Dassel,MN,Minnesota,TRUE,,4682,23.6,27093,Meeker,"{""27093"": 100}",Meeker,27093,FALSE,FALSE,America/Chicago
+55327,45.19922,-93.4753,Dayton,MN,Minnesota,TRUE,,5542,121.8,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55328,45.03246,-93.80981,Delano,MN,Minnesota,TRUE,,9933,85.4,27171,Wright,"{""27171"": 86.34, ""27019"": 6.84, ""27053"": 6.82}",Wright|Carver|Hennepin,27171|27019|27053,FALSE,FALSE,America/Chicago
+55329,45.30798,-94.57039,Eden Valley,MN,Minnesota,TRUE,,2252,17.2,27093,Meeker,"{""27093"": 68.41, ""27145"": 31.59}",Meeker|Stearns,27093|27145,FALSE,FALSE,America/Chicago
+55330,45.33359,-93.5679,Elk River,MN,Minnesota,TRUE,,45080,163.2,27141,Sherburne,"{""27141"": 61.97, ""27003"": 21.21, ""27171"": 16.82}",Sherburne|Anoka|Wright,27141|27003|27171,FALSE,FALSE,America/Chicago
+55331,44.90124,-93.60832,Excelsior,MN,Minnesota,TRUE,,19291,456.5,27053,Hennepin,"{""27053"": 71.48, ""27019"": 28.52}",Hennepin|Carver,27053|27019,FALSE,FALSE,America/Chicago
+55332,44.51852,-94.70761,Fairfax,MN,Minnesota,TRUE,,1714,5.8,27129,Renville,"{""27129"": 81.85, ""27103"": 16.58, ""27143"": 1.57}",Renville|Nicollet|Sibley,27129|27103|27143,FALSE,FALSE,America/Chicago
+55333,44.55987,-94.86593,Franklin,MN,Minnesota,TRUE,,697,3.9,27129,Renville,"{""27129"": 91.73, ""27015"": 4.36, ""27127"": 3.91}",Renville|Brown|Redwood,27129|27015|27127,FALSE,FALSE,America/Chicago
+55334,44.53578,-94.20772,Gaylord,MN,Minnesota,TRUE,,2777,12.6,27143,Sibley,"{""27143"": 87.91, ""27103"": 11.41, ""27085"": 0.68}",Sibley|Nicollet|McLeod,27143|27103|27085,FALSE,FALSE,America/Chicago
+55335,44.52969,-94.54621,Gibbon,MN,Minnesota,TRUE,,1633,5.7,27143,Sibley,"{""27143"": 83.71, ""27103"": 16.29}",Sibley|Nicollet,27143|27103,FALSE,FALSE,America/Chicago
+55336,44.76627,-94.17803,Glencoe,MN,Minnesota,TRUE,,8266,23.5,27085,McLeod,"{""27085"": 79.46, ""27143"": 20.54}",McLeod|Sibley,27085|27143,FALSE,FALSE,America/Chicago
+55337,44.77673,-93.27491,Burnsville,MN,Minnesota,TRUE,,48104,992.3,27037,Dakota,"{""27037"": 100}",Dakota,27037,FALSE,FALSE,America/Chicago
+55338,44.66996,-93.99688,Green Isle,MN,Minnesota,TRUE,,1002,9.5,27143,Sibley,"{""27143"": 100}",Sibley,27143,FALSE,FALSE,America/Chicago
+55339,44.7289,-93.95905,Hamburg,MN,Minnesota,TRUE,,934,15.8,27019,Carver,"{""27019"": 65.35, ""27143"": 30.73, ""27085"": 3.92}",Carver|Sibley|McLeod,27019|27143|27085,FALSE,FALSE,America/Chicago
+55340,45.07761,-93.57508,Hamel,MN,Minnesota,TRUE,,9776,105.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55341,45.15917,-93.65913,Hanover,MN,Minnesota,TRUE,,3454,274.9,27171,Wright,"{""27171"": 57.56, ""27053"": 42.44}",Wright|Hennepin,27171|27053,FALSE,FALSE,America/Chicago
+55342,44.74152,-94.72982,Hector,MN,Minnesota,TRUE,,1884,4.5,27129,Renville,"{""27129"": 99.73, ""27093"": 0.27}",Renville|Meeker,27129|27093,FALSE,FALSE,America/Chicago
+55343,44.91433,-93.41568,Hopkins,MN,Minnesota,TRUE,,26482,1328.5,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55344,44.86452,-93.43037,Eden Prairie,MN,Minnesota,TRUE,,14180,618,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55345,44.91526,-93.4838,Minnetonka,MN,Minnesota,TRUE,,21255,721.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55346,44.87882,-93.48157,Eden Prairie,MN,Minnesota,TRUE,,18602,1062.2,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55347,44.82931,-93.46638,Eden Prairie,MN,Minnesota,TRUE,,30467,697.6,27053,Hennepin,"{""27053"": 99.67, ""27139"": 0.33}",Hennepin|Scott,27053|27139,FALSE,FALSE,America/Chicago
+55349,45.06238,-94.07438,Howard Lake,MN,Minnesota,TRUE,,3555,22,27171,Wright,"{""27171"": 100}",Wright,27171,FALSE,FALSE,America/Chicago
+55350,44.89743,-94.39195,Hutchinson,MN,Minnesota,TRUE,,18567,44.8,27085,McLeod,"{""27085"": 86.48, ""27093"": 11.43, ""27129"": 2.09}",McLeod|Meeker|Renville,27085|27093|27129,FALSE,FALSE,America/Chicago
+55352,44.65505,-93.5862,Jordan,MN,Minnesota,TRUE,,10426,59.5,27139,Scott,"{""27139"": 99.85, ""27019"": 0.15}",Scott|Carver,27139|27019,FALSE,FALSE,America/Chicago
+55353,45.32034,-94.31607,Kimball,MN,Minnesota,TRUE,,3273,15.6,27145,Stearns,"{""27145"": 66.95, ""27093"": 33.05}",Stearns|Meeker,27145|27093,FALSE,FALSE,America/Chicago
+55354,44.88466,-94.0701,Lester Prairie,MN,Minnesota,TRUE,,3089,36.8,27085,McLeod,"{""27085"": 100}",McLeod,27085,FALSE,FALSE,America/Chicago
+55355,45.09709,-94.54017,Litchfield,MN,Minnesota,TRUE,,9629,21.6,27093,Meeker,"{""27093"": 100}",Meeker,27093,FALSE,FALSE,America/Chicago
+55356,44.99565,-93.58628,Long Lake,MN,Minnesota,TRUE,,5924,175.3,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55357,45.09906,-93.65913,Loretto,MN,Minnesota,TRUE,,3704,73.3,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55358,45.24637,-94.00049,Maple Lake,MN,Minnesota,TRUE,,5266,37.3,27171,Wright,"{""27171"": 100}",Wright,27171,FALSE,FALSE,America/Chicago
+55359,45.00464,-93.70112,Maple Plain,MN,Minnesota,TRUE,,7068,63.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55360,44.91331,-93.92065,Mayer,MN,Minnesota,TRUE,,3328,42,27019,Carver,"{""27019"": 100}",Carver,27019,FALSE,FALSE,America/Chicago
+55362,45.30099,-93.83563,Monticello,MN,Minnesota,TRUE,,20125,119,27171,Wright,"{""27171"": 100}",Wright,27171,FALSE,FALSE,America/Chicago
+55363,45.04385,-93.91352,Montrose,MN,Minnesota,TRUE,,5664,78.1,27171,Wright,"{""27171"": 99.12, ""27019"": 0.88}",Wright|Carver,27171|27019,FALSE,FALSE,America/Chicago
+55364,44.93974,-93.67486,Mound,MN,Minnesota,TRUE,,13959,355.2,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55366,44.67233,-94.2346,New Auburn,MN,Minnesota,TRUE,,441,356.6,27143,Sibley,"{""27143"": 100}",Sibley,27143,FALSE,FALSE,America/Chicago
+55367,44.89142,-93.97499,New Germany,MN,Minnesota,TRUE,,1086,21.7,27019,Carver,"{""27019"": 100}",Carver,27019,FALSE,FALSE,America/Chicago
+55368,44.7458,-93.89679,Norwood Young America,MN,Minnesota,TRUE,,1856,21,27019,Carver,"{""27019"": 100}",Carver,27019,FALSE,FALSE,America/Chicago
+55369,45.12834,-93.44837,Osseo,MN,Minnesota,TRUE,,38711,603.8,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55370,44.78077,-94.03892,Plato,MN,Minnesota,TRUE,,627,11.7,27085,McLeod,"{""27085"": 100}",McLeod,27085,FALSE,FALSE,America/Chicago
+55371,45.57677,-93.59581,Princeton,MN,Minnesota,TRUE,,17376,34.2,27095,Mille Lacs,"{""27095"": 41.02, ""27141"": 29.64, ""27059"": 27.09, ""27009"": 2.24}",Mille Lacs|Sherburne|Isanti|Benton,27095|27141|27059|27009,FALSE,FALSE,America/Chicago
+55372,44.67791,-93.41237,Prior Lake,MN,Minnesota,TRUE,,34617,228.5,27139,Scott,"{""27139"": 100}",Scott,27139,FALSE,FALSE,America/Chicago
+55373,45.08779,-93.72282,Rockford,MN,Minnesota,TRUE,,5725,206.9,27053,Hennepin,"{""27053"": 76.78, ""27171"": 23.22}",Hennepin|Wright,27053|27171,FALSE,FALSE,America/Chicago
+55374,45.17715,-93.58035,Rogers,MN,Minnesota,TRUE,,15812,178.4,27053,Hennepin,"{""27053"": 95.36, ""27171"": 4.64}",Hennepin|Wright,27053|27171,FALSE,FALSE,America/Chicago
+55375,44.89475,-93.73129,Saint Bonifacius,MN,Minnesota,TRUE,,4285,321.6,27053,Hennepin,"{""27053"": 62.04, ""27019"": 37.96}",Hennepin|Carver,27053|27019,FALSE,FALSE,America/Chicago
+55376,45.21161,-93.68508,Saint Michael,MN,Minnesota,TRUE,,19317,255,27171,Wright,"{""27171"": 100}",Wright,27171,FALSE,FALSE,America/Chicago
+55378,44.75685,-93.36209,Savage,MN,Minnesota,TRUE,,32072,864.6,27139,Scott,"{""27139"": 100}",Scott,27139,FALSE,FALSE,America/Chicago
+55379,44.75492,-93.51713,Shakopee,MN,Minnesota,TRUE,,49084,327.5,27139,Scott,"{""27139"": 100}",Scott,27139,FALSE,FALSE,America/Chicago
+55381,44.92763,-94.18623,Silver Lake,MN,Minnesota,TRUE,,2001,17.5,27085,McLeod,"{""27085"": 100}",McLeod,27085,FALSE,FALSE,America/Chicago
+55382,45.30521,-94.20438,South Haven,MN,Minnesota,TRUE,,3640,18.4,27145,Stearns,"{""27145"": 49.45, ""27171"": 37.62, ""27093"": 12.93}",Stearns|Wright|Meeker,27145|27171|27093,FALSE,FALSE,America/Chicago
+55384,44.9364,-93.63201,Spring Park,MN,Minnesota,TRUE,,1869,2044,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55385,44.73732,-94.49281,Stewart,MN,Minnesota,TRUE,,1285,5.1,27085,McLeod,"{""27085"": 52.68, ""27129"": 29.24, ""27143"": 18.08}",McLeod|Renville|Sibley,27085|27129|27143,FALSE,FALSE,America/Chicago
+55386,44.85686,-93.66435,Victoria,MN,Minnesota,TRUE,,10080,608.5,27019,Carver,"{""27019"": 100}",Carver,27019,FALSE,FALSE,America/Chicago
+55387,44.85643,-93.77903,Waconia,MN,Minnesota,TRUE,,14697,179.9,27019,Carver,"{""27019"": 99.36, ""27053"": 0.64}",Carver|Hennepin,27019|27053,FALSE,FALSE,America/Chicago
+55388,44.95,-93.84729,Watertown,MN,Minnesota,TRUE,,5974,61.3,27019,Carver,"{""27019"": 80.01, ""27171"": 15.15, ""27053"": 4.84}",Carver|Wright|Hennepin,27019|27171|27053,FALSE,FALSE,America/Chicago
+55389,45.2998,-94.43748,Watkins,MN,Minnesota,TRUE,,2509,12.9,27093,Meeker,"{""27093"": 62.98, ""27145"": 37.02}",Meeker|Stearns,27093|27145,FALSE,FALSE,America/Chicago
+55390,45.06812,-93.97912,Waverly,MN,Minnesota,TRUE,,3179,33.4,27171,Wright,"{""27171"": 100}",Wright,27171,FALSE,FALSE,America/Chicago
+55391,44.96009,-93.54225,Wayzata,MN,Minnesota,TRUE,,15469,361.5,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55395,44.9572,-94.06085,Winsted,MN,Minnesota,TRUE,,2600,42,27085,McLeod,"{""27085"": 76.98, ""27171"": 11.9, ""27019"": 11.12}",McLeod|Wright|Carver,27085|27171|27019,FALSE,FALSE,America/Chicago
+55396,44.54473,-94.36755,Winthrop,MN,Minnesota,TRUE,,2162,7.7,27143,Sibley,"{""27143"": 99.15, ""27085"": 0.85}",Sibley|McLeod,27143|27085,FALSE,FALSE,America/Chicago
+55397,44.81712,-93.93452,Young America,MN,Minnesota,TRUE,,3335,45.5,27019,Carver,"{""27019"": 96.67, ""27085"": 3.33}",Carver|McLeod,27019|27085,FALSE,FALSE,America/Chicago
+55398,45.45787,-93.5903,Zimmerman,MN,Minnesota,TRUE,,17768,93.8,27141,Sherburne,"{""27141"": 82.64, ""27059"": 17.36}",Sherburne|Isanti,27141|27059,FALSE,FALSE,America/Chicago
+55401,44.98526,-93.26984,Minneapolis,MN,Minnesota,TRUE,,11526,5624.2,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55402,44.97608,-93.27119,Minneapolis,MN,Minnesota,TRUE,,760,1740.3,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55403,44.97023,-93.28588,Minneapolis,MN,Minnesota,TRUE,,17354,4931.1,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55404,44.9619,-93.26145,Minneapolis,MN,Minnesota,TRUE,,28071,6002.4,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55405,44.97034,-93.30461,Minneapolis,MN,Minnesota,TRUE,,16915,2304.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55406,44.93932,-93.22071,Minneapolis,MN,Minnesota,TRUE,,35863,2766.5,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55407,44.93484,-93.25263,Minneapolis,MN,Minnesota,TRUE,,36992,3557.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55408,44.94364,-93.2937,Minneapolis,MN,Minnesota,TRUE,,32534,4675.1,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55409,44.93018,-93.28146,Minneapolis,MN,Minnesota,TRUE,,11405,3366,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55410,44.91364,-93.31725,Minneapolis,MN,Minnesota,TRUE,,20361,2561,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55411,44.9993,-93.2979,Minneapolis,MN,Minnesota,TRUE,,29719,2848.8,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55412,45.02612,-93.29952,Minneapolis,MN,Minnesota,TRUE,,26182,2967.5,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55413,44.99826,-93.24276,Minneapolis,MN,Minnesota,TRUE,,14328,1763.4,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55414,44.97915,-93.2259,Minneapolis,MN,Minnesota,TRUE,,33739,4170.5,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55415,44.97463,-93.2578,Minneapolis,MN,Minnesota,TRUE,,6474,5705.3,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55416,44.94961,-93.34157,Minneapolis,MN,Minnesota,TRUE,,34905,1837.1,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55417,44.9059,-93.23534,Minneapolis,MN,Minnesota,TRUE,,25677,2243.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55418,45.0208,-93.24244,Minneapolis,MN,Minnesota,TRUE,,31295,1729,27053,Hennepin,"{""27053"": 99.84, ""27123"": 0.16}",Hennepin|Ramsey,27053|27123,FALSE,FALSE,America/Chicago
+55419,44.90586,-93.28743,Minneapolis,MN,Minnesota,TRUE,,29728,2734,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55420,44.83564,-93.27745,Minneapolis,MN,Minnesota,TRUE,,24008,1392,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55421,45.05083,-93.25249,Minneapolis,MN,Minnesota,TRUE,,31051,1911.6,27003,Anoka,"{""27003"": 91.19, ""27123"": 8.4, ""27053"": 0.41}",Anoka|Ramsey|Hennepin,27003|27123|27053,FALSE,FALSE,America/Chicago
+55422,45.00922,-93.33941,Minneapolis,MN,Minnesota,TRUE,,28765,1309.5,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55423,44.87663,-93.28144,Minneapolis,MN,Minnesota,TRUE,,36779,2009.8,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55424,44.90509,-93.33978,Minneapolis,MN,Minnesota,TRUE,,10373,1661,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55425,44.84249,-93.23601,Minneapolis,MN,Minnesota,TRUE,,10562,898.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55426,44.95635,-93.38139,Minneapolis,MN,Minnesota,TRUE,,25451,1483.7,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55427,45.00665,-93.38031,Minneapolis,MN,Minnesota,TRUE,,24667,1315.5,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55428,45.06354,-93.38094,Minneapolis,MN,Minnesota,TRUE,,32679,1556.6,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55429,45.06443,-93.34105,Minneapolis,MN,Minnesota,TRUE,,27570,1769.4,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55430,45.0632,-93.30148,Minneapolis,MN,Minnesota,TRUE,,22569,1483.5,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55431,44.82607,-93.31195,Minneapolis,MN,Minnesota,TRUE,,19075,941.2,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55432,45.09693,-93.25466,Minneapolis,MN,Minnesota,TRUE,,32935,1287.4,27003,Anoka,"{""27003"": 99.47, ""27123"": 0.53}",Anoka|Ramsey,27003|27123,FALSE,FALSE,America/Chicago
+55433,45.16132,-93.31638,Minneapolis,MN,Minnesota,TRUE,,34423,1142.2,27003,Anoka,"{""27003"": 100}",Anoka,27003,FALSE,FALSE,America/Chicago
+55434,45.1681,-93.25069,Minneapolis,MN,Minnesota,TRUE,,33133,1433.7,27003,Anoka,"{""27003"": 100}",Anoka,27003,FALSE,FALSE,America/Chicago
+55435,44.87343,-93.3347,Minneapolis,MN,Minnesota,TRUE,,13698,1778.7,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55436,44.90345,-93.37409,Minneapolis,MN,Minnesota,TRUE,,14573,1199.7,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55437,44.82434,-93.34488,Minneapolis,MN,Minnesota,TRUE,,19282,1105.1,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55438,44.82489,-93.37826,Minneapolis,MN,Minnesota,TRUE,,15847,737.7,27053,Hennepin,"{""27053"": 99.81, ""27139"": 0.19}",Hennepin|Scott,27053|27139,FALSE,FALSE,America/Chicago
+55439,44.87452,-93.37475,Minneapolis,MN,Minnesota,TRUE,,9475,776.5,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55441,45.00475,-93.42845,Minneapolis,MN,Minnesota,TRUE,,18242,820.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55442,45.04856,-93.4269,Minneapolis,MN,Minnesota,TRUE,,13197,962,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55443,45.11894,-93.33802,Minneapolis,MN,Minnesota,TRUE,,33318,1420.7,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55444,45.10747,-93.30234,Minneapolis,MN,Minnesota,TRUE,,17428,1453.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55445,45.12317,-93.3798,Minneapolis,MN,Minnesota,TRUE,,13538,666.5,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55446,45.04427,-93.4878,Minneapolis,MN,Minnesota,TRUE,,27627,1058.7,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55447,45.00132,-93.48888,Minneapolis,MN,Minnesota,TRUE,,21001,907.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55448,45.1908,-93.30209,Minneapolis,MN,Minnesota,TRUE,,28925,1031.6,27003,Anoka,"{""27003"": 100}",Anoka,27003,FALSE,FALSE,America/Chicago
+55449,45.17284,-93.1953,Minneapolis,MN,Minnesota,TRUE,,33367,600.8,27003,Anoka,"{""27003"": 99.16, ""27123"": 0.84}",Anoka|Ramsey,27003|27123,FALSE,FALSE,America/Chicago
+55450,44.87901,-93.22549,Minneapolis,MN,Minnesota,TRUE,,0,0,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55454,44.97075,-93.24381,Minneapolis,MN,Minnesota,TRUE,,8628,5596.9,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55455,44.97453,-93.23432,Minneapolis,MN,Minnesota,TRUE,,5243,3761.6,27053,Hennepin,"{""27053"": 100}",Hennepin,27053,FALSE,FALSE,America/Chicago
+55601,47.23404,-91.36425,Beaver Bay,MN,Minnesota,TRUE,,135,3.4,27075,Lake,"{""27075"": 100}",Lake,27075,FALSE,FALSE,America/Chicago
+55602,47.33207,-91.91047,Brimson,MN,Minnesota,TRUE,,310,0.5,27137,St. Louis,"{""27137"": 92.42, ""27075"": 7.58}",St. Louis|Lake,27137|27075,FALSE,FALSE,America/Chicago
+55603,47.5441,-91.19441,Finland,MN,Minnesota,TRUE,,448,0.6,27075,Lake,"{""27075"": 100}",Lake,27075,FALSE,FALSE,America/Chicago
+55604,47.96201,-90.55792,Grand Marais,MN,Minnesota,TRUE,,3613,1.7,27031,Cook,"{""27031"": 100}",Cook,27031,FALSE,FALSE,America/Chicago
+55605,47.96242,-89.75529,Grand Portage,MN,Minnesota,TRUE,,612,3.2,27031,Cook,"{""27031"": 100}",Cook,27031,FALSE,FALSE,America/Chicago
+55606,47.96785,-90.02818,Hovland,MN,Minnesota,TRUE,,204,0.5,27031,Cook,"{""27031"": 100}",Cook,27031,FALSE,FALSE,America/Chicago
+55607,47.63363,-91.51106,Isabella,MN,Minnesota,TRUE,,213,0.3,27075,Lake,"{""27075"": 100}",Lake,27075,FALSE,FALSE,America/Chicago
+55609,46.9636,-91.78554,Knife River,MN,Minnesota,TRUE,,118,18.3,27075,Lake,"{""27075"": 99.63, ""27137"": 0.37}",Lake|St. Louis,27075|27137,FALSE,FALSE,America/Chicago
+55612,47.77937,-90.70401,Lutsen,MN,Minnesota,TRUE,,549,1.3,27031,Cook,"{""27031"": 100}",Cook,27031,FALSE,FALSE,America/Chicago
+55613,47.57023,-90.97293,Schroeder,MN,Minnesota,TRUE,,250,1.8,27031,Cook,"{""27031"": 99.86, ""27075"": 0.14}",Cook|Lake,27031|27075,FALSE,FALSE,America/Chicago
+55614,47.36412,-91.40387,Silver Bay,MN,Minnesota,TRUE,,2450,4.3,27075,Lake,"{""27075"": 100}",Lake,27075,FALSE,FALSE,America/Chicago
+55615,47.74561,-90.87695,Tofte,MN,Minnesota,TRUE,,405,0.8,27031,Cook,"{""27031"": 100}",Cook,27031,FALSE,FALSE,America/Chicago
+55616,47.25095,-91.66982,Two Harbors,MN,Minnesota,TRUE,,7277,5.9,27075,Lake,"{""27075"": 91.1, ""27137"": 8.9}",Lake|St. Louis,27075|27137,FALSE,FALSE,America/Chicago
+55702,46.97121,-92.6448,Alborn,MN,Minnesota,TRUE,,422,3.3,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55703,47.73932,-92.78119,Angora,MN,Minnesota,TRUE,,929,2.4,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55704,46.2057,-92.76581,Askov,MN,Minnesota,TRUE,,1076,7.7,27115,Pine,"{""27115"": 100}",Pine,27115,FALSE,FALSE,America/Chicago
+55705,47.46789,-92.24446,Aurora,MN,Minnesota,TRUE,,3248,15,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55706,47.67432,-91.95261,Babbitt,MN,Minnesota,TRUE,,1827,5.2,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55707,46.55076,-92.64655,Barnum,MN,Minnesota,TRUE,,3207,8,27017,Carlton,"{""27017"": 100}",Carlton,27017,FALSE,FALSE,America/Chicago
+55708,47.53527,-92.34766,Biwabik,MN,Minnesota,TRUE,,850,67.8,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55709,47.40431,-93.3804,Bovey,MN,Minnesota,TRUE,,4314,7.4,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55710,47.64542,-92.69457,Britt,MN,Minnesota,TRUE,,1391,6.2,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55711,46.84066,-92.69498,Brookston,MN,Minnesota,TRUE,,518,2.5,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55712,46.29398,-92.52513,Bruno,MN,Minnesota,TRUE,,557,1.3,27115,Pine,"{""27115"": 100}",Pine,27115,FALSE,FALSE,America/Chicago
+55713,47.4894,-92.76583,Buhl,MN,Minnesota,TRUE,,1048,54.6,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55716,47.32169,-93.26432,Calumet,MN,Minnesota,TRUE,,219,66.5,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55717,47.05026,-92.38642,Canyon,MN,Minnesota,TRUE,,241,0.8,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55718,46.6249,-92.48505,Carlton,MN,Minnesota,TRUE,,3068,19.6,27017,Carlton,"{""27017"": 100}",Carlton,27017,FALSE,FALSE,America/Chicago
+55719,47.55408,-92.85807,Chisholm,MN,Minnesota,TRUE,,5642,25.8,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55720,46.75138,-92.5399,Cloquet,MN,Minnesota,TRUE,,17480,43.2,27017,Carlton,"{""27017"": 58.59, ""27137"": 41.41}",Carlton|St. Louis,27017|27137,FALSE,FALSE,America/Chicago
+55721,47.21837,-93.68841,Cohasset,MN,Minnesota,TRUE,,3840,15.9,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55722,47.28253,-93.4338,Coleraine,MN,Minnesota,TRUE,,1037,327.6,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55723,47.83764,-92.86715,Cook,MN,Minnesota,TRUE,,1861,1.8,27137,St. Louis,"{""27137"": 73.29, ""27061"": 26.71}",St. Louis|Itasca,27137|27061,FALSE,FALSE,America/Chicago
+55724,47.17874,-92.37277,Cotton,MN,Minnesota,TRUE,,719,1.1,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55725,48.33849,-92.5811,Crane Lake,MN,Minnesota,TRUE,,93,0.2,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55726,46.67027,-92.83209,Cromwell,MN,Minnesota,TRUE,,1065,4.6,27017,Carlton,"{""27017"": 100}",Carlton,27017,FALSE,FALSE,America/Chicago
+55731,47.98832,-91.7489,Ely,MN,Minnesota,TRUE,,5292,1.3,27075,Lake,"{""27075"": 51.07, ""27137"": 48.93}",Lake|St. Louis,27075|27137,FALSE,FALSE,America/Chicago
+55732,47.6791,-92.22125,Embarrass,MN,Minnesota,TRUE,,1398,2.6,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55733,46.71141,-92.36297,Esko,MN,Minnesota,TRUE,,5180,56.6,27017,Carlton,"{""27017"": 99.2, ""27137"": 0.8}",Carlton|St. Louis,27017|27137,FALSE,FALSE,America/Chicago
+55734,47.38274,-92.4938,Eveleth,MN,Minnesota,TRUE,,6332,31.2,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55735,46.21756,-93.01688,Finlayson,MN,Minnesota,TRUE,,1802,5.6,27115,Pine,"{""27115"": 66.12, ""27001"": 33.88}",Pine|Aitkin,27115|27001,FALSE,FALSE,America/Chicago
+55736,46.97542,-92.92136,Floodwood,MN,Minnesota,TRUE,,1326,1.4,27137,St. Louis,"{""27137"": 92.94, ""27061"": 7.06}",St. Louis|Itasca,27137|27061,FALSE,FALSE,America/Chicago
+55738,47.27342,-92.65826,Forbes,MN,Minnesota,TRUE,,584,1.9,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55741,47.4582,-92.38683,Gilbert,MN,Minnesota,TRUE,,2933,16.2,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55742,47.17195,-93.14076,Goodland,MN,Minnesota,TRUE,,222,2.3,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55744,47.23306,-93.51299,Grand Rapids,MN,Minnesota,TRUE,,20469,33,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55746,47.35766,-92.95698,Hibbing,MN,Minnesota,TRUE,,16815,18.7,27137,St. Louis,"{""27137"": 92.46, ""27061"": 7.54}",St. Louis|Itasca,27137|27061,FALSE,FALSE,America/Chicago
+55748,46.99372,-93.59693,Hill City,MN,Minnesota,TRUE,,1429,3.6,27001,Aitkin,"{""27001"": 64.64, ""27061"": 35.36}",Aitkin|Itasca,27001|27061,FALSE,FALSE,America/Chicago
+55749,46.44701,-92.43128,Holyoke,MN,Minnesota,TRUE,,539,2.4,27017,Carlton,"{""27017"": 80.17, ""27115"": 19.83}",Carlton|Pine,27017|27115,FALSE,FALSE,America/Chicago
+55750,47.53251,-91.99517,Hoyt Lakes,MN,Minnesota,TRUE,,2078,4.6,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55751,47.39283,-92.66815,Iron,MN,Minnesota,TRUE,,1364,8.8,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55752,46.95494,-93.25323,Jacobson,MN,Minnesota,TRUE,,460,1,27001,Aitkin,"{""27001"": 98.19, ""27061"": 1.64, ""27137"": 0.17}",Aitkin|Itasca|St. Louis,27001|27061|27137,FALSE,FALSE,America/Chicago
+55753,47.39692,-93.07991,Keewatin,MN,Minnesota,TRUE,,1197,525.2,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55756,46.37535,-92.60128,Kerrick,MN,Minnesota,TRUE,,286,2.4,27115,Pine,"{""27115"": 85.36, ""27017"": 14.64}",Pine|Carlton,27115|27017,FALSE,FALSE,America/Chicago
+55757,46.51594,-92.93475,Kettle River,MN,Minnesota,TRUE,,696,2.6,27017,Carlton,"{""27017"": 100}",Carlton,27017,FALSE,FALSE,America/Chicago
+55758,47.50823,-92.72141,Kinney,MN,Minnesota,TRUE,,161,36.9,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55760,46.62491,-93.27049,Mcgregor,MN,Minnesota,TRUE,,2831,3.6,27001,Aitkin,"{""27001"": 100}",Aitkin,27001,FALSE,FALSE,America/Chicago
+55763,47.33127,-92.22262,Makinen,MN,Minnesota,TRUE,,467,1.1,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55764,47.33041,-93.29298,Marble,MN,Minnesota,TRUE,,504,52.5,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55765,47.10057,-92.74545,Meadowlands,MN,Minnesota,TRUE,,755,2.1,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55767,46.45236,-92.76536,Moose Lake,MN,Minnesota,TRUE,,4994,34.1,27017,Carlton,"{""27017"": 95.83, ""27115"": 4.17}",Carlton|Pine,27017|27115,FALSE,FALSE,America/Chicago
+55768,47.51444,-92.67263,Mountain Iron,MN,Minnesota,TRUE,,2791,12.1,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55769,47.47994,-93.18579,Nashwauk,MN,Minnesota,TRUE,,2520,5.5,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55771,48.12398,-92.93101,Orr,MN,Minnesota,TRUE,,1616,0.6,27137,St. Louis,"{""27137"": 72.43, ""27071"": 27.57}",St. Louis|Koochiching,27137|27071,FALSE,FALSE,America/Chicago
+55772,48.11019,-93.10032,Nett Lake,MN,Minnesota,TRUE,,83,155.8,27071,Koochiching,"{""27071"": 94.45, ""27137"": 5.55}",Koochiching|St. Louis,27071|27137,FALSE,FALSE,America/Chicago
+55775,47.30588,-93.1646,Pengilly,MN,Minnesota,TRUE,,1309,8.1,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55779,46.90915,-92.4548,Saginaw,MN,Minnesota,TRUE,,3981,12.4,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55780,46.67505,-92.68321,Sawyer,MN,Minnesota,TRUE,,245,5,27017,Carlton,"{""27017"": 100}",Carlton,27017,FALSE,FALSE,America/Chicago
+55781,47.67587,-93.06524,Side Lake,MN,Minnesota,TRUE,,847,4,27061,Itasca,"{""27061"": 54.03, ""27137"": 45.97}",Itasca|St. Louis,27061|27137,FALSE,FALSE,America/Chicago
+55782,47.82314,-92.20524,Soudan,MN,Minnesota,TRUE,,439,15.7,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55783,46.40836,-92.92625,Sturgeon Lake,MN,Minnesota,TRUE,,2487,7,27115,Pine,"{""27115"": 62.17, ""27001"": 26.07, ""27017"": 11.76}",Pine|Aitkin|Carlton,27115|27001|27017,FALSE,FALSE,America/Chicago
+55784,47.05306,-93.18769,Swan River,MN,Minnesota,TRUE,,117,1.8,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55785,46.92332,-93.74591,Swatara,MN,Minnesota,TRUE,,347,1.2,27001,Aitkin,"{""27001"": 74.15, ""27021"": 25.85}",Aitkin|Cass,27001|27021,FALSE,FALSE,America/Chicago
+55786,47.31916,-93.38227,Taconite,MN,Minnesota,TRUE,,118,17.9,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55787,46.73707,-93.11756,Tamarack,MN,Minnesota,TRUE,,585,1.7,27001,Aitkin,"{""27001"": 88.38, ""27017"": 11.52, ""27137"": 0.1}",Aitkin|Carlton|St. Louis,27001|27017|27137,FALSE,FALSE,America/Chicago
+55790,47.8288,-92.37596,Tower,MN,Minnesota,TRUE,,1933,5.2,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55792,47.60027,-92.48261,Virginia,MN,Minnesota,TRUE,,9848,39.7,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55793,47.11585,-93.28442,Warba,MN,Minnesota,TRUE,,676,3.3,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+55795,46.31337,-92.87031,Willow River,MN,Minnesota,TRUE,,1876,8.4,27115,Pine,"{""27115"": 100}",Pine,27115,FALSE,FALSE,America/Chicago
+55796,47.92905,-91.79732,Winton,MN,Minnesota,TRUE,,113,199.1,27075,Lake,"{""27075"": 56.68, ""27137"": 43.32}",Lake|St. Louis,27075|27137,FALSE,FALSE,America/Chicago
+55797,46.56978,-92.36431,Wrenshall,MN,Minnesota,TRUE,,1372,8.1,27017,Carlton,"{""27017"": 100}",Carlton,27017,FALSE,FALSE,America/Chicago
+55798,46.72138,-92.97907,Wright,MN,Minnesota,TRUE,,611,2.3,27017,Carlton,"{""27017"": 72.16, ""27137"": 18.02, ""27001"": 9.82}",Carlton|St. Louis|Aitkin,27017|27137|27001,FALSE,FALSE,America/Chicago
+55802,46.75267,-92.08197,Duluth,MN,Minnesota,TRUE,,2560,381.7,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55803,47.03398,-92.07104,Duluth,MN,Minnesota,TRUE,,17795,23.3,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55804,46.9381,-91.93089,Duluth,MN,Minnesota,TRUE,,16018,65.8,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55805,46.80065,-92.09552,Duluth,MN,Minnesota,TRUE,,10277,2749.2,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55806,46.76826,-92.12835,Duluth,MN,Minnesota,TRUE,,9545,1076.9,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55807,46.73508,-92.1686,Duluth,MN,Minnesota,TRUE,,9573,638.5,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55808,46.6792,-92.23686,Duluth,MN,Minnesota,TRUE,,5325,171,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55810,46.75894,-92.27445,Duluth,MN,Minnesota,TRUE,,8305,67.8,27137,St. Louis,"{""27137"": 93.95, ""27017"": 6.05}",St. Louis|Carlton,27137|27017,FALSE,FALSE,America/Chicago
+55811,46.83767,-92.21993,Duluth,MN,Minnesota,TRUE,,27907,167,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55812,46.81236,-92.07564,Duluth,MN,Minnesota,TRUE,,11016,2197.2,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55814,46.83519,-92.19716,Duluth,MN,Minnesota,TRUE,,311,1538.4,27137,St. Louis,"{""27137"": 100}",St. Louis,27137,FALSE,FALSE,America/Chicago
+55901,44.07679,-92.5018,Rochester,MN,Minnesota,TRUE,,58260,680.1,27109,Olmsted,"{""27109"": 100}",Olmsted,27109,FALSE,FALSE,America/Chicago
+55902,43.9671,-92.51584,Rochester,MN,Minnesota,TRUE,,25988,243.9,27109,Olmsted,"{""27109"": 100}",Olmsted,27109,FALSE,FALSE,America/Chicago
+55903,44.02391,-92.43657,Rochester,MN,Minnesota,TRUE,,0,0,27109,Olmsted,"{""27109"": 100}",Olmsted,27109,FALSE,FALSE,America/Chicago
+55904,43.96204,-92.39931,Rochester,MN,Minnesota,TRUE,,29682,190.6,27109,Olmsted,"{""27109"": 100}",Olmsted,27109,FALSE,FALSE,America/Chicago
+55905,44.05595,-92.52589,Rochester,MN,Minnesota,TRUE,,0,0,27109,Olmsted,"{""27109"": 100}",Olmsted,27109,FALSE,FALSE,America/Chicago
+55906,44.10751,-92.40142,Rochester,MN,Minnesota,TRUE,,20080,126.1,27109,Olmsted,"{""27109"": 91.93, ""27157"": 8.07}",Olmsted|Wabasha,27109|27157,FALSE,FALSE,America/Chicago
+55909,43.56312,-92.73461,Adams,MN,Minnesota,TRUE,,1393,10.2,27099,Mower,"{""27099"": 100}",Mower,27099,FALSE,FALSE,America/Chicago
+55910,44.13285,-91.97285,Altura,MN,Minnesota,TRUE,,1232,5.4,27169,Winona,"{""27169"": 87.62, ""27157"": 12.38}",Winona|Wabasha,27169|27157,FALSE,FALSE,America/Chicago
+55912,43.6827,-92.99148,Austin,MN,Minnesota,TRUE,,29438,60.5,27099,Mower,"{""27099"": 75.65, ""27047"": 24.35}",Mower|Freeborn,27099|27047,FALSE,FALSE,America/Chicago
+55917,43.88164,-93.0716,Blooming Prairie,MN,Minnesota,TRUE,,3531,10.2,27147,Steele,"{""27147"": 44.33, ""27039"": 27.53, ""27047"": 15.98, ""27099"": 12.17}",Steele|Dodge|Freeborn|Mower,27147|27039|27047|27099,FALSE,FALSE,America/Chicago
+55918,43.74236,-92.84673,Brownsdale,MN,Minnesota,TRUE,,1119,15.4,27099,Mower,"{""27099"": 100}",Mower,27099,FALSE,FALSE,America/Chicago
+55919,43.61443,-91.2941,Brownsville,MN,Minnesota,TRUE,,1008,8.7,27055,Houston,"{""27055"": 100}",Houston,27055,FALSE,FALSE,America/Chicago
+55920,44.01246,-92.62111,Byron,MN,Minnesota,TRUE,,8747,49.1,27109,Olmsted,"{""27109"": 100}",Olmsted,27109,FALSE,FALSE,America/Chicago
+55921,43.62265,-91.46388,Caledonia,MN,Minnesota,TRUE,,4793,10.6,27055,Houston,"{""27055"": 100}",Houston,27055,FALSE,FALSE,America/Chicago
+55922,43.5621,-91.89562,Canton,MN,Minnesota,TRUE,,853,10,27045,Fillmore,"{""27045"": 100}",Fillmore,27045,FALSE,FALSE,America/Chicago
+55923,43.8494,-92.18315,Chatfield,MN,Minnesota,TRUE,,4387,13.4,27045,Fillmore,"{""27045"": 50.36, ""27109"": 46.39, ""27169"": 3.25}",Fillmore|Olmsted|Winona,27045|27109|27169,FALSE,FALSE,America/Chicago
+55924,44.0354,-93.01838,Claremont,MN,Minnesota,TRUE,,1246,6.3,27039,Dodge,"{""27039"": 69.67, ""27147"": 30.33}",Dodge|Steele,27039|27147,FALSE,FALSE,America/Chicago
+55925,43.90962,-91.46503,Dakota,MN,Minnesota,TRUE,,1240,15.6,27169,Winona,"{""27169"": 100}",Winona,27169,FALSE,FALSE,America/Chicago
+55926,43.74279,-92.70689,Dexter,MN,Minnesota,TRUE,,754,4.8,27099,Mower,"{""27099"": 100}",Mower,27099,FALSE,FALSE,America/Chicago
+55927,44.0335,-92.87291,Dodge Center,MN,Minnesota,TRUE,,4272,20.6,27039,Dodge,"{""27039"": 100}",Dodge,27039,FALSE,FALSE,America/Chicago
+55929,43.97765,-92.14412,Dover,MN,Minnesota,TRUE,,1348,11.8,27109,Olmsted,"{""27109"": 100}",Olmsted,27109,FALSE,FALSE,America/Chicago
+55931,43.51424,-91.39703,Eitzen,MN,Minnesota,TRUE,,414,8.7,27055,Houston,"{""27055"": 100}",Houston,27055,FALSE,FALSE,America/Chicago
+55932,44.13804,-92.30081,Elgin,MN,Minnesota,TRUE,,2080,15.3,27109,Olmsted,"{""27109"": 52.15, ""27157"": 47.85}",Olmsted|Wabasha,27109|27157,FALSE,FALSE,America/Chicago
+55933,43.64787,-92.68504,Elkton,MN,Minnesota,TRUE,,207,3.8,27099,Mower,"{""27099"": 100}",Mower,27099,FALSE,FALSE,America/Chicago
+55934,44.00388,-92.26573,Eyota,MN,Minnesota,TRUE,,3542,17.4,27109,Olmsted,"{""27109"": 100}",Olmsted,27109,FALSE,FALSE,America/Chicago
+55935,43.74737,-92.12734,Fountain,MN,Minnesota,TRUE,,978,7.5,27045,Fillmore,"{""27045"": 100}",Fillmore,27045,FALSE,FALSE,America/Chicago
+55936,43.70943,-92.58524,Grand Meadow,MN,Minnesota,TRUE,,1763,7.8,27099,Mower,"{""27099"": 100}",Mower,27099,FALSE,FALSE,America/Chicago
+55939,43.54682,-92.08144,Harmony,MN,Minnesota,TRUE,,1986,8.3,27045,Fillmore,"{""27045"": 100}",Fillmore,27045,FALSE,FALSE,America/Chicago
+55940,43.89417,-92.80775,Hayfield,MN,Minnesota,TRUE,,2810,11.7,27039,Dodge,"{""27039"": 90.08, ""27109"": 8.63, ""27099"": 1.29}",Dodge|Olmsted|Mower,27039|27109|27099,FALSE,FALSE,America/Chicago
+55941,43.72558,-91.35382,Hokah,MN,Minnesota,TRUE,,1084,15.8,27055,Houston,"{""27055"": 100}",Houston,27055,FALSE,FALSE,America/Chicago
+55943,43.7903,-91.58343,Houston,MN,Minnesota,TRUE,,3070,6.9,27055,Houston,"{""27055"": 80.5, ""27169"": 19.5}",Houston|Winona,27055|27169,FALSE,FALSE,America/Chicago
+55944,43.98754,-92.73758,Kasson,MN,Minnesota,TRUE,,8048,52.4,27039,Dodge,"{""27039"": 93.76, ""27109"": 6.24}",Dodge|Olmsted,27039|27109,FALSE,FALSE,America/Chicago
+55945,44.26788,-92.05591,Kellogg,MN,Minnesota,TRUE,,1298,4.9,27157,Wabasha,"{""27157"": 100}",Wabasha,27157,FALSE,FALSE,America/Chicago
+55946,44.26129,-92.95998,Kenyon,MN,Minnesota,TRUE,,3366,9.9,27049,Goodhue,"{""27049"": 76.09, ""27131"": 16.13, ""27039"": 5.6, ""27147"": 2.18}",Goodhue|Rice|Dodge|Steele,27049|27131|27039|27147,FALSE,FALSE,America/Chicago
+55947,43.82412,-91.35666,La Crescent,MN,Minnesota,TRUE,,7319,38.5,27055,Houston,"{""27055"": 65.11, ""27169"": 34.89}",Houston|Winona,27055|27169,FALSE,FALSE,America/Chicago
+55949,43.71156,-91.94032,Lanesboro,MN,Minnesota,TRUE,,1918,6.5,27045,Fillmore,"{""27045"": 100}",Fillmore,27045,FALSE,FALSE,America/Chicago
+55950,43.74341,-92.96618,Lansing,MN,Minnesota,TRUE,,113,137.5,27099,Mower,"{""27099"": 100}",Mower,27099,FALSE,FALSE,America/Chicago
+55951,43.53529,-92.48414,Le Roy,MN,Minnesota,TRUE,,1354,7.1,27099,Mower,"{""27099"": 65.37, ""27045"": 34.63}",Mower|Fillmore,27099|27045,FALSE,FALSE,America/Chicago
+55952,43.94399,-91.84337,Lewiston,MN,Minnesota,TRUE,,2689,15.6,27169,Winona,"{""27169"": 100}",Winona,27169,FALSE,FALSE,America/Chicago
+55953,43.52772,-92.96521,Lyle,MN,Minnesota,TRUE,,918,10,27099,Mower,"{""27099"": 93.24, ""27047"": 6.76}",Mower|Freeborn,27099|27047,FALSE,FALSE,America/Chicago
+55954,43.56422,-91.78455,Mabel,MN,Minnesota,TRUE,,1408,7.5,27045,Fillmore,"{""27045"": 87.57, ""27055"": 12.43}",Fillmore|Houston,27045|27055,FALSE,FALSE,America/Chicago
+55955,44.09179,-92.73985,Mantorville,MN,Minnesota,TRUE,,2603,29.4,27039,Dodge,"{""27039"": 96.87, ""27109"": 3.13}",Dodge|Olmsted,27039|27109,FALSE,FALSE,America/Chicago
+55956,44.28382,-92.53068,Mazeppa,MN,Minnesota,TRUE,,2046,14.5,27157,Wabasha,"{""27157"": 71.45, ""27049"": 26.28, ""27109"": 2.27}",Wabasha|Goodhue|Olmsted,27157|27049|27109,FALSE,FALSE,America/Chicago
+55957,44.25494,-92.28373,Millville,MN,Minnesota,TRUE,,769,7.2,27157,Wabasha,"{""27157"": 100}",Wabasha,27157,FALSE,FALSE,America/Chicago
+55959,44.11287,-91.78365,Minnesota City,MN,Minnesota,TRUE,,1988,21,27169,Winona,"{""27169"": 100}",Winona,27169,FALSE,FALSE,America/Chicago
+55960,44.14226,-92.53564,Oronoco,MN,Minnesota,TRUE,,3453,38.1,27109,Olmsted,"{""27109"": 100}",Olmsted,27109,FALSE,FALSE,America/Chicago
+55961,43.60541,-92.47544,Ostrander,MN,Minnesota,TRUE,,517,6.7,27099,Mower,"{""27099"": 74.25, ""27045"": 25.75}",Mower|Fillmore,27099|27045,FALSE,FALSE,America/Chicago
+55962,43.76213,-91.84219,Peterson,MN,Minnesota,TRUE,,758,4.6,27045,Fillmore,"{""27045"": 95.48, ""27169"": 4.52}",Fillmore|Winona,27045|27169,FALSE,FALSE,America/Chicago
+55963,44.18784,-92.66227,Pine Island,MN,Minnesota,TRUE,,5473,26.2,27049,Goodhue,"{""27049"": 46.07, ""27109"": 34.14, ""27039"": 19.79}",Goodhue|Olmsted|Dodge,27049|27109|27039,FALSE,FALSE,America/Chicago
+55964,44.16448,-92.15483,Plainview,MN,Minnesota,TRUE,,4453,19.3,27157,Wabasha,"{""27157"": 78.98, ""27109"": 10.52, ""27169"": 10.5}",Wabasha|Olmsted|Winona,27157|27109|27169,FALSE,FALSE,America/Chicago
+55965,43.62913,-92.13282,Preston,MN,Minnesota,TRUE,,2253,8,27045,Fillmore,"{""27045"": 100}",Fillmore,27045,FALSE,FALSE,America/Chicago
+55967,43.79343,-92.51354,Racine,MN,Minnesota,TRUE,,1009,10.7,27099,Mower,"{""27099"": 100}",Mower,27099,FALSE,FALSE,America/Chicago
+55968,44.39793,-92.0898,Reads Landing,MN,Minnesota,TRUE,,130,31.3,27157,Wabasha,"{""27157"": 100}",Wabasha,27157,FALSE,FALSE,America/Chicago
+55969,44.08263,-91.87658,Rollingstone,MN,Minnesota,TRUE,,1155,15.3,27169,Winona,"{""27169"": 100}",Winona,27169,FALSE,FALSE,America/Chicago
+55970,43.59681,-92.83118,Rose Creek,MN,Minnesota,TRUE,,1058,6.7,27099,Mower,"{""27099"": 100}",Mower,27099,FALSE,FALSE,America/Chicago
+55971,43.81968,-91.75527,Rushford,MN,Minnesota,TRUE,,2910,13.3,27045,Fillmore,"{""27045"": 43.81, ""27169"": 38.03, ""27055"": 18.17}",Fillmore|Winona|Houston,27045|27169|27055,FALSE,FALSE,America/Chicago
+55972,43.99396,-92.05092,Saint Charles,MN,Minnesota,TRUE,,5323,23.3,27169,Winona,"{""27169"": 73.67, ""27109"": 26.33}",Winona|Olmsted,27169|27109,FALSE,FALSE,America/Chicago
+55973,43.80794,-92.772,Sargeant,MN,Minnesota,TRUE,,228,3,27099,Mower,"{""27099"": 96.57, ""27039"": 3.43}",Mower|Dodge,27099|27039,FALSE,FALSE,America/Chicago
+55974,43.57968,-91.64382,Spring Grove,MN,Minnesota,TRUE,,1998,9.4,27055,Houston,"{""27055"": 96.03, ""27045"": 3.97}",Houston|Fillmore,27055|27045,FALSE,FALSE,America/Chicago
+55975,43.67569,-92.37296,Spring Valley,MN,Minnesota,TRUE,,4597,11.1,27045,Fillmore,"{""27045"": 88.07, ""27099"": 11.93}",Fillmore|Mower,27045|27099,FALSE,FALSE,America/Chicago
+55976,43.86378,-92.48394,Stewartville,MN,Minnesota,TRUE,,8542,36.2,27109,Olmsted,"{""27109"": 83.01, ""27045"": 15.39, ""27099"": 1.6}",Olmsted|Fillmore|Mower,27109|27045|27099,FALSE,FALSE,America/Chicago
+55977,43.55371,-92.64792,Taopi,MN,Minnesota,TRUE,,207,3.3,27099,Mower,"{""27099"": 100}",Mower,27099,FALSE,FALSE,America/Chicago
+55979,43.92312,-91.95132,Utica,MN,Minnesota,TRUE,,1138,7.4,27169,Winona,"{""27169"": 92.27, ""27045"": 7.73}",Winona|Fillmore,27169|27045,FALSE,FALSE,America/Chicago
+55981,44.35375,-92.06518,Wabasha,MN,Minnesota,TRUE,,3863,29.3,27157,Wabasha,"{""27157"": 100}",Wabasha,27157,FALSE,FALSE,America/Chicago
+55982,43.81582,-92.886,Waltham,MN,Minnesota,TRUE,,523,7.3,27099,Mower,"{""27099"": 100}",Mower,27099,FALSE,FALSE,America/Chicago
+55983,44.29344,-92.80827,Wanamingo,MN,Minnesota,TRUE,,1671,17.2,27049,Goodhue,"{""27049"": 100}",Goodhue,27049,FALSE,FALSE,America/Chicago
+55985,44.15669,-92.90259,West Concord,MN,Minnesota,TRUE,,1644,7.9,27039,Dodge,"{""27039"": 89.16, ""27049"": 6.5, ""27147"": 4.34}",Dodge|Goodhue|Steele,27039|27049|27147,FALSE,FALSE,America/Chicago
+55987,43.98469,-91.63143,Winona,MN,Minnesota,TRUE,,33911,83.3,27169,Winona,"{""27169"": 100}",Winona,27169,FALSE,FALSE,America/Chicago
+55990,43.7285,-92.2591,Wykoff,MN,Minnesota,TRUE,,895,8,27045,Fillmore,"{""27045"": 100}",Fillmore,27045,FALSE,FALSE,America/Chicago
+55991,44.25903,-92.41986,Zumbro Falls,MN,Minnesota,TRUE,,1474,10.5,27157,Wabasha,"{""27157"": 99.1, ""27109"": 0.9}",Wabasha|Olmsted,27157|27109,FALSE,FALSE,America/Chicago
+55992,44.30557,-92.6827,Zumbrota,MN,Minnesota,TRUE,,5547,29.4,27049,Goodhue,"{""27049"": 100}",Goodhue,27049,FALSE,FALSE,America/Chicago
+56001,44.13193,-93.97789,Mankato,MN,Minnesota,TRUE,,50960,171.8,27013,Blue Earth,"{""27013"": 100}",Blue Earth,27013,FALSE,FALSE,America/Chicago
+56003,44.21273,-94.08877,Mankato,MN,Minnesota,TRUE,,15319,134.5,27103,Nicollet,"{""27103"": 99.66, ""27013"": 0.34}",Nicollet|Blue Earth,27103|27013,FALSE,FALSE,America/Chicago
+56007,43.66085,-93.3238,Albert Lea,MN,Minnesota,TRUE,,21467,49,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56009,43.66125,-93.55904,Alden,MN,Minnesota,TRUE,,1539,6.1,27047,Freeborn,"{""27047"": 98.48, ""27043"": 1.52}",Freeborn|Faribault,27047|27043,FALSE,FALSE,America/Chicago
+56010,43.89112,-94.17869,Amboy,MN,Minnesota,TRUE,,1087,5.1,27013,Blue Earth,"{""27013"": 100}",Blue Earth,27013,FALSE,FALSE,America/Chicago
+56011,44.60344,-93.777,Belle Plaine,MN,Minnesota,TRUE,,9672,36.5,27139,Scott,"{""27139"": 67.13, ""27143"": 16.87, ""27019"": 9.4, ""27079"": 6.6}",Scott|Sibley|Carver|Le Sueur,27139|27143|27019|27079,FALSE,FALSE,America/Chicago
+56013,43.62142,-94.10734,Blue Earth,MN,Minnesota,TRUE,,4534,10.3,27043,Faribault,"{""27043"": 90.04, ""27091"": 9.96}",Faribault|Martin,27043|27091,FALSE,FALSE,America/Chicago
+56014,43.58363,-93.82568,Bricelyn,MN,Minnesota,TRUE,,695,3.5,27043,Faribault,"{""27043"": 100}",Faribault,27043,FALSE,FALSE,America/Chicago
+56016,43.76378,-93.34855,Clarks Grove,MN,Minnesota,TRUE,,991,14.8,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56017,44.30535,-93.81915,Cleveland,MN,Minnesota,TRUE,,1757,23.3,27079,Le Sueur,"{""27079"": 100}",Le Sueur,27079,FALSE,FALSE,America/Chicago
+56019,44.11476,-94.89016,Comfrey,MN,Minnesota,TRUE,,767,3,27015,Brown,"{""27015"": 58.56, ""27033"": 33.3, ""27165"": 8.14}",Brown|Cottonwood|Watonwan,27015|27033|27165,FALSE,FALSE,America/Chicago
+56020,43.6146,-93.53019,Conger,MN,Minnesota,TRUE,,83,508.9,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56021,44.28339,-94.31391,Courtland,MN,Minnesota,TRUE,,1123,12.1,27103,Nicollet,"{""27103"": 100}",Nicollet,27103,FALSE,FALSE,America/Chicago
+56022,44.05264,-94.83869,Darfur,MN,Minnesota,TRUE,,100,281.6,27165,Watonwan,"{""27165"": 100}",Watonwan,27165,FALSE,FALSE,America/Chicago
+56023,43.77224,-94.01402,Delavan,MN,Minnesota,TRUE,,527,3.6,27043,Faribault,"{""27043"": 100}",Faribault,27043,FALSE,FALSE,America/Chicago
+56024,44.14768,-93.84419,Eagle Lake,MN,Minnesota,TRUE,,3595,74.8,27013,Blue Earth,"{""27013"": 100}",Blue Earth,27013,FALSE,FALSE,America/Chicago
+56025,43.7516,-93.90877,Easton,MN,Minnesota,TRUE,,493,3.7,27043,Faribault,"{""27043"": 100}",Faribault,27043,FALSE,FALSE,America/Chicago
+56026,43.87485,-93.29124,Ellendale,MN,Minnesota,TRUE,,1978,7.4,27147,Steele,"{""27147"": 60.45, ""27047"": 38.9, ""27161"": 0.65}",Steele|Freeborn|Waseca,27147|27047|27161,FALSE,FALSE,America/Chicago
+56027,43.51935,-94.12432,Elmore,MN,Minnesota,TRUE,,667,4.1,27043,Faribault,"{""27043"": 77.15, ""19109"": 13.35, ""27091"": 9.5}",Faribault|Kossuth|Martin,27043|19109|27091,FALSE,FALSE,America/Chicago
+56028,44.22435,-93.71052,Elysian,MN,Minnesota,TRUE,,1057,22.8,27079,Le Sueur,"{""27079"": 90.95, ""27161"": 9.05}",Le Sueur|Waseca,27079|27161,FALSE,FALSE,America/Chicago
+56029,43.52519,-93.53003,Emmons,MN,Minnesota,TRUE,,583,5.4,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56030,44.32485,-94.60485,Essig,MN,Minnesota,TRUE,,17,345.1,27015,Brown,"{""27015"": 100}",Brown,27015,FALSE,FALSE,America/Chicago
+56031,43.62246,-94.46757,Fairmont,MN,Minnesota,TRUE,,11800,29.1,27091,Martin,"{""27091"": 100}",Martin,27091,FALSE,FALSE,America/Chicago
+56032,43.77583,-93.56078,Freeborn,MN,Minnesota,TRUE,,372,46.7,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56033,43.55926,-93.93118,Frost,MN,Minnesota,TRUE,,429,4.8,27043,Faribault,"{""27043"": 100}",Faribault,27043,FALSE,FALSE,America/Chicago
+56034,44.03036,-94.18285,Garden City,MN,Minnesota,TRUE,,417,5.7,27013,Blue Earth,"{""27013"": 100}",Blue Earth,27013,FALSE,FALSE,America/Chicago
+56035,43.82187,-93.26875,Geneva,MN,Minnesota,TRUE,,329,233.6,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56036,43.5513,-93.22152,Glenville,MN,Minnesota,TRUE,,1766,5.8,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56037,44.0172,-94.0465,Good Thunder,MN,Minnesota,TRUE,,1449,7.6,27013,Blue Earth,"{""27013"": 100}",Blue Earth,27013,FALSE,FALSE,America/Chicago
+56039,43.66246,-94.32287,Granada,MN,Minnesota,TRUE,,898,3.7,27091,Martin,"{""27091"": 98.06, ""27043"": 1.94}",Martin|Faribault,27091|27043,FALSE,FALSE,America/Chicago
+56041,44.15514,-94.52238,Hanska,MN,Minnesota,TRUE,,1046,5.6,27015,Brown,"{""27015"": 99.01, ""27013"": 0.99}",Brown|Blue Earth,27015|27013,FALSE,FALSE,America/Chicago
+56042,43.80408,-93.48387,Hartland,MN,Minnesota,TRUE,,752,5.4,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56043,43.65236,-93.22809,Hayward,MN,Minnesota,TRUE,,429,8,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56044,44.56173,-93.93539,Henderson,MN,Minnesota,TRUE,,2192,10.2,27143,Sibley,"{""27143"": 83.41, ""27079"": 16.59}",Sibley|Le Sueur,27143|27079,FALSE,FALSE,America/Chicago
+56045,43.75977,-93.20948,Hollandale,MN,Minnesota,TRUE,,966,12.8,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56046,43.9678,-93.26889,Hope,MN,Minnesota,TRUE,,140,27.4,27147,Steele,"{""27147"": 100}",Steele,27147,FALSE,FALSE,America/Chicago
+56048,44.09478,-93.71589,Janesville,MN,Minnesota,TRUE,,4203,13.3,27161,Waseca,"{""27161"": 76.34, ""27013"": 23.66}",Waseca|Blue Earth,27161|27013,FALSE,FALSE,America/Chicago
+56050,44.26006,-93.94706,Kasota,MN,Minnesota,TRUE,,1367,22.8,27079,Le Sueur,"{""27079"": 88.22, ""27013"": 11.78}",Le Sueur|Blue Earth,27079|27013,FALSE,FALSE,America/Chicago
+56051,43.53649,-93.70868,Kiester,MN,Minnesota,TRUE,,648,8.5,27043,Faribault,"{""27043"": 100}",Faribault,27043,FALSE,FALSE,America/Chicago
+56052,44.32158,-93.5576,Kilkenny,MN,Minnesota,TRUE,,702,5.3,27079,Le Sueur,"{""27079"": 71.06, ""27131"": 28.94}",Le Sueur|Rice,27079|27131,FALSE,FALSE,America/Chicago
+56054,44.4357,-94.37043,Lafayette,MN,Minnesota,TRUE,,865,6.2,27103,Nicollet,"{""27103"": 83.53, ""27143"": 16.47}",Nicollet|Sibley,27103|27143,FALSE,FALSE,America/Chicago
+56055,44.12693,-94.24531,Lake Crystal,MN,Minnesota,TRUE,,3868,12.6,27013,Blue Earth,"{""27013"": 100}",Blue Earth,27013,FALSE,FALSE,America/Chicago
+56056,44.07278,-94.57945,La Salle,MN,Minnesota,TRUE,,60,22.7,27165,Watonwan,"{""27165"": 100}",Watonwan,27165,FALSE,FALSE,America/Chicago
+56057,44.3954,-93.72045,Le Center,MN,Minnesota,TRUE,,3933,17.8,27079,Le Sueur,"{""27079"": 100}",Le Sueur,27079,FALSE,FALSE,America/Chicago
+56058,44.44424,-93.91441,Le Sueur,MN,Minnesota,TRUE,,6080,18.5,27079,Le Sueur,"{""27079"": 63.21, ""27143"": 25.53, ""27103"": 11.26}",Le Sueur|Sibley|Nicollet,27079|27143|27103,FALSE,FALSE,America/Chicago
+56060,43.93221,-94.43691,Lewisville,MN,Minnesota,TRUE,,446,4.8,27165,Watonwan,"{""27165"": 94.09, ""27013"": 5.91}",Watonwan|Blue Earth,27165|27013,FALSE,FALSE,America/Chicago
+56062,44.0483,-94.41469,Madelia,MN,Minnesota,TRUE,,3249,10.1,27165,Watonwan,"{""27165"": 64.1, ""27013"": 28.76, ""27015"": 7.14}",Watonwan|Blue Earth|Brown,27165|27013|27015,FALSE,FALSE,America/Chicago
+56063,44.218,-93.81791,Madison Lake,MN,Minnesota,TRUE,,3059,29.5,27013,Blue Earth,"{""27013"": 60.2, ""27079"": 34.08, ""27161"": 5.72}",Blue Earth|Le Sueur|Waseca,27013|27079|27161,FALSE,FALSE,America/Chicago
+56065,43.93376,-93.91799,Mapleton,MN,Minnesota,TRUE,,2828,9.4,27013,Blue Earth,"{""27013"": 96.96, ""27043"": 2.18, ""27161"": 0.86}",Blue Earth|Faribault|Waseca,27013|27043|27161,FALSE,FALSE,America/Chicago
+56068,43.86303,-93.80601,Minnesota Lake,MN,Minnesota,TRUE,,971,5.7,27013,Blue Earth,"{""27013"": 39.84, ""27043"": 35.77, ""27161"": 24.39}",Blue Earth|Faribault|Waseca,27013|27043|27161,FALSE,FALSE,America/Chicago
+56069,44.41801,-93.54988,Montgomery,MN,Minnesota,TRUE,,4948,26.8,27079,Le Sueur,"{""27079"": 63.78, ""27131"": 36.22}",Le Sueur|Rice,27079|27131,FALSE,FALSE,America/Chicago
+56071,44.53459,-93.58209,New Prague,MN,Minnesota,TRUE,,13015,58.5,27079,Le Sueur,"{""27079"": 46.07, ""27139"": 42.07, ""27131"": 11.86}",Le Sueur|Scott|Rice,27079|27139|27131,FALSE,FALSE,America/Chicago
+56072,43.89677,-93.5125,New Richland,MN,Minnesota,TRUE,,2147,6.9,27161,Waseca,"{""27161"": 77.62, ""27147"": 14.16, ""27047"": 7.97, ""27043"": 0.25}",Waseca|Steele|Freeborn|Faribault,27161|27147|27047|27043,FALSE,FALSE,America/Chicago
+56073,44.30757,-94.46878,New Ulm,MN,Minnesota,TRUE,,17325,33.3,27015,Brown,"{""27015"": 55.35, ""27103"": 38.64, ""27013"": 6.01}",Brown|Nicollet|Blue Earth,27015|27103|27013,FALSE,FALSE,America/Chicago
+56074,44.32344,-94.20181,Nicollet,MN,Minnesota,TRUE,,1850,9.2,27103,Nicollet,"{""27103"": 100}",Nicollet,27103,FALSE,FALSE,America/Chicago
+56075,43.73516,-94.43663,Northrop,MN,Minnesota,TRUE,,141,1017.8,27091,Martin,"{""27091"": 100}",Martin,27091,FALSE,FALSE,America/Chicago
+56078,44.00525,-93.76757,Pemberton,MN,Minnesota,TRUE,,494,7.5,27013,Blue Earth,"{""27013"": 50.19, ""27161"": 49.81}",Blue Earth|Waseca,27013|27161,FALSE,FALSE,America/Chicago
+56080,44.08166,-93.85781,Saint Clair,MN,Minnesota,TRUE,,759,663.1,27013,Blue Earth,"{""27013"": 100}",Blue Earth,27013,FALSE,FALSE,America/Chicago
+56081,43.99345,-94.63062,Saint James,MN,Minnesota,TRUE,,6092,13.3,27165,Watonwan,"{""27165"": 95.93, ""27015"": 4.07}",Watonwan|Brown,27165|27015,FALSE,FALSE,America/Chicago
+56082,44.35217,-94.03329,Saint Peter,MN,Minnesota,TRUE,,14512,45.1,27103,Nicollet,"{""27103"": 86.71, ""27079"": 13.29}",Nicollet|Le Sueur,27103|27079,FALSE,FALSE,America/Chicago
+56083,44.20734,-95.13434,Sanborn,MN,Minnesota,TRUE,,825,3.3,27127,Redwood,"{""27127"": 45.41, ""27033"": 34.57, ""27015"": 20.02}",Redwood|Cottonwood|Brown,27127|27033|27015,FALSE,FALSE,America/Chicago
+56085,44.29279,-94.73547,Sleepy Eye,MN,Minnesota,TRUE,,5013,9.4,27015,Brown,"{""27015"": 95.76, ""27127"": 4.24}",Brown|Redwood,27015|27127,FALSE,FALSE,America/Chicago
+56087,44.24012,-94.97538,Springfield,MN,Minnesota,TRUE,,3240,8.6,27015,Brown,"{""27015"": 75.03, ""27127"": 24.97}",Brown|Redwood,27015|27127,FALSE,FALSE,America/Chicago
+56088,43.82647,-94.45031,Truman,MN,Minnesota,TRUE,,2063,6.4,27091,Martin,"{""27091"": 68.34, ""27165"": 23.83, ""27013"": 7.83}",Martin|Watonwan|Blue Earth,27091|27165|27013,FALSE,FALSE,America/Chicago
+56089,43.55631,-93.4508,Twin Lakes,MN,Minnesota,TRUE,,233,16.4,27047,Freeborn,"{""27047"": 100}",Freeborn,27047,FALSE,FALSE,America/Chicago
+56090,43.9584,-94.23303,Vernon Center,MN,Minnesota,TRUE,,581,5.2,27013,Blue Earth,"{""27013"": 100}",Blue Earth,27013,FALSE,FALSE,America/Chicago
+56091,43.91813,-93.68831,Waldorf,MN,Minnesota,TRUE,,267,5.7,27161,Waseca,"{""27161"": 100}",Waseca,27161,FALSE,FALSE,America/Chicago
+56093,44.06342,-93.51683,Waseca,MN,Minnesota,TRUE,,12742,27.3,27161,Waseca,"{""27161"": 93.16, ""27147"": 6.08, ""27131"": 0.76}",Waseca|Steele|Rice,27161|27147|27131,FALSE,FALSE,America/Chicago
+56096,44.24393,-93.60097,Waterville,MN,Minnesota,TRUE,,2874,19.9,27079,Le Sueur,"{""27079"": 79.56, ""27131"": 11.55, ""27161"": 8.89}",Le Sueur|Rice|Waseca,27079|27131|27161,FALSE,FALSE,America/Chicago
+56097,43.72261,-93.71593,Wells,MN,Minnesota,TRUE,,3593,7.9,27043,Faribault,"{""27043"": 82.0, ""27047"": 15.27, ""27161"": 2.73}",Faribault|Freeborn|Waseca,27043|27047|27161,FALSE,FALSE,America/Chicago
+56098,43.77565,-94.18528,Winnebago,MN,Minnesota,TRUE,,1946,6.7,27043,Faribault,"{""27043"": 80.87, ""27091"": 19.13}",Faribault|Martin,27043|27091,FALSE,FALSE,America/Chicago
+56101,43.88404,-95.13991,Windom,MN,Minnesota,TRUE,,6081,13.6,27033,Cottonwood,"{""27033"": 63.53, ""27063"": 36.47}",Cottonwood|Jackson,27033|27063,FALSE,FALSE,America/Chicago
+56110,43.62115,-95.94093,Adrian,MN,Minnesota,TRUE,,1714,6,27105,Nobles,"{""27105"": 100}",Nobles,27105,FALSE,FALSE,America/Chicago
+56111,43.64155,-94.8799,Alpha,MN,Minnesota,TRUE,,355,2.6,27063,Jackson,"{""27063"": 93.62, ""27091"": 6.38}",Jackson|Martin,27063|27091,FALSE,FALSE,America/Chicago
+56113,44.40218,-96.14904,Arco,MN,Minnesota,TRUE,,227,2.2,27081,Lincoln,"{""27081"": 93.91, ""27083"": 6.09}",Lincoln|Lyon,27081|27083,FALSE,FALSE,America/Chicago
+56114,43.97897,-95.59345,Avoca,MN,Minnesota,TRUE,,356,2.8,27101,Murray,"{""27101"": 100}",Murray,27101,FALSE,FALSE,America/Chicago
+56115,44.21514,-95.90038,Balaton,MN,Minnesota,TRUE,,1262,3.9,27083,Lyon,"{""27083"": 62.59, ""27101"": 37.41}",Lyon|Murray,27083|27101,FALSE,FALSE,America/Chicago
+56116,43.61782,-96.37893,Beaver Creek,MN,Minnesota,TRUE,,575,5.1,27133,Rock,"{""27133"": 100}",Rock,27133,FALSE,FALSE,America/Chicago
+56117,43.52662,-95.68607,Bigelow,MN,Minnesota,TRUE,,361,6,27105,Nobles,"{""27105"": 100}",Nobles,27105,FALSE,FALSE,America/Chicago
+56118,43.93616,-95.03555,Bingham Lake,MN,Minnesota,TRUE,,501,3.6,27033,Cottonwood,"{""27033"": 90.85, ""27063"": 9.15}",Cottonwood|Jackson,27033|27063,FALSE,FALSE,America/Chicago
+56119,43.71159,-95.46702,Brewster,MN,Minnesota,TRUE,,1080,4.5,27105,Nobles,"{""27105"": 59.15, ""27063"": 40.85}",Nobles|Jackson,27105|27063,FALSE,FALSE,America/Chicago
+56120,43.96083,-94.79139,Butterfield,MN,Minnesota,TRUE,,925,3.6,27165,Watonwan,"{""27165"": 100}",Watonwan,27165,FALSE,FALSE,America/Chicago
+56121,43.53858,-94.61051,Ceylon,MN,Minnesota,TRUE,,579,6.1,27091,Martin,"{""27091"": 100}",Martin,27091,FALSE,FALSE,America/Chicago
+56122,43.89729,-95.95026,Chandler,MN,Minnesota,TRUE,,621,4.4,27101,Murray,"{""27101"": 90.18, ""27105"": 9.82}",Murray|Nobles,27101|27105,FALSE,FALSE,America/Chicago
+56123,44.08467,-95.59624,Currie,MN,Minnesota,TRUE,,447,2.5,27101,Murray,"{""27101"": 100}",Murray,27101,FALSE,FALSE,America/Chicago
+56125,44.05452,-95.54774,Dovray,MN,Minnesota,TRUE,,40,62.1,27101,Murray,"{""27101"": 100}",Murray,27101,FALSE,FALSE,America/Chicago
+56127,43.54892,-94.77261,Dunnell,MN,Minnesota,TRUE,,478,3.4,27091,Martin,"{""27091"": 100}",Martin,27091,FALSE,FALSE,America/Chicago
+56128,43.88199,-96.11579,Edgerton,MN,Minnesota,TRUE,,1948,6.5,27117,Pipestone,"{""27117"": 58.8, ""27133"": 19.67, ""27101"": 12.35, ""27105"": 9.18}",Pipestone|Rock|Murray|Nobles,27117|27133|27101|27105,FALSE,FALSE,America/Chicago
+56129,43.52775,-96.04327,Ellsworth,MN,Minnesota,TRUE,,780,6.3,27105,Nobles,"{""27105"": 52.79, ""27133"": 47.21}",Nobles|Rock,27105|27133,FALSE,FALSE,America/Chicago
+56131,43.86305,-95.57219,Fulda,MN,Minnesota,TRUE,,2216,5,27101,Murray,"{""27101"": 44.8, ""27105"": 39.67, ""27033"": 15.06, ""27063"": 0.48}",Murray|Nobles|Cottonwood|Jackson,27101|27105|27033|27063,FALSE,FALSE,America/Chicago
+56132,44.20196,-95.75792,Garvin,MN,Minnesota,TRUE,,454,3,27083,Lyon,"{""27083"": 53.9, ""27101"": 46.1}",Lyon|Murray,27083|27101,FALSE,FALSE,America/Chicago
+56134,43.78956,-96.23126,Hardwick,MN,Minnesota,TRUE,,405,3.1,27133,Rock,"{""27133"": 100}",Rock,27133,FALSE,FALSE,America/Chicago
+56136,44.50187,-96.41645,Hendricks,MN,Minnesota,TRUE,,1231,4.2,27081,Lincoln,"{""27081"": 77.68, ""46011"": 22.32}",Lincoln|Brookings,27081|46011,FALSE,FALSE,America/Chicago
+56137,43.83246,-95.32424,Heron Lake,MN,Minnesota,TRUE,,1091,3.7,27063,Jackson,"{""27063"": 65.52, ""27033"": 34.48}",Jackson|Cottonwood,27063|27033,FALSE,FALSE,America/Chicago
+56138,43.53279,-96.38348,Hills,MN,Minnesota,TRUE,,1046,12.4,27133,Rock,"{""27133"": 100}",Rock,27133,FALSE,FALSE,America/Chicago
+56139,44.10368,-96.1757,Holland,MN,Minnesota,TRUE,,435,3.5,27117,Pipestone,"{""27117"": 100}",Pipestone,27117,FALSE,FALSE,America/Chicago
+56140,43.90959,-96.36703,Ihlen,MN,Minnesota,TRUE,,54,220.1,27117,Pipestone,"{""27117"": 100}",Pipestone,27117,FALSE,FALSE,America/Chicago
+56141,43.88184,-95.78962,Iona,MN,Minnesota,TRUE,,338,3.2,27101,Murray,"{""27101"": 91.61, ""27105"": 8.39}",Murray|Nobles,27101|27105,FALSE,FALSE,America/Chicago
+56142,44.4711,-96.2327,Ivanhoe,MN,Minnesota,TRUE,,1062,4.5,27081,Lincoln,"{""27081"": 100}",Lincoln,27081,FALSE,FALSE,America/Chicago
+56143,43.62803,-95.00759,Jackson,MN,Minnesota,TRUE,,4529,9.3,27063,Jackson,"{""27063"": 100}",Jackson,27063,FALSE,FALSE,America/Chicago
+56144,43.84078,-96.38702,Jasper,MN,Minnesota,TRUE,,1146,3.7,27133,Rock,"{""27133"": 47.95, ""27117"": 38.93, ""46101"": 13.12}",Rock|Pipestone|Moody,27133|27117|46101,FALSE,FALSE,America/Chicago
+56145,44.05577,-95.17384,Jeffers,MN,Minnesota,TRUE,,490,3.8,27033,Cottonwood,"{""27033"": 100}",Cottonwood,27033,FALSE,FALSE,America/Chicago
+56146,43.58006,-96.10343,Kanaranzi,MN,Minnesota,TRUE,,48,18.7,27133,Rock,"{""27133"": 100}",Rock,27133,FALSE,FALSE,America/Chicago
+56147,43.75726,-96.05985,Kenneth,MN,Minnesota,TRUE,,103,1.3,27133,Rock,"{""27133"": 53.53, ""27105"": 46.47}",Rock|Nobles,27133|27105,FALSE,FALSE,America/Chicago
+56149,44.30059,-96.30454,Lake Benton,MN,Minnesota,TRUE,,1205,4.2,27081,Lincoln,"{""27081"": 95.83, ""27117"": 4.17}",Lincoln|Pipestone,27081|27117,FALSE,FALSE,America/Chicago
+56150,43.63469,-95.21266,Lakefield,MN,Minnesota,TRUE,,2863,6.3,27063,Jackson,"{""27063"": 100}",Jackson,27063,FALSE,FALSE,America/Chicago
+56151,44.03304,-95.92833,Lake Wilson,MN,Minnesota,TRUE,,681,2.8,27101,Murray,"{""27101"": 100}",Murray,27101,FALSE,FALSE,America/Chicago
+56152,44.22702,-95.2733,Lamberton,MN,Minnesota,TRUE,,1381,3.9,27127,Redwood,"{""27127"": 62.47, ""27033"": 37.53}",Redwood|Cottonwood,27127|27033,FALSE,FALSE,America/Chicago
+56153,43.83012,-96.01506,Leota,MN,Minnesota,TRUE,,142,20.1,27105,Nobles,"{""27105"": 100}",Nobles,27105,FALSE,FALSE,America/Chicago
+56155,43.76707,-95.94117,Lismore,MN,Minnesota,TRUE,,482,4.2,27105,Nobles,"{""27105"": 100}",Nobles,27105,FALSE,FALSE,America/Chicago
+56156,43.66196,-96.22466,Luverne,MN,Minnesota,TRUE,,6398,14.8,27133,Rock,"{""27133"": 100}",Rock,27133,FALSE,FALSE,America/Chicago
+56157,44.39702,-95.94805,Lynd,MN,Minnesota,TRUE,,843,7.5,27083,Lyon,"{""27083"": 100}",Lyon,27083,FALSE,FALSE,America/Chicago
+56158,43.6337,-96.07465,Magnolia,MN,Minnesota,TRUE,,316,3.3,27133,Rock,"{""27133"": 75.57, ""27105"": 24.43}",Rock|Nobles,27133|27105,FALSE,FALSE,America/Chicago
+56159,43.94363,-94.93598,Mountain Lake,MN,Minnesota,TRUE,,2520,7.7,27033,Cottonwood,"{""27033"": 86.03, ""27063"": 13.97}",Cottonwood|Jackson,27033|27063,FALSE,FALSE,America/Chicago
+56160,43.83311,-94.81041,Odin,MN,Minnesota,TRUE,,225,4.2,27091,Martin,"{""27091"": 50.84, ""27063"": 29.33, ""27165"": 19.83}",Martin|Jackson|Watonwan,27091|27063|27165,FALSE,FALSE,America/Chicago
+56161,43.70637,-95.32519,Okabena,MN,Minnesota,TRUE,,343,4.7,27063,Jackson,"{""27063"": 100}",Jackson,27063,FALSE,FALSE,America/Chicago
+56162,43.84034,-94.66736,Ormsby,MN,Minnesota,TRUE,,263,4.4,27091,Martin,"{""27091"": 64.19, ""27165"": 35.81}",Martin|Watonwan,27091|27165,FALSE,FALSE,America/Chicago
+56164,44.04936,-96.33361,Pipestone,MN,Minnesota,TRUE,,5573,8.9,27117,Pipestone,"{""27117"": 87.29, ""27081"": 9.35, ""46101"": 3.36}",Pipestone|Lincoln|Moody,27117|27081|46101,FALSE,FALSE,America/Chicago
+56165,43.7251,-95.7097,Reading,MN,Minnesota,TRUE,,334,3.3,27105,Nobles,"{""27105"": 100}",Nobles,27105,FALSE,FALSE,America/Chicago
+56166,44.20248,-95.37401,Revere,MN,Minnesota,TRUE,,203,2.4,27127,Redwood,"{""27127"": 51.37, ""27033"": 48.63}",Redwood|Cottonwood,27127|27033,FALSE,FALSE,America/Chicago
+56167,43.55082,-95.40524,Round Lake,MN,Minnesota,TRUE,,615,4.5,27063,Jackson,"{""27063"": 79.99, ""27105"": 20.01}",Jackson|Nobles,27063|27105,FALSE,FALSE,America/Chicago
+56168,43.61552,-95.80358,Rushmore,MN,Minnesota,TRUE,,833,3.4,27105,Nobles,"{""27105"": 100}",Nobles,27105,FALSE,FALSE,America/Chicago
+56169,44.33136,-96.00555,Russell,MN,Minnesota,TRUE,,734,5.2,27083,Lyon,"{""27083"": 100}",Lyon,27083,FALSE,FALSE,America/Chicago
+56170,44.16694,-96.08647,Ruthton,MN,Minnesota,TRUE,,486,3,27117,Pipestone,"{""27117"": 49.45, ""27101"": 37.84, ""27083"": 7.9, ""27081"": 4.81}",Pipestone|Murray|Lyon|Lincoln,27117|27101|27083|27081,FALSE,FALSE,America/Chicago
+56171,43.66902,-94.75925,Sherburn,MN,Minnesota,TRUE,,1527,6.6,27091,Martin,"{""27091"": 100}",Martin,27091,FALSE,FALSE,America/Chicago
+56172,44.01212,-95.7702,Slayton,MN,Minnesota,TRUE,,2954,9.8,27101,Murray,"{""27101"": 100}",Murray,27101,FALSE,FALSE,America/Chicago
+56173,43.52505,-96.24186,Steen,MN,Minnesota,TRUE,,253,4.1,27133,Rock,"{""27133"": 100}",Rock,27133,FALSE,FALSE,America/Chicago
+56174,44.01525,-95.30466,Storden,MN,Minnesota,TRUE,,420,4.1,27033,Cottonwood,"{""27033"": 100}",Cottonwood,27033,FALSE,FALSE,America/Chicago
+56175,44.25595,-95.63733,Tracy,MN,Minnesota,TRUE,,2791,8,27083,Lyon,"{""27083"": 53.9, ""27101"": 24.05, ""27127"": 22.05}",Lyon|Murray|Redwood,27083|27101|27127,FALSE,FALSE,America/Chicago
+56176,43.78319,-94.72835,Trimont,MN,Minnesota,TRUE,,985,6,27091,Martin,"{""27091"": 100}",Martin,27091,FALSE,FALSE,America/Chicago
+56178,44.28593,-96.12997,Tyler,MN,Minnesota,TRUE,,1669,7.7,27081,Lincoln,"{""27081"": 85.63, ""27083"": 14.37}",Lincoln|Lyon,27081|27083,FALSE,FALSE,America/Chicago
+56180,44.24424,-95.46655,Walnut Grove,MN,Minnesota,TRUE,,1203,3.9,27127,Redwood,"{""27127"": 71.45, ""27101"": 15.87, ""27033"": 12.68}",Redwood|Murray|Cottonwood,27127|27101|27033,FALSE,FALSE,America/Chicago
+56181,43.67951,-94.61549,Welcome,MN,Minnesota,TRUE,,1303,8.1,27091,Martin,"{""27091"": 100}",Martin,27091,FALSE,FALSE,America/Chicago
+56183,44.03404,-95.42334,Westbrook,MN,Minnesota,TRUE,,1300,5.3,27033,Cottonwood,"{""27033"": 73.6, ""27101"": 26.4}",Cottonwood|Murray,27033|27101,FALSE,FALSE,America/Chicago
+56185,43.7932,-95.82659,Wilmont,MN,Minnesota,TRUE,,439,3.9,27105,Nobles,"{""27105"": 100}",Nobles,27105,FALSE,FALSE,America/Chicago
+56186,44.02823,-96.08131,Woodstock,MN,Minnesota,TRUE,,450,2.8,27117,Pipestone,"{""27117"": 60.56, ""27101"": 39.44}",Pipestone|Murray,27117|27101,FALSE,FALSE,America/Chicago
+56187,43.62357,-95.58507,Worthington,MN,Minnesota,TRUE,,15225,34.9,27105,Nobles,"{""27105"": 92.55, ""27063"": 7.45}",Nobles|Jackson,27105|27063,FALSE,FALSE,America/Chicago
+56201,45.10181,-95.04226,Willmar,MN,Minnesota,TRUE,,24860,81.2,27067,Kandiyohi,"{""27067"": 100}",Kandiyohi,27067,FALSE,FALSE,America/Chicago
+56207,45.50266,-96.0708,Alberta,MN,Minnesota,TRUE,,201,1.6,27149,Stevens,"{""27149"": 94.16, ""27151"": 5.84}",Stevens|Swift,27149|27151,FALSE,FALSE,America/Chicago
+56208,45.24422,-96.00961,Appleton,MN,Minnesota,TRUE,,2097,4.1,27151,Swift,"{""27151"": 81.38, ""27073"": 12.05, ""27011"": 4.46, ""27023"": 2.11}",Swift|Lac qui Parle|Big Stone|Chippewa,27151|27073|27011|27023,FALSE,FALSE,America/Chicago
+56209,45.124,-94.79931,Atwater,MN,Minnesota,TRUE,,2635,10.1,27067,Kandiyohi,"{""27067"": 81.14, ""27093"": 18.86}",Kandiyohi|Meeker,27067|27093,FALSE,FALSE,America/Chicago
+56210,45.55739,-96.55958,Barry,MN,Minnesota,TRUE,,4,8.6,27011,Big Stone,"{""27011"": 100}",Big Stone,27011,FALSE,FALSE,America/Chicago
+56211,45.58641,-96.6828,Beardsley,MN,Minnesota,TRUE,,511,1.9,27011,Big Stone,"{""27011"": 54.12, ""27155"": 45.88}",Big Stone|Traverse,27011|27155,FALSE,FALSE,America/Chicago
+56212,45.13499,-96.32459,Bellingham,MN,Minnesota,TRUE,,486,2.3,27073,Lac qui Parle,"{""27073"": 100}",Lac qui Parle,27073,FALSE,FALSE,America/Chicago
+56214,44.60804,-95.32943,Belview,MN,Minnesota,TRUE,,714,4.4,27127,Redwood,"{""27127"": 84.52, ""27173"": 15.48}",Redwood|Yellow Medicine,27127|27173,FALSE,FALSE,America/Chicago
+56215,45.31077,-95.57233,Benson,MN,Minnesota,TRUE,,4701,8.6,27151,Swift,"{""27151"": 92.5, ""27121"": 7.5}",Swift|Pope,27151|27121,FALSE,FALSE,America/Chicago
+56216,44.93886,-95.05532,Blomkest,MN,Minnesota,TRUE,,611,6.2,27067,Kandiyohi,"{""27067"": 100}",Kandiyohi,27067,FALSE,FALSE,America/Chicago
+56218,44.82642,-95.94363,Boyd,MN,Minnesota,TRUE,,463,1.8,27073,Lac qui Parle,"{""27073"": 61.71, ""27173"": 38.29}",Lac qui Parle|Yellow Medicine,27073|27173,FALSE,FALSE,America/Chicago
+56219,45.5977,-96.81913,Browns Valley,MN,Minnesota,TRUE,,901,3.9,46109,Roberts,"{""46109"": 55.12, ""27155"": 36.6, ""27011"": 8.28}",Roberts|Traverse|Big Stone,46109|27155|27011,FALSE,FALSE,America/Chicago
+56220,44.73125,-96.29339,Canby,MN,Minnesota,TRUE,,2705,3.8,27173,Yellow Medicine,"{""27173"": 68.07, ""27073"": 19.36, ""27081"": 12.35, ""46039"": 0.22}",Yellow Medicine|Lac qui Parle|Lincoln|Deuel,27173|27073|27081|46039,FALSE,FALSE,America/Chicago
+56221,45.55583,-96.1938,Chokio,MN,Minnesota,TRUE,,826,2.3,27149,Stevens,"{""27149"": 87.8, ""27011"": 10.1, ""27155"": 2.1}",Stevens|Big Stone|Traverse,27149|27011|27155,FALSE,FALSE,America/Chicago
+56222,44.98586,-95.36229,Clara City,MN,Minnesota,TRUE,,2012,8.2,27023,Chippewa,"{""27023"": 100}",Chippewa,27023,FALSE,FALSE,America/Chicago
+56223,44.76259,-95.81691,Clarkfield,MN,Minnesota,TRUE,,1403,4.6,27173,Yellow Medicine,"{""27173"": 100}",Yellow Medicine,27173,FALSE,FALSE,America/Chicago
+56224,44.37628,-95.05854,Clements,MN,Minnesota,TRUE,,301,3.3,27127,Redwood,"{""27127"": 100}",Redwood,27127,FALSE,FALSE,America/Chicago
+56225,45.45325,-96.4482,Clinton,MN,Minnesota,TRUE,,733,2.7,27011,Big Stone,"{""27011"": 100}",Big Stone,27011,FALSE,FALSE,America/Chicago
+56226,45.41065,-95.67705,Clontarf,MN,Minnesota,TRUE,,205,2.2,27121,Pope,"{""27121"": 50.65, ""27151"": 49.35}",Pope|Swift,27121|27151,FALSE,FALSE,America/Chicago
+56227,45.29436,-96.16938,Correll,MN,Minnesota,TRUE,,266,1.8,27011,Big Stone,"{""27011"": 99.9, ""27151"": 0.1}",Big Stone|Swift,27011|27151,FALSE,FALSE,America/Chicago
+56228,44.93619,-94.67715,Cosmos,MN,Minnesota,TRUE,,905,6.1,27093,Meeker,"{""27093"": 93.01, ""27129"": 6.99}",Meeker|Renville,27093|27129,FALSE,FALSE,America/Chicago
+56229,44.59385,-95.72398,Cottonwood,MN,Minnesota,TRUE,,1729,6.5,27083,Lyon,"{""27083"": 78.33, ""27173"": 21.67}",Lyon|Yellow Medicine,27083|27173,FALSE,FALSE,America/Chicago
+56230,44.79284,-95.09288,Danube,MN,Minnesota,TRUE,,746,4.6,27129,Renville,"{""27129"": 100}",Renville,27129,FALSE,FALSE,America/Chicago
+56231,45.2788,-95.76381,Danvers,MN,Minnesota,TRUE,,386,1.6,27151,Swift,"{""27151"": 100}",Swift,27151,FALSE,FALSE,America/Chicago
+56232,44.92836,-96.03968,Dawson,MN,Minnesota,TRUE,,2365,6.4,27073,Lac qui Parle,"{""27073"": 100}",Lac qui Parle,27073,FALSE,FALSE,America/Chicago
+56235,45.70588,-96.01079,Donnelly,MN,Minnesota,TRUE,,486,2.3,27149,Stevens,"{""27149"": 100}",Stevens,27149,FALSE,FALSE,America/Chicago
+56236,45.66341,-96.40312,Dumont,MN,Minnesota,TRUE,,456,1.7,27155,Traverse,"{""27155"": 93.94, ""27011"": 6.06}",Traverse|Big Stone,27155|27011,FALSE,FALSE,America/Chicago
+56237,44.61956,-95.43489,Echo,MN,Minnesota,TRUE,,535,3.3,27173,Yellow Medicine,"{""27173"": 100}",Yellow Medicine,27173,FALSE,FALSE,America/Chicago
+56239,44.50416,-95.91079,Ghent,MN,Minnesota,TRUE,,602,8.9,27083,Lyon,"{""27083"": 100}",Lyon,27083,FALSE,FALSE,America/Chicago
+56240,45.56327,-96.47475,Graceville,MN,Minnesota,TRUE,,807,2.1,27011,Big Stone,"{""27011"": 64.45, ""27155"": 35.55}",Big Stone|Traverse,27011|27155,FALSE,FALSE,America/Chicago
+56241,44.79654,-95.57944,Granite Falls,MN,Minnesota,TRUE,,3829,10.1,27173,Yellow Medicine,"{""27173"": 67.79, ""27023"": 22.51, ""27129"": 9.7}",Yellow Medicine|Chippewa|Renville,27173|27023|27129,FALSE,FALSE,America/Chicago
+56243,45.16868,-94.6799,Grove City,MN,Minnesota,TRUE,,1968,8.2,27093,Meeker,"{""27093"": 100}",Meeker,27093,FALSE,FALSE,America/Chicago
+56244,45.48372,-95.77963,Hancock,MN,Minnesota,TRUE,,1739,5.1,27149,Stevens,"{""27149"": 59.39, ""27121"": 34.28, ""27151"": 6.33}",Stevens|Pope|Swift,27149|27121|27151,FALSE,FALSE,America/Chicago
+56245,44.68508,-95.67574,Hanley Falls,MN,Minnesota,TRUE,,481,4,27173,Yellow Medicine,"{""27173"": 100}",Yellow Medicine,27173,FALSE,FALSE,America/Chicago
+56248,45.79317,-96.13677,Herman,MN,Minnesota,TRUE,,760,2.1,27051,Grant,"{""27051"": 69.16, ""27149"": 17.31, ""27155"": 13.53}",Grant|Stevens|Traverse,27051|27149|27155,FALSE,FALSE,America/Chicago
+56249,45.31795,-95.89899,Holloway,MN,Minnesota,TRUE,,277,1.6,27151,Swift,"{""27151"": 100}",Swift,27151,FALSE,FALSE,America/Chicago
+56251,45.14046,-94.9198,Kandiyohi,MN,Minnesota,TRUE,,908,10.4,27067,Kandiyohi,"{""27067"": 100}",Kandiyohi,27067,FALSE,FALSE,America/Chicago
+56252,45.17785,-95.30397,Kerkhoven,MN,Minnesota,TRUE,,1305,6.7,27151,Swift,"{""27151"": 59.72, ""27023"": 32.1, ""27067"": 8.18}",Swift|Chippewa|Kandiyohi,27151|27023|27067,FALSE,FALSE,America/Chicago
+56253,44.9628,-94.87889,Lake Lillian,MN,Minnesota,TRUE,,737,2.7,27067,Kandiyohi,"{""27067"": 100}",Kandiyohi,27067,FALSE,FALSE,America/Chicago
+56255,44.39426,-95.41707,Lucan,MN,Minnesota,TRUE,,407,4.1,27127,Redwood,"{""27127"": 100}",Redwood,27127,FALSE,FALSE,America/Chicago
+56256,45.02306,-96.19986,Madison,MN,Minnesota,TRUE,,2352,3.9,27073,Lac qui Parle,"{""27073"": 100}",Lac qui Parle,27073,FALSE,FALSE,America/Chicago
+56257,44.9684,-96.40275,Marietta,MN,Minnesota,TRUE,,418,1.8,27073,Lac qui Parle,"{""27073"": 95.08, ""46039"": 4.92}",Lac qui Parle|Deuel,27073|46039,FALSE,FALSE,America/Chicago
+56258,44.44121,-95.75906,Marshall,MN,Minnesota,TRUE,,15843,31.6,27083,Lyon,"{""27083"": 96.02, ""27127"": 3.98}",Lyon|Redwood,27083|27127,FALSE,FALSE,America/Chicago
+56260,44.96338,-95.48571,Maynard,MN,Minnesota,TRUE,,937,3.7,27023,Chippewa,"{""27023"": 87.39, ""27129"": 12.61}",Chippewa|Renville,27023|27129,FALSE,FALSE,America/Chicago
+56262,45.12276,-95.86843,Milan,MN,Minnesota,TRUE,,799,4.5,27023,Chippewa,"{""27023"": 80.37, ""27151"": 19.63}",Chippewa|Swift,27023|27151,FALSE,FALSE,America/Chicago
+56263,44.41577,-95.54086,Milroy,MN,Minnesota,TRUE,,452,3.4,27127,Redwood,"{""27127"": 83.85, ""27083"": 16.15}",Redwood|Lyon,27127|27083,FALSE,FALSE,America/Chicago
+56264,44.57529,-95.98001,Minneota,MN,Minnesota,TRUE,,2185,6.5,27083,Lyon,"{""27083"": 69.91, ""27173"": 25.8, ""27081"": 4.29}",Lyon|Yellow Medicine|Lincoln,27083|27173|27081,FALSE,FALSE,America/Chicago
+56265,45.0064,-95.70098,Montevideo,MN,Minnesota,TRUE,,7433,10.9,27023,Chippewa,"{""27023"": 75.15, ""27073"": 18.9, ""27173"": 5.95}",Chippewa|Lac qui Parle|Yellow Medicine,27023|27073|27173,FALSE,FALSE,America/Chicago
+56266,44.41637,-94.9133,Morgan,MN,Minnesota,TRUE,,1516,5.9,27127,Redwood,"{""27127"": 75.6, ""27015"": 24.4}",Redwood|Brown,27127|27015,FALSE,FALSE,America/Chicago
+56267,45.58512,-95.9322,Morris,MN,Minnesota,TRUE,,6766,13.4,27149,Stevens,"{""27149"": 100}",Stevens,27149,FALSE,FALSE,America/Chicago
+56270,44.56013,-94.97962,Morton,MN,Minnesota,TRUE,,1208,9.7,27129,Renville,"{""27129"": 62.98, ""27127"": 37.02}",Renville|Redwood,27129|27127,FALSE,FALSE,America/Chicago
+56271,45.24125,-95.41288,Murdock,MN,Minnesota,TRUE,,1309,3.3,27151,Swift,"{""27151"": 82.04, ""27023"": 17.96}",Swift|Chippewa,27151|27023,FALSE,FALSE,America/Chicago
+56273,45.32163,-94.96777,New London,MN,Minnesota,TRUE,,5050,20.2,27067,Kandiyohi,"{""27067"": 100}",Kandiyohi,27067,FALSE,FALSE,America/Chicago
+56274,45.90145,-96.2383,Norcross,MN,Minnesota,TRUE,,252,1.2,27051,Grant,"{""27051"": 62.59, ""27155"": 37.41}",Grant|Traverse,27051|27155,FALSE,FALSE,America/Chicago
+56276,45.24134,-96.31249,Odessa,MN,Minnesota,TRUE,,251,1.7,27073,Lac qui Parle,"{""27073"": 51.84, ""27011"": 48.16}",Lac qui Parle|Big Stone,27073|27011,FALSE,FALSE,America/Chicago
+56277,44.76742,-94.99036,Olivia,MN,Minnesota,TRUE,,2962,10.3,27129,Renville,"{""27129"": 100}",Renville,27129,FALSE,FALSE,America/Chicago
+56278,45.345,-96.37718,Ortonville,MN,Minnesota,TRUE,,2685,7.7,27011,Big Stone,"{""27011"": 90.19, ""27073"": 9.81}",Big Stone|Lac qui Parle,27011|27073,FALSE,FALSE,America/Chicago
+56279,45.21651,-95.17585,Pennock,MN,Minnesota,TRUE,,1122,7,27067,Kandiyohi,"{""27067"": 100}",Kandiyohi,27067,FALSE,FALSE,America/Chicago
+56280,44.63212,-96.16719,Porter,MN,Minnesota,TRUE,,492,2.8,27081,Lincoln,"{""27081"": 50.32, ""27173"": 49.68}",Lincoln|Yellow Medicine,27081|27173,FALSE,FALSE,America/Chicago
+56281,44.94833,-95.16479,Prinsburg,MN,Minnesota,TRUE,,742,22.2,27067,Kandiyohi,"{""27067"": 100}",Kandiyohi,27067,FALSE,FALSE,America/Chicago
+56282,45.03089,-95.21862,Raymond,MN,Minnesota,TRUE,,1443,5.2,27067,Kandiyohi,"{""27067"": 67.29, ""27023"": 32.71}",Kandiyohi|Chippewa,27067|27023,FALSE,FALSE,America/Chicago
+56283,44.53208,-95.14225,Redwood Falls,MN,Minnesota,TRUE,,6469,14,27127,Redwood,"{""27127"": 83.96, ""27129"": 16.04}",Redwood|Renville,27127|27129,FALSE,FALSE,America/Chicago
+56284,44.77729,-95.20204,Renville,MN,Minnesota,TRUE,,2099,6,27129,Renville,"{""27129"": 87.82, ""27067"": 9.02, ""27127"": 3.16}",Renville|Kandiyohi|Redwood,27129|27067|27127,FALSE,FALSE,America/Chicago
+56285,44.78837,-95.34797,Sacred Heart,MN,Minnesota,TRUE,,1047,4.1,27129,Renville,"{""27129"": 100}",Renville,27129,FALSE,FALSE,America/Chicago
+56287,44.47537,-95.3262,Seaforth,MN,Minnesota,TRUE,,103,89.7,27127,Redwood,"{""27127"": 100}",Redwood,27127,FALSE,FALSE,America/Chicago
+56288,45.24218,-94.94847,Spicer,MN,Minnesota,TRUE,,4655,36.8,27067,Kandiyohi,"{""27067"": 100}",Kandiyohi,27067,FALSE,FALSE,America/Chicago
+56289,45.33334,-95.2236,Sunburg,MN,Minnesota,TRUE,,597,4.5,27067,Kandiyohi,"{""27067"": 70.36, ""27151"": 29.64}",Kandiyohi|Swift,27067|27151,FALSE,FALSE,America/Chicago
+56291,44.62254,-96.06933,Taunton,MN,Minnesota,TRUE,,395,2.3,27173,Yellow Medicine,"{""27173"": 42.43, ""27083"": 31.43, ""27081"": 26.14}",Yellow Medicine|Lyon|Lincoln,27173|27083|27081,FALSE,FALSE,America/Chicago
+56292,44.49734,-95.44863,Vesta,MN,Minnesota,TRUE,,582,3.9,27127,Redwood,"{""27127"": 96.48, ""27173"": 3.52}",Redwood|Yellow Medicine,27127|27173,FALSE,FALSE,America/Chicago
+56293,44.41598,-95.26559,Wabasso,MN,Minnesota,TRUE,,1143,5.2,27127,Redwood,"{""27127"": 100}",Redwood,27127,FALSE,FALSE,America/Chicago
+56294,44.31481,-95.21313,Wanda,MN,Minnesota,TRUE,,79,117.7,27127,Redwood,"{""27127"": 100}",Redwood,27127,FALSE,FALSE,America/Chicago
+56295,45.0437,-95.84292,Watson,MN,Minnesota,TRUE,,301,5.1,27023,Chippewa,"{""27023"": 100}",Chippewa,27023,FALSE,FALSE,America/Chicago
+56296,45.82981,-96.46953,Wheaton,MN,Minnesota,TRUE,,1861,3,27155,Traverse,"{""27155"": 100}",Traverse,27155,FALSE,FALSE,America/Chicago
+56297,44.63005,-95.54428,Wood Lake,MN,Minnesota,TRUE,,824,4.7,27173,Yellow Medicine,"{""27173"": 94.06, ""27127"": 5.94}",Yellow Medicine|Redwood,27173|27127,FALSE,FALSE,America/Chicago
+56301,45.48718,-94.24307,Saint Cloud,MN,Minnesota,TRUE,,34883,175.9,27145,Stearns,"{""27145"": 99.83, ""27141"": 0.17}",Stearns|Sherburne,27145|27141,FALSE,FALSE,America/Chicago
+56303,45.57422,-94.21117,Saint Cloud,MN,Minnesota,TRUE,,26031,917,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56304,45.52512,-94.05199,Saint Cloud,MN,Minnesota,TRUE,,17281,110,27141,Sherburne,"{""27141"": 86.81, ""27009"": 13.19}",Sherburne|Benton,27141|27009,FALSE,FALSE,America/Chicago
+56307,45.62666,-94.58769,Albany,MN,Minnesota,TRUE,,5227,19.1,27145,Stearns,"{""27145"": 99.31, ""27097"": 0.69}",Stearns|Morrison,27145|27097,FALSE,FALSE,America/Chicago
+56308,45.87047,-95.38985,Alexandria,MN,Minnesota,TRUE,,26695,66.1,27041,Douglas,"{""27041"": 96.15, ""27121"": 3.85}",Douglas|Pope,27041|27121,FALSE,FALSE,America/Chicago
+56309,46.08035,-95.80202,Ashby,MN,Minnesota,TRUE,,1456,9.8,27051,Grant,"{""27051"": 59.93, ""27111"": 34.85, ""27041"": 5.22}",Grant|Otter Tail|Douglas,27051|27111|27041,FALSE,FALSE,America/Chicago
+56310,45.63399,-94.44352,Avon,MN,Minnesota,TRUE,,5361,28.9,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56311,45.89756,-95.89852,Barrett,MN,Minnesota,TRUE,,645,3.4,27051,Grant,"{""27051"": 100}",Grant,27051,FALSE,FALSE,America/Chicago
+56312,45.46285,-94.95323,Belgrade,MN,Minnesota,TRUE,,2224,5,27145,Stearns,"{""27145"": 74.47, ""27067"": 25.53}",Stearns|Kandiyohi,27145|27067,FALSE,FALSE,America/Chicago
+56313,45.78403,-93.55273,Bock,MN,Minnesota,TRUE,,57,152.4,27095,Mille Lacs,"{""27095"": 100}",Mille Lacs,27095,FALSE,FALSE,America/Chicago
+56314,45.81139,-94.43189,Bowlus,MN,Minnesota,TRUE,,1355,12.3,27097,Morrison,"{""27097"": 90.31, ""27145"": 9.69}",Morrison|Stearns,27097|27145,FALSE,FALSE,America/Chicago
+56315,45.97996,-95.59211,Brandon,MN,Minnesota,TRUE,,1731,9.7,27041,Douglas,"{""27041"": 96.83, ""27111"": 3.17}",Douglas|Otter Tail,27041|27111,FALSE,FALSE,America/Chicago
+56316,45.49959,-95.14992,Brooten,MN,Minnesota,TRUE,,1521,4.4,27121,Pope,"{""27121"": 52.28, ""27145"": 36.29, ""27067"": 11.43}",Pope|Stearns|Kandiyohi,27121|27145|27067,FALSE,FALSE,America/Chicago
+56318,45.85332,-94.67085,Burtrum,MN,Minnesota,TRUE,,1130,10.9,27153,Todd,"{""27153"": 68.14, ""27097"": 31.86}",Todd|Morrison,27153|27097,FALSE,FALSE,America/Chicago
+56319,46.00488,-95.22322,Carlos,MN,Minnesota,TRUE,,1336,12.8,27041,Douglas,"{""27041"": 80.76, ""27153"": 19.24}",Douglas|Todd,27041|27153,FALSE,FALSE,America/Chicago
+56320,45.4629,-94.4171,Cold Spring,MN,Minnesota,TRUE,,8553,64.7,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56321,45.57969,-94.39288,Collegeville,MN,Minnesota,TRUE,,1572,957.8,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56323,45.63321,-95.72586,Cyrus,MN,Minnesota,TRUE,,579,5.2,27121,Pope,"{""27121"": 79.94, ""27149"": 20.06}",Pope|Stevens,27121|27149,FALSE,FALSE,America/Chicago
+56324,46.16385,-95.90766,Dalton,MN,Minnesota,TRUE,,1116,7.4,27111,Otter Tail,"{""27111"": 98.23, ""27051"": 1.77}",Otter Tail|Grant,27111|27051,FALSE,FALSE,America/Chicago
+56325,45.56303,-94.94732,Elrosa,MN,Minnesota,TRUE,,194,469.5,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56326,46.02506,-95.68596,Evansville,MN,Minnesota,TRUE,,1838,7.5,27041,Douglas,"{""27041"": 89.2, ""27111"": 8.69, ""27051"": 2.11}",Douglas|Otter Tail|Grant,27041|27111|27051,FALSE,FALSE,America/Chicago
+56327,45.75893,-95.61336,Farwell,MN,Minnesota,TRUE,,771,6.2,27121,Pope,"{""27121"": 53.38, ""27041"": 46.62}",Pope|Douglas,27121|27041,FALSE,FALSE,America/Chicago
+56328,45.9519,-94.52147,Flensburg,MN,Minnesota,TRUE,,161,30,27097,Morrison,"{""27097"": 100}",Morrison,27097,FALSE,FALSE,America/Chicago
+56329,45.70934,-93.90577,Foley,MN,Minnesota,TRUE,,7700,15.5,27009,Benton,"{""27009"": 88.02, ""27097"": 11.63, ""27141"": 0.35}",Benton|Morrison|Sherburne,27009|27097|27141,FALSE,FALSE,America/Chicago
+56330,45.75018,-93.75117,Foreston,MN,Minnesota,TRUE,,2063,20.2,27095,Mille Lacs,"{""27095"": 62.62, ""27009"": 37.38}",Mille Lacs|Benton,27095|27009,FALSE,FALSE,America/Chicago
+56331,45.67926,-94.6742,Freeport,MN,Minnesota,TRUE,,2176,12.1,27145,Stearns,"{""27145"": 98.88, ""27097"": 1.12}",Stearns|Morrison,27145|27097,FALSE,FALSE,America/Chicago
+56332,45.96993,-95.50554,Garfield,MN,Minnesota,TRUE,,1658,12.3,27041,Douglas,"{""27041"": 100}",Douglas,27041,FALSE,FALSE,America/Chicago
+56334,45.58402,-95.34765,Glenwood,MN,Minnesota,TRUE,,5791,10.9,27121,Pope,"{""27121"": 98.76, ""27041"": 1.24}",Pope|Douglas,27121|27041,FALSE,FALSE,America/Chicago
+56335,45.60137,-94.85941,Greenwald,MN,Minnesota,TRUE,,221,119.7,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56336,45.82349,-94.76175,Grey Eagle,MN,Minnesota,TRUE,,1530,12.1,27153,Todd,"{""27153"": 97.0, ""27145"": 3.0}",Todd|Stearns,27153|27145,FALSE,FALSE,America/Chicago
+56338,46.00631,-93.88089,Hillman,MN,Minnesota,TRUE,,1579,3.6,27097,Morrison,"{""27097"": 94.17, ""27035"": 5.83}",Morrison|Crow Wing,27097|27035,FALSE,FALSE,America/Chicago
+56339,45.8258,-95.82129,Hoffman,MN,Minnesota,TRUE,,1068,6.8,27051,Grant,"{""27051"": 85.72, ""27041"": 14.28}",Grant|Douglas,27051|27041,FALSE,FALSE,America/Chicago
+56340,45.75534,-94.44871,Holdingford,MN,Minnesota,TRUE,,2433,18.4,27145,Stearns,"{""27145"": 71.58, ""27097"": 28.42}",Stearns|Morrison,27145|27097,FALSE,FALSE,America/Chicago
+56342,46.18347,-93.40392,Isle,MN,Minnesota,TRUE,,2805,5.6,27001,Aitkin,"{""27001"": 39.71, ""27065"": 34.63, ""27095"": 25.66}",Aitkin|Kanabec|Mille Lacs,27001|27065|27095,FALSE,FALSE,America/Chicago
+56343,45.79088,-95.69765,Kensington,MN,Minnesota,TRUE,,805,4.5,27041,Douglas,"{""27041"": 67.74, ""27121"": 16.78, ""27149"": 10.2, ""27051"": 5.28}",Douglas|Pope|Stevens|Grant,27041|27121|27149|27051,FALSE,FALSE,America/Chicago
+56345,46.00748,-94.38032,Little Falls,MN,Minnesota,TRUE,,15105,22.6,27097,Morrison,"{""27097"": 100}",Morrison,27097,FALSE,FALSE,America/Chicago
+56347,45.96978,-94.86155,Long Prairie,MN,Minnesota,TRUE,,8067,16,27153,Todd,"{""27153"": 96.65, ""27097"": 3.35}",Todd|Morrison,27153|27097,FALSE,FALSE,America/Chicago
+56349,45.72373,-95.52456,Lowry,MN,Minnesota,TRUE,,804,7.5,27121,Pope,"{""27121"": 87.37, ""27041"": 12.63}",Pope|Douglas,27121|27041,FALSE,FALSE,America/Chicago
+56350,46.31101,-93.23922,McGrath,MN,Minnesota,TRUE,,468,0.8,27001,Aitkin,"{""27001"": 100}",Aitkin,27001,FALSE,FALSE,America/Chicago
+56352,45.65078,-94.80076,Melrose,MN,Minnesota,TRUE,,5955,20.9,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56353,45.79667,-93.62587,Milaca,MN,Minnesota,TRUE,,9489,19.3,27095,Mille Lacs,"{""27095"": 94.59, ""27059"": 2.69, ""27065"": 2.6, ""27097"": 0.12}",Mille Lacs|Isanti|Kanabec|Morrison,27095|27059|27065|27097,FALSE,FALSE,America/Chicago
+56354,46.06034,-95.27496,Miltona,MN,Minnesota,TRUE,,1372,12.5,27041,Douglas,"{""27041"": 100}",Douglas,27041,FALSE,FALSE,America/Chicago
+56355,45.94007,-95.24031,Nelson,MN,Minnesota,TRUE,,643,9.7,27041,Douglas,"{""27041"": 100}",Douglas,27041,FALSE,FALSE,America/Chicago
+56356,45.63334,-94.73332,New Munich,MN,Minnesota,TRUE,,264,61.7,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56357,45.69684,-93.8007,Oak Park,MN,Minnesota,TRUE,,1192,12.6,27009,Benton,"{""27009"": 79.37, ""27095"": 20.63}",Benton|Mille Lacs,27009|27095,FALSE,FALSE,America/Chicago
+56358,45.84069,-93.4488,Ogilvie,MN,Minnesota,TRUE,,3172,9.8,27065,Kanabec,"{""27065"": 82.21, ""27095"": 13.16, ""27059"": 4.63}",Kanabec|Mille Lacs|Isanti,27065|27095|27059,FALSE,FALSE,America/Chicago
+56359,46.08979,-93.67786,Onamia,MN,Minnesota,TRUE,,3451,7.8,27095,Mille Lacs,"{""27095"": 100}",Mille Lacs,27095,FALSE,FALSE,America/Chicago
+56360,45.87482,-95.12686,Osakis,MN,Minnesota,TRUE,,3738,10.9,27153,Todd,"{""27153"": 55.04, ""27041"": 44.96}",Todd|Douglas,27153|27041,FALSE,FALSE,America/Chicago
+56361,46.16146,-95.3351,Parkers Prairie,MN,Minnesota,TRUE,,2590,6.3,27111,Otter Tail,"{""27111"": 83.55, ""27041"": 16.45}",Otter Tail|Douglas,27111|27041,FALSE,FALSE,America/Chicago
+56362,45.40524,-94.71525,Paynesville,MN,Minnesota,TRUE,,5560,14.3,27145,Stearns,"{""27145"": 76.83, ""27093"": 13.57, ""27067"": 9.6}",Stearns|Meeker|Kandiyohi,27145|27093|27067,FALSE,FALSE,America/Chicago
+56363,45.69627,-93.65409,Pease,MN,Minnesota,TRUE,,227,78.8,27095,Mille Lacs,"{""27095"": 100}",Mille Lacs,27095,FALSE,FALSE,America/Chicago
+56364,46.01605,-94.06704,Pierz,MN,Minnesota,TRUE,,5797,9.3,27097,Morrison,"{""27097"": 95.43, ""27035"": 4.57}",Morrison|Crow Wing,27097|27035,FALSE,FALSE,America/Chicago
+56367,45.76107,-94.17026,Rice,MN,Minnesota,TRUE,,7226,27.4,27009,Benton,"{""27009"": 82.48, ""27145"": 17.52}",Benton|Stearns,27009|27145,FALSE,FALSE,America/Chicago
+56368,45.45158,-94.5392,Richmond,MN,Minnesota,TRUE,,4162,22.8,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56369,45.46904,-94.3359,Rockville,MN,Minnesota,TRUE,,575,391.7,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56371,45.43333,-94.63707,Roscoe,MN,Minnesota,TRUE,,95,75.9,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56373,45.85456,-94.23789,Royalton,MN,Minnesota,TRUE,,3248,12.6,27097,Morrison,"{""27097"": 90.35, ""27009"": 9.65}",Morrison|Benton,27097|27009,FALSE,FALSE,America/Chicago
+56374,45.60381,-94.33816,Saint Joseph,MN,Minnesota,TRUE,,10020,58.3,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56375,45.70122,-94.27458,Saint Stephen,MN,Minnesota,TRUE,,672,68.7,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56376,45.50241,-94.66731,Saint Martin,MN,Minnesota,TRUE,,313,156.9,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56377,45.6405,-94.23033,Sartell,MN,Minnesota,TRUE,,21008,362.7,27145,Stearns,"{""27145"": 96.51, ""27009"": 3.49}",Stearns|Benton,27145|27009,FALSE,FALSE,America/Chicago
+56378,45.72308,-94.97982,Sauk Centre,MN,Minnesota,TRUE,,8433,16.1,27145,Stearns,"{""27145"": 71.23, ""27153"": 28.77}",Stearns|Todd,27145|27153,FALSE,FALSE,America/Chicago
+56379,45.63966,-94.08394,Sauk Rapids,MN,Minnesota,TRUE,,17300,74.7,27009,Benton,"{""27009"": 99.51, ""27141"": 0.49}",Benton|Sherburne,27009|27141,FALSE,FALSE,America/Chicago
+56381,45.55523,-95.54669,Starbuck,MN,Minnesota,TRUE,,2371,6.3,27121,Pope,"{""27121"": 100}",Pope,27121,FALSE,FALSE,America/Chicago
+56382,45.9146,-94.611,Swanville,MN,Minnesota,TRUE,,1360,7.8,27097,Morrison,"{""27097"": 76.2, ""27153"": 23.8}",Morrison|Todd,27097|27153,FALSE,FALSE,America/Chicago
+56384,45.8099,-94.56759,Upsala,MN,Minnesota,TRUE,,280,107.2,27097,Morrison,"{""27097"": 100}",Morrison,27097,FALSE,FALSE,America/Chicago
+56385,45.70349,-95.20681,Villard,MN,Minnesota,TRUE,,942,4.9,27121,Pope,"{""27121"": 83.52, ""27145"": 13.85, ""27041"": 2.63}",Pope|Stearns|Douglas,27121|27145|27041,FALSE,FALSE,America/Chicago
+56386,46.11402,-93.52176,Wahkon,MN,Minnesota,TRUE,,641,13.9,27095,Mille Lacs,"{""27095"": 100}",Mille Lacs,27095,FALSE,FALSE,America/Chicago
+56387,45.53215,-94.24141,Waite Park,MN,Minnesota,TRUE,,7705,332.5,27145,Stearns,"{""27145"": 100}",Stearns,27145,FALSE,FALSE,America/Chicago
+56389,45.79961,-95.08832,West Union,MN,Minnesota,TRUE,,85,47.4,27153,Todd,"{""27153"": 100}",Todd,27153,FALSE,FALSE,America/Chicago
+56401,46.32259,-94.11974,Brainerd,MN,Minnesota,TRUE,,31749,38,27035,Crow Wing,"{""27035"": 91.78, ""27021"": 8.22}",Crow Wing|Cass,27035|27021,FALSE,FALSE,America/Chicago
+56425,46.34162,-94.28308,Baxter,MN,Minnesota,TRUE,,8729,184.6,27035,Crow Wing,"{""27035"": 100}",Crow Wing,27035,FALSE,FALSE,America/Chicago
+56431,46.4828,-93.64356,Aitkin,MN,Minnesota,TRUE,,9142,7.6,27001,Aitkin,"{""27001"": 87.1, ""27035"": 12.9}",Aitkin|Crow Wing,27001|27035,FALSE,FALSE,America/Chicago
+56433,46.9598,-94.68519,Akeley,MN,Minnesota,TRUE,,1554,5.4,27057,Hubbard,"{""27057"": 69.63, ""27021"": 30.37}",Hubbard|Cass,27057|27021,FALSE,FALSE,America/Chicago
+56434,46.33797,-94.93437,Aldrich,MN,Minnesota,TRUE,,178,4.6,27153,Todd,"{""27153"": 83.73, ""27159"": 16.27}",Todd|Wadena,27153|27159,FALSE,FALSE,America/Chicago
+56435,46.80872,-94.53089,Backus,MN,Minnesota,TRUE,,2912,7.1,27021,Cass,"{""27021"": 99.08, ""27035"": 0.92}",Cass|Crow Wing,27021|27035,FALSE,FALSE,America/Chicago
+56437,46.25049,-95.05654,Bertha,MN,Minnesota,TRUE,,1409,8.2,27153,Todd,"{""27153"": 88.49, ""27111"": 11.51}",Todd|Otter Tail,27153|27111,FALSE,FALSE,America/Chicago
+56438,46.13873,-94.80874,Browerville,MN,Minnesota,TRUE,,2830,7.7,27153,Todd,"{""27153"": 100}",Todd,27153,FALSE,FALSE,America/Chicago
+56440,46.14658,-94.9573,Clarissa,MN,Minnesota,TRUE,,1469,10.2,27153,Todd,"{""27153"": 100}",Todd,27153,FALSE,FALSE,America/Chicago
+56441,46.58625,-93.9865,Crosby,MN,Minnesota,TRUE,,3328,14.4,27035,Crow Wing,"{""27035"": 100}",Crow Wing,27035,FALSE,FALSE,America/Chicago
+56442,46.67629,-94.09726,Crosslake,MN,Minnesota,TRUE,,2895,31.8,27035,Crow Wing,"{""27035"": 100}",Crow Wing,27035,FALSE,FALSE,America/Chicago
+56443,46.1916,-94.57565,Cushing,MN,Minnesota,TRUE,,1457,4.4,27097,Morrison,"{""27097"": 69.31, ""27153"": 30.69}",Morrison|Todd,27097|27153,FALSE,FALSE,America/Chicago
+56444,46.4175,-93.87804,Deerwood,MN,Minnesota,TRUE,,3385,25.3,27035,Crow Wing,"{""27035"": 100}",Crow Wing,27035,FALSE,FALSE,America/Chicago
+56446,46.12448,-95.08966,Eagle Bend,MN,Minnesota,TRUE,,1502,6,27153,Todd,"{""27153"": 82.86, ""27111"": 12.5, ""27041"": 4.64}",Todd|Otter Tail|Douglas,27153|27111|27041,FALSE,FALSE,America/Chicago
+56447,46.74151,-93.90262,Emily,MN,Minnesota,TRUE,,832,3.8,27035,Crow Wing,"{""27035"": 100}",Crow Wing,27035,FALSE,FALSE,America/Chicago
+56448,46.78604,-94.09014,Fifty Lakes,MN,Minnesota,TRUE,,412,3.4,27035,Crow Wing,"{""27035"": 65.25, ""27021"": 34.75}",Crow Wing|Cass,27035|27021,FALSE,FALSE,America/Chicago
+56449,46.17436,-94.27214,Fort Ripley,MN,Minnesota,TRUE,,1824,7.9,27035,Crow Wing,"{""27035"": 66.83, ""27097"": 33.17}",Crow Wing|Morrison,27035|27097,FALSE,FALSE,America/Chicago
+56450,46.23341,-93.8361,Garrison,MN,Minnesota,TRUE,,969,14.2,27035,Crow Wing,"{""27035"": 89.16, ""27095"": 10.84}",Crow Wing|Mille Lacs,27035|27095,FALSE,FALSE,America/Chicago
+56452,46.94808,-94.46123,Hackensack,MN,Minnesota,TRUE,,1913,7.7,27021,Cass,"{""27021"": 100}",Cass,27021,FALSE,FALSE,America/Chicago
+56453,46.31374,-95.16161,Hewitt,MN,Minnesota,TRUE,,795,5.8,27111,Otter Tail,"{""27111"": 59.12, ""27153"": 40.88}",Otter Tail|Todd,27111|27153,FALSE,FALSE,America/Chicago
+56455,46.44953,-94.00681,Ironton,MN,Minnesota,TRUE,,1670,26.3,27035,Crow Wing,"{""27035"": 100}",Crow Wing,27035,FALSE,FALSE,America/Chicago
+56458,47.19924,-94.99341,Lake George,MN,Minnesota,TRUE,,344,6.2,27057,Hubbard,"{""27057"": 100}",Hubbard,27057,FALSE,FALSE,America/Chicago
+56461,47.22817,-94.85877,Laporte,MN,Minnesota,TRUE,,3316,4.5,27057,Hubbard,"{""27057"": 97.14, ""27021"": 2.86}",Hubbard|Cass,27057|27021,FALSE,FALSE,America/Chicago
+56464,46.76538,-95.10382,Menahga,MN,Minnesota,TRUE,,5091,7.7,27159,Wadena,"{""27159"": 46.94, ""27005"": 33.56, ""27057"": 14.42, ""27111"": 4.23, ""27021"": 0.86}",Wadena|Becker|Hubbard|Otter Tail|Cass,27159|27005|27057|27111|27021,FALSE,FALSE,America/Chicago
+56465,46.53459,-94.11381,Merrifield,MN,Minnesota,TRUE,,2313,23.2,27035,Crow Wing,"{""27035"": 100}",Crow Wing,27035,FALSE,FALSE,America/Chicago
+56466,46.41522,-94.63137,Motley,MN,Minnesota,TRUE,,3126,6.2,27021,Cass,"{""27021"": 69.91, ""27097"": 19.43, ""27153"": 10.66}",Cass|Morrison|Todd,27021|27097|27153,FALSE,FALSE,America/Chicago
+56467,46.97714,-94.83753,Nevis,MN,Minnesota,TRUE,,2750,8.5,27057,Hubbard,"{""27057"": 100}",Hubbard,27057,FALSE,FALSE,America/Chicago
+56468,46.49141,-94.29856,Nisswa,MN,Minnesota,TRUE,,4367,33.9,27035,Crow Wing,"{""27035"": 61.12, ""27021"": 38.88}",Crow Wing|Cass,27035|27021,FALSE,FALSE,America/Chicago
+56469,46.77701,-93.5463,Palisade,MN,Minnesota,TRUE,,965,1.4,27001,Aitkin,"{""27001"": 100}",Aitkin,27001,FALSE,FALSE,America/Chicago
+56470,47.02368,-95.09433,Park Rapids,MN,Minnesota,TRUE,,10859,11,27057,Hubbard,"{""27057"": 67.13, ""27005"": 22.15, ""27029"": 10.12, ""27159"": 0.6}",Hubbard|Becker|Clearwater|Wadena,27057|27005|27029|27159,FALSE,FALSE,America/Chicago
+56472,46.57507,-94.34884,Pequot Lakes,MN,Minnesota,TRUE,,8764,21.8,27021,Cass,"{""27021"": 54.64, ""27035"": 45.36}",Cass|Crow Wing,27021|27035,FALSE,FALSE,America/Chicago
+56473,46.35649,-94.48355,Pillager,MN,Minnesota,TRUE,,3452,14.8,27021,Cass,"{""27021"": 80.53, ""27097"": 19.47}",Cass|Morrison,27021|27097,FALSE,FALSE,America/Chicago
+56474,46.72238,-94.39597,Pine River,MN,Minnesota,TRUE,,4471,7.5,27021,Cass,"{""27021"": 70.47, ""27035"": 29.53}",Cass|Crow Wing,27021|27035,FALSE,FALSE,America/Chicago
+56475,46.08361,-94.53985,Randall,MN,Minnesota,TRUE,,1674,10.3,27097,Morrison,"{""27097"": 100}",Morrison,27097,FALSE,FALSE,America/Chicago
+56477,46.64363,-94.99653,Sebeka,MN,Minnesota,TRUE,,2498,3.8,27159,Wadena,"{""27159"": 67.55, ""27111"": 21.03, ""27021"": 11.42}",Wadena|Otter Tail|Cass,27159|27111|27021,FALSE,FALSE,America/Chicago
+56479,46.43719,-94.78939,Staples,MN,Minnesota,TRUE,,5018,9.7,27153,Todd,"{""27153"": 36.22, ""27159"": 32.16, ""27021"": 31.62}",Todd|Wadena|Cass,27153|27159|27021,FALSE,FALSE,America/Chicago
+56481,46.46706,-94.93446,Verndale,MN,Minnesota,TRUE,,2333,6.4,27159,Wadena,"{""27159"": 74.19, ""27153"": 18.18, ""27021"": 7.63}",Wadena|Todd|Cass,27159|27153|27021,FALSE,FALSE,America/Chicago
+56482,46.46555,-95.14307,Wadena,MN,Minnesota,TRUE,,7494,21.2,27159,Wadena,"{""27159"": 54.41, ""27111"": 44.49, ""27153"": 1.1}",Wadena|Otter Tail|Todd,27159|27111|27153,FALSE,FALSE,America/Chicago
+56484,47.09744,-94.47416,Walker,MN,Minnesota,TRUE,,3252,13.7,27021,Cass,"{""27021"": 99.7, ""27057"": 0.3}",Cass|Hubbard,27021|27057,FALSE,FALSE,America/Chicago
+56501,46.83665,-95.82233,Detroit Lakes,MN,Minnesota,TRUE,,18239,37.7,27005,Becker,"{""27005"": 92.04, ""27111"": 7.96}",Becker|Otter Tail,27005|27111,FALSE,FALSE,America/Chicago
+56510,47.35811,-96.52316,Ada,MN,Minnesota,TRUE,,2300,3.9,27107,Norman,"{""27107"": 100}",Norman,27107,FALSE,FALSE,America/Chicago
+56511,46.8532,-96.00763,Audubon,MN,Minnesota,TRUE,,1942,11.8,27005,Becker,"{""27005"": 100}",Becker,27005,FALSE,FALSE,America/Chicago
+56514,46.64892,-96.43486,Barnesville,MN,Minnesota,TRUE,,4055,7.4,27027,Clay,"{""27027"": 61.86, ""27167"": 35.7, ""27111"": 2.44}",Clay|Wilkin|Otter Tail,27027|27167|27111,FALSE,FALSE,America/Chicago
+56515,46.29444,-95.708,Battle Lake,MN,Minnesota,TRUE,,2782,11.2,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56516,47.44368,-95.96663,Bejou,MN,Minnesota,TRUE,,307,1.4,27087,Mahnomen,"{""27087"": 88.15, ""27107"": 11.85}",Mahnomen|Norman,27087|27107,FALSE,FALSE,America/Chicago
+56517,47.55474,-96.53825,Beltrami,MN,Minnesota,TRUE,,256,1,27119,Polk,"{""27119"": 95.63, ""27107"": 4.37}",Polk|Norman,27119|27107,FALSE,FALSE,America/Chicago
+56518,46.48926,-95.24506,Bluffton,MN,Minnesota,TRUE,,469,9.8,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56519,47.15914,-96.4877,Borup,MN,Minnesota,TRUE,,309,1.2,27107,Norman,"{""27107"": 60.15, ""27027"": 39.85}",Norman|Clay,27107|27027,FALSE,FALSE,America/Chicago
+56520,46.28645,-96.50361,Breckenridge,MN,Minnesota,TRUE,,3886,11.9,27167,Wilkin,"{""27167"": 100}",Wilkin,27167,FALSE,FALSE,America/Chicago
+56521,46.99691,-95.89783,Callaway,MN,Minnesota,TRUE,,718,4.4,27005,Becker,"{""27005"": 100}",Becker,27005,FALSE,FALSE,America/Chicago
+56522,46.1352,-96.3887,Campbell,MN,Minnesota,TRUE,,540,1.4,27167,Wilkin,"{""27167"": 87.63, ""27111"": 12.37}",Wilkin|Otter Tail,27167|27111,FALSE,FALSE,America/Chicago
+56523,47.63838,-96.80871,Climax,MN,Minnesota,TRUE,,391,1.9,27119,Polk,"{""27119"": 100}",Polk,27119,FALSE,FALSE,America/Chicago
+56524,46.21115,-95.606,Clitherall,MN,Minnesota,TRUE,,709,6.1,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56525,46.6716,-96.75195,Comstock,MN,Minnesota,TRUE,,76,25.1,27027,Clay,"{""27027"": 100}",Clay,27027,FALSE,FALSE,America/Chicago
+56527,46.37383,-95.31806,Deer Creek,MN,Minnesota,TRUE,,875,6.2,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56528,46.53066,-95.80983,Dent,MN,Minnesota,TRUE,,1655,10.3,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56529,46.88027,-96.69754,Dilworth,MN,Minnesota,TRUE,,4664,487.9,27027,Clay,"{""27027"": 100}",Clay,27027,FALSE,FALSE,America/Chicago
+56531,45.98967,-95.98376,Elbow Lake,MN,Minnesota,TRUE,,1948,5,27051,Grant,"{""27051"": 100}",Grant,27051,FALSE,FALSE,America/Chicago
+56533,46.40393,-96.15144,Elizabeth,MN,Minnesota,TRUE,,333,9.2,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56534,46.46325,-96.01431,Erhard,MN,Minnesota,TRUE,,1287,7.7,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56535,47.67541,-96.04611,Erskine,MN,Minnesota,TRUE,,1290,5.6,27119,Polk,"{""27119"": 88.11, ""27125"": 11.89}",Polk|Red Lake,27119|27125,FALSE,FALSE,America/Chicago
+56536,47.04596,-96.53173,Felton,MN,Minnesota,TRUE,,491,2,27027,Clay,"{""27027"": 100}",Clay,27027,FALSE,FALSE,America/Chicago
+56537,46.27697,-96.08977,Fergus Falls,MN,Minnesota,TRUE,,19650,26.8,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56540,47.54255,-96.27671,Fertile,MN,Minnesota,TRUE,,1838,4.1,27119,Polk,"{""27119"": 73.87, ""27107"": 26.13}",Polk|Norman,27119|27107,FALSE,FALSE,America/Chicago
+56541,47.16606,-96.13081,Flom,MN,Minnesota,TRUE,,29,2.8,27107,Norman,"{""27107"": 100}",Norman,27107,FALSE,FALSE,America/Chicago
+56542,47.56679,-95.72331,Fosston,MN,Minnesota,TRUE,,2435,5.2,27119,Polk,"{""27119"": 80.23, ""27087"": 19.77}",Polk|Mahnomen,27119|27087,FALSE,FALSE,America/Chicago
+56543,46.28541,-96.33654,Foxhome,MN,Minnesota,TRUE,,224,1.3,27167,Wilkin,"{""27167"": 100}",Wilkin,27167,FALSE,FALSE,America/Chicago
+56544,46.75894,-95.59693,Frazee,MN,Minnesota,TRUE,,5609,10.9,27005,Becker,"{""27005"": 76.79, ""27111"": 23.21}",Becker|Otter Tail,27005|27111,FALSE,FALSE,America/Chicago
+56545,47.38527,-96.2399,Gary,MN,Minnesota,TRUE,,705,1.8,27107,Norman,"{""27107"": 100}",Norman,27107,FALSE,FALSE,America/Chicago
+56546,47.10107,-96.73038,Georgetown,MN,Minnesota,TRUE,,222,1.4,27027,Clay,"{""27027"": 100}",Clay,27027,FALSE,FALSE,America/Chicago
+56547,46.89068,-96.55043,Glyndon,MN,Minnesota,TRUE,,2879,7.3,27027,Clay,"{""27027"": 100}",Clay,27027,FALSE,FALSE,America/Chicago
+56548,47.37025,-96.75392,Halstad,MN,Minnesota,TRUE,,724,4.1,27107,Norman,"{""27107"": 100}",Norman,27107,FALSE,FALSE,America/Chicago
+56549,46.85287,-96.31285,Hawley,MN,Minnesota,TRUE,,4656,8.7,27027,Clay,"{""27027"": 100}",Clay,27027,FALSE,FALSE,America/Chicago
+56550,47.2697,-96.74867,Hendrum,MN,Minnesota,TRUE,,291,2.3,27107,Norman,"{""27107"": 100}",Norman,27107,FALSE,FALSE,America/Chicago
+56551,46.31856,-95.45081,Henning,MN,Minnesota,TRUE,,2343,8.6,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56552,46.9814,-96.21602,Hitterdal,MN,Minnesota,TRUE,,560,4.7,27027,Clay,"{""27027"": 73.3, ""27005"": 26.7}",Clay|Becker,27027|27005,FALSE,FALSE,America/Chicago
+56553,46.42946,-96.61757,Kent,MN,Minnesota,TRUE,,260,1.6,27167,Wilkin,"{""27167"": 100}",Wilkin,27167,FALSE,FALSE,America/Chicago
+56554,46.88408,-96.11483,Lake Park,MN,Minnesota,TRUE,,2687,9,27005,Becker,"{""27005"": 92.09, ""27027"": 7.91}",Becker|Clay,27005|27027,FALSE,FALSE,America/Chicago
+56556,47.66403,-95.88349,Mcintosh,MN,Minnesota,TRUE,,1298,4.9,27119,Polk,"{""27119"": 100}",Polk,27119,FALSE,FALSE,America/Chicago
+56557,47.32422,-95.837,Mahnomen,MN,Minnesota,TRUE,,2797,4.6,27087,Mahnomen,"{""27087"": 93.42, ""27107"": 3.9, ""27029"": 2.68}",Mahnomen|Norman|Clearwater,27087|27107|27029,FALSE,FALSE,America/Chicago
+56560,46.83637,-96.73467,Moorhead,MN,Minnesota,TRUE,,44156,108.3,27027,Clay,"{""27027"": 98.76, ""27167"": 1.24}",Clay|Wilkin,27027|27167,FALSE,FALSE,America/Chicago
+56562,46.86458,-96.77021,Moorhead,MN,Minnesota,TRUE,,518,2915.5,27027,Clay,"{""27027"": 100}",Clay,27027,FALSE,FALSE,America/Chicago
+56563,46.8668,-96.75522,Moorhead,MN,Minnesota,TRUE,,1338,3327.3,27027,Clay,"{""27027"": 100}",Clay,27027,FALSE,FALSE,America/Chicago
+56565,46.04861,-96.31511,Nashua,MN,Minnesota,TRUE,,126,1.6,27167,Wilkin,"{""27167"": 75.03, ""27051"": 24.97}",Wilkin|Grant,27167|27051,FALSE,FALSE,America/Chicago
+56566,47.24724,-95.61322,Naytahwaush,MN,Minnesota,TRUE,,594,17.3,27087,Mahnomen,"{""27087"": 100}",Mahnomen,27087,FALSE,FALSE,America/Chicago
+56567,46.54896,-95.36707,New York Mills,MN,Minnesota,TRUE,,3247,8.4,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56568,47.5292,-96.77925,Nielsville,MN,Minnesota,TRUE,,106,1.4,27119,Polk,"{""27119"": 93.33, ""27107"": 6.67}",Polk|Norman,27119|27107,FALSE,FALSE,America/Chicago
+56569,47.07482,-95.81956,Ogema,MN,Minnesota,TRUE,,1268,3.1,27005,Becker,"{""27005"": 100}",Becker,27005,FALSE,FALSE,America/Chicago
+56570,46.91051,-95.35552,Osage,MN,Minnesota,TRUE,,1130,4.5,27005,Becker,"{""27005"": 100}",Becker,27005,FALSE,FALSE,America/Chicago
+56571,46.43856,-95.53939,Ottertail,MN,Minnesota,TRUE,,1761,14.7,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56572,46.60485,-96.08682,Pelican Rapids,MN,Minnesota,TRUE,,5900,13.3,27111,Otter Tail,"{""27111"": 92.13, ""27027"": 3.94, ""27005"": 3.43, ""27167"": 0.5}",Otter Tail|Clay|Becker|Wilkin,27111|27027|27005|27167,FALSE,FALSE,America/Chicago
+56573,46.61443,-95.55216,Perham,MN,Minnesota,TRUE,,6868,19.3,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56574,47.20085,-96.70242,Perley,MN,Minnesota,TRUE,,261,1.5,27107,Norman,"{""27107"": 98.56, ""27027"": 1.44}",Norman|Clay,27107|27027,FALSE,FALSE,America/Chicago
+56575,47.03827,-95.43146,Ponsford,MN,Minnesota,TRUE,,647,1.8,27005,Becker,"{""27005"": 100}",Becker,27005,FALSE,FALSE,America/Chicago
+56576,46.47164,-95.70537,Richville,MN,Minnesota,TRUE,,858,8.2,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56578,46.9264,-95.65563,Rochert,MN,Minnesota,TRUE,,648,4.5,27005,Becker,"{""27005"": 100}",Becker,27005,FALSE,FALSE,America/Chicago
+56579,46.4688,-96.34229,Rothsay,MN,Minnesota,TRUE,,1070,2.1,27167,Wilkin,"{""27167"": 73.05, ""27111"": 26.95}",Wilkin|Otter Tail,27167|27111,FALSE,FALSE,America/Chicago
+56580,46.73944,-96.61004,Sabin,MN,Minnesota,TRUE,,1330,8,27027,Clay,"{""27027"": 100}",Clay,27027,FALSE,FALSE,America/Chicago
+56581,47.45725,-96.76141,Shelly,MN,Minnesota,TRUE,,261,2.5,27107,Norman,"{""27107"": 100}",Norman,27107,FALSE,FALSE,America/Chicago
+56583,46.00332,-96.40667,Tintah,MN,Minnesota,TRUE,,163,0.8,27155,Traverse,"{""27155"": 71.7, ""27167"": 28.3}",Traverse|Wilkin,27155|27167,FALSE,FALSE,America/Chicago
+56584,47.23087,-96.23496,Twin Valley,MN,Minnesota,TRUE,,1360,3.9,27107,Norman,"{""27107"": 100}",Norman,27107,FALSE,FALSE,America/Chicago
+56585,47.08896,-96.24492,Ulen,MN,Minnesota,TRUE,,1067,3.3,27027,Clay,"{""27027"": 66.79, ""27005"": 32.43, ""27107"": 0.78}",Clay|Becker|Norman,27027|27005|27107,FALSE,FALSE,America/Chicago
+56586,46.32324,-95.84,Underwood,MN,Minnesota,TRUE,,1798,9.4,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56587,46.63721,-95.8628,Vergas,MN,Minnesota,TRUE,,1299,9.4,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56588,46.22028,-95.5006,Vining,MN,Minnesota,TRUE,,458,3.7,27111,Otter Tail,"{""27111"": 100}",Otter Tail,27111,FALSE,FALSE,America/Chicago
+56589,47.17959,-95.71984,Waubun,MN,Minnesota,TRUE,,1939,3.1,27087,Mahnomen,"{""27087"": 59.89, ""27005"": 26.2, ""27029"": 13.91}",Mahnomen|Becker|Clearwater,27087|27005|27029,FALSE,FALSE,America/Chicago
+56590,46.03514,-96.16093,Wendell,MN,Minnesota,TRUE,,378,1.8,27051,Grant,"{""27051"": 99.4, ""27111"": 0.6}",Grant|Otter Tail,27051|27111,FALSE,FALSE,America/Chicago
+56591,47.09968,-95.84357,White Earth,MN,Minnesota,TRUE,,474,68.2,27005,Becker,"{""27005"": 100}",Becker,27005,FALSE,FALSE,America/Chicago
+56592,47.53542,-96.00769,Winger,MN,Minnesota,TRUE,,572,3.7,27119,Polk,"{""27119"": 89.96, ""27087"": 10.04}",Polk|Mahnomen,27119|27087,FALSE,FALSE,America/Chicago
+56594,46.54906,-96.64493,Wolverton,MN,Minnesota,TRUE,,429,1.8,27167,Wilkin,"{""27167"": 100}",Wilkin,27167,FALSE,FALSE,America/Chicago
+56601,47.50985,-94.84921,Bemidji,MN,Minnesota,TRUE,,34700,36.1,27007,Beltrami,"{""27007"": 83.98, ""27057"": 16.02}",Beltrami|Hubbard,27007|27057,FALSE,FALSE,America/Chicago
+56621,47.40975,-95.41597,Bagley,MN,Minnesota,TRUE,,4355,5.2,27029,Clearwater,"{""27029"": 98.02, ""27119"": 1.69, ""27087"": 0.29}",Clearwater|Polk|Mahnomen,27029|27119|27087,FALSE,FALSE,America/Chicago
+56623,48.59722,-94.56913,Baudette,MN,Minnesota,TRUE,,2684,2.3,27077,Lake of the Woods,"{""27077"": 82.75, ""27071"": 17.25}",Lake of the Woods|Koochiching,27077|27071,FALSE,FALSE,America/Chicago
+56626,47.36404,-94.18421,Bena,MN,Minnesota,TRUE,,251,1.1,27021,Cass,"{""27021"": 100}",Cass,27021,FALSE,FALSE,America/Chicago
+56627,48.1953,-94.04118,Big Falls,MN,Minnesota,TRUE,,215,0.1,27071,Koochiching,"{""27071"": 100}",Koochiching,27071,FALSE,FALSE,America/Chicago
+56628,47.69575,-93.5215,Bigfork,MN,Minnesota,TRUE,,1649,1.9,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+56629,48.51494,-94.12546,Birchdale,MN,Minnesota,TRUE,,220,0.3,27071,Koochiching,"{""27071"": 100}",Koochiching,27071,FALSE,FALSE,America/Chicago
+56630,47.74432,-94.49852,Blackduck,MN,Minnesota,TRUE,,2081,2.6,27007,Beltrami,"{""27007"": 71.07, ""27061"": 28.93}",Beltrami|Itasca,27007|27061,FALSE,FALSE,America/Chicago
+56633,47.31957,-94.50911,Cass Lake,MN,Minnesota,TRUE,,4863,8.7,27021,Cass,"{""27021"": 80.27, ""27007"": 13.57, ""27057"": 6.16}",Cass|Beltrami|Hubbard,27021|27007|27057,FALSE,FALSE,America/Chicago
+56634,47.68577,-95.40169,Clearbrook,MN,Minnesota,TRUE,,1786,5.7,27029,Clearwater,"{""27029"": 100}",Clearwater,27029,FALSE,FALSE,America/Chicago
+56636,47.40283,-93.86518,Deer River,MN,Minnesota,TRUE,,4679,4.1,27061,Itasca,"{""27061"": 74.49, ""27021"": 25.51}",Itasca|Cass,27061|27021,FALSE,FALSE,America/Chicago
+56637,47.61872,-93.83941,Talmoon,MN,Minnesota,TRUE,,182,2.7,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+56639,47.90275,-93.53399,Effie,MN,Minnesota,TRUE,,393,0.5,27061,Itasca,"{""27061"": 52.82, ""27071"": 47.18}",Itasca|Koochiching,27061|27071,FALSE,FALSE,America/Chicago
+56641,47.19848,-94.25804,Federal Dam,MN,Minnesota,TRUE,,359,4.4,27021,Cass,"{""27021"": 100}",Cass,27021,FALSE,FALSE,America/Chicago
+56644,47.78095,-95.51263,Gonvick,MN,Minnesota,TRUE,,746,2.9,27029,Clearwater,"{""27029"": 95.07, ""27119"": 4.93}",Clearwater|Polk,27029|27119,FALSE,FALSE,America/Chicago
+56646,47.78925,-95.62865,Gully,MN,Minnesota,TRUE,,343,1.8,27119,Polk,"{""27119"": 91.61, ""27029"": 8.39}",Polk|Clearwater,27119|27029,FALSE,FALSE,America/Chicago
+56647,47.68782,-94.62187,Hines,MN,Minnesota,TRUE,,759,3.8,27007,Beltrami,"{""27007"": 100}",Beltrami,27007,FALSE,FALSE,America/Chicago
+56649,48.53122,-93.13224,International Falls,MN,Minnesota,TRUE,,8895,12,27071,Koochiching,"{""27071"": 54.86, ""27137"": 45.14}",Koochiching|St. Louis,27071|27137,FALSE,FALSE,America/Chicago
+56650,47.9979,-94.56351,Kelliher,MN,Minnesota,TRUE,,932,2,27007,Beltrami,"{""27007"": 100}",Beltrami,27007,FALSE,FALSE,America/Chicago
+56651,47.43883,-95.6172,Lengby,MN,Minnesota,TRUE,,638,3.5,27087,Mahnomen,"{""27087"": 82.59, ""27119"": 17.41}",Mahnomen|Polk,27087|27119,FALSE,FALSE,America/Chicago
+56652,47.71104,-95.23721,Leonard,MN,Minnesota,TRUE,,413,2.4,27029,Clearwater,"{""27029"": 88.41, ""27007"": 11.59}",Clearwater|Beltrami,27029|27007,FALSE,FALSE,America/Chicago
+56653,48.28327,-93.58558,Littlefork,MN,Minnesota,TRUE,,1226,1,27071,Koochiching,"{""27071"": 100}",Koochiching,27071,FALSE,FALSE,America/Chicago
+56654,48.47285,-93.94153,Loman,MN,Minnesota,TRUE,,92,0.3,27071,Koochiching,"{""27071"": 100}",Koochiching,27071,FALSE,FALSE,America/Chicago
+56655,46.98292,-94.23014,Longville,MN,Minnesota,TRUE,,1328,5.4,27021,Cass,"{""27021"": 100}",Cass,27021,FALSE,FALSE,America/Chicago
+56657,47.57237,-93.61544,Marcell,MN,Minnesota,TRUE,,248,1.8,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+56658,48.11248,-93.93302,Margie,MN,Minnesota,TRUE,,0,0,27071,Koochiching,"{""27071"": 100}",Koochiching,27071,FALSE,FALSE,America/Chicago
+56659,47.62116,-94.01899,Max,MN,Minnesota,TRUE,,104,1.2,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+56660,47.96653,-94.17022,Mizpah,MN,Minnesota,TRUE,,265,0.8,27071,Koochiching,"{""27071"": 100}",Koochiching,27071,FALSE,FALSE,America/Chicago
+56661,47.84302,-94.13856,Northome,MN,Minnesota,TRUE,,911,0.9,27071,Koochiching,"{""27071"": 49.62, ""27061"": 43.97, ""27007"": 6.41}",Koochiching|Itasca|Beltrami,27071|27061|27007,FALSE,FALSE,America/Chicago
+56662,46.84524,-93.89926,Outing,MN,Minnesota,TRUE,,574,3.6,27021,Cass,"{""27021"": 100}",Cass,27021,FALSE,FALSE,America/Chicago
+56663,47.49997,-94.45431,Pennington,MN,Minnesota,TRUE,,262,2.5,27007,Beltrami,"{""27007"": 100}",Beltrami,27007,FALSE,FALSE,America/Chicago
+56666,48.03391,-94.8365,Ponemah,MN,Minnesota,TRUE,,1092,9.9,27007,Beltrami,"{""27007"": 100}",Beltrami,27007,FALSE,FALSE,America/Chicago
+56667,47.73569,-94.94199,Puposky,MN,Minnesota,TRUE,,824,3.3,27007,Beltrami,"{""27007"": 100}",Beltrami,27007,FALSE,FALSE,America/Chicago
+56668,48.61454,-93.3467,Ranier,MN,Minnesota,TRUE,,227,427.9,27071,Koochiching,"{""27071"": 100}",Koochiching,27071,FALSE,FALSE,America/Winnipeg
+56669,48.37718,-93.22655,Kabetogama,MN,Minnesota,TRUE,,234,0.4,27071,Koochiching,"{""27071"": 86.14, ""27137"": 13.86}",Koochiching|St. Louis,27071|27137,FALSE,FALSE,America/Chicago
+56670,47.85001,-94.86912,Redby,MN,Minnesota,TRUE,,1182,16.2,27007,Beltrami,"{""27007"": 100}",Beltrami,27007,FALSE,FALSE,America/Chicago
+56671,47.94006,-95.31791,Red Lake,MN,Minnesota,TRUE,,3139,3.8,27029,Clearwater,"{""27029"": 58.14, ""27007"": 41.86}",Clearwater|Beltrami,27029|27007,FALSE,FALSE,America/Chicago
+56672,47.0734,-94.02267,Remer,MN,Minnesota,TRUE,,1955,1.9,27021,Cass,"{""27021"": 100}",Cass,27021,FALSE,FALSE,America/Chicago
+56673,48.74365,-95.13896,Roosevelt,MN,Minnesota,TRUE,,608,1.2,27077,Lake of the Woods,"{""27077"": 81.2, ""27135"": 18.8}",Lake of the Woods|Roseau,27077|27135,FALSE,FALSE,America/Chicago
+56676,47.52188,-95.19877,Shevlin,MN,Minnesota,TRUE,,1812,3.2,27029,Clearwater,"{""27029"": 61.51, ""27007"": 38.49}",Clearwater|Beltrami,27029|27007,FALSE,FALSE,America/Chicago
+56678,47.4298,-95.11768,Solway,MN,Minnesota,TRUE,,1708,5.2,27007,Beltrami,"{""27007"": 52.43, ""27057"": 43.0, ""27029"": 4.57}",Beltrami|Hubbard|Clearwater,27007|27057|27029,FALSE,FALSE,America/Chicago
+56680,47.6456,-93.96124,Spring Lake,MN,Minnesota,TRUE,,116,2,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+56681,47.5488,-94.25132,Squaw Lake,MN,Minnesota,TRUE,,294,0.7,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+56683,47.72124,-94.7512,Tenstrike,MN,Minnesota,TRUE,,609,4,27007,Beltrami,"{""27007"": 100}",Beltrami,27007,FALSE,FALSE,America/Chicago
+56684,47.87109,-95.70401,Trail,MN,Minnesota,TRUE,,304,0.9,27119,Polk,"{""27119"": 62.13, ""27113"": 33.0, ""27125"": 4.87}",Polk|Pennington|Red Lake,27119|27113|27125,FALSE,FALSE,America/Chicago
+56685,48.23841,-94.51997,Waskish,MN,Minnesota,TRUE,,86,0.3,27007,Beltrami,"{""27007"": 99.84, ""27071"": 0.16}",Beltrami|Koochiching,27007|27071,FALSE,FALSE,America/Chicago
+56686,48.78595,-94.91001,Williams,MN,Minnesota,TRUE,,962,2,27077,Lake of the Woods,"{""27077"": 100}",Lake of the Woods,27077,FALSE,FALSE,America/Chicago
+56688,47.7699,-93.89172,Wirt,MN,Minnesota,TRUE,,93,0.4,27061,Itasca,"{""27061"": 100}",Itasca,27061,FALSE,FALSE,America/Chicago
+56701,48.12021,-96.1994,Thief River Falls,MN,Minnesota,TRUE,,12814,12.9,27113,Pennington,"{""27113"": 74.39, ""27089"": 23.77, ""27119"": 1.84}",Pennington|Marshall|Polk,27113|27089|27119,FALSE,FALSE,America/Chicago
+56710,48.2182,-96.99776,Alvarado,MN,Minnesota,TRUE,,460,4,27089,Marshall,"{""27089"": 81.42, ""27119"": 18.58}",Marshall|Polk,27089|27119,FALSE,FALSE,America/Chicago
+56711,49.09907,-94.97591,Angle Inlet,MN,Minnesota,TRUE,,66,0.2,27077,Lake of the Woods,"{""27077"": 100}",Lake of the Woods,27077,FALSE,FALSE,America/Chicago
+56713,48.3487,-96.81717,Argyle,MN,Minnesota,TRUE,,866,1.8,27089,Marshall,"{""27089"": 100}",Marshall,27089,FALSE,FALSE,America/Chicago
+56714,48.78845,-96.00529,Badger,MN,Minnesota,TRUE,,1115,2.1,27135,Roseau,"{""27135"": 100}",Roseau,27135,FALSE,FALSE,America/Chicago
+56715,47.80636,-95.94904,Brooks,MN,Minnesota,TRUE,,331,2.2,27125,Red Lake,"{""27125"": 95.85, ""27119"": 4.15}",Red Lake|Polk,27125|27119,FALSE,FALSE,America/Chicago
+56716,47.74189,-96.55522,Crookston,MN,Minnesota,TRUE,,8991,10.7,27119,Polk,"{""27119"": 98.5, ""27125"": 1.5}",Polk|Red Lake,27119|27125,FALSE,FALSE,America/Chicago
+56720,48.56788,-96.90632,Donaldson,MN,Minnesota,TRUE,,7,0.3,27069,Kittson,"{""27069"": 100}",Kittson,27069,FALSE,FALSE,America/Chicago
+56721,47.97108,-96.94336,East Grand Forks,MN,Minnesota,TRUE,,10791,21.7,27119,Polk,"{""27119"": 100}",Polk,27119,FALSE,FALSE,America/Chicago
+56722,47.9825,-96.64644,Euclid,MN,Minnesota,TRUE,,351,1,27119,Polk,"{""27119"": 100}",Polk,27119,FALSE,FALSE,America/Chicago
+56723,47.80493,-96.8059,Fisher,MN,Minnesota,TRUE,,912,2.9,27119,Polk,"{""27119"": 100}",Polk,27119,FALSE,FALSE,America/Chicago
+56724,48.44534,-95.73473,Gatzke,MN,Minnesota,TRUE,,111,0.3,27089,Marshall,"{""27089"": 98.38, ""27135"": 1.62}",Marshall|Roseau,27089|27135,FALSE,FALSE,America/Chicago
+56725,48.1477,-95.70485,Goodridge,MN,Minnesota,TRUE,,925,0.9,27113,Pennington,"{""27113"": 42.41, ""27089"": 30.14, ""27007"": 27.45}",Pennington|Marshall|Beltrami,27113|27089|27007,FALSE,FALSE,America/Chicago
+56726,48.7258,-96.22712,Greenbush,MN,Minnesota,TRUE,,1576,2.3,27135,Roseau,"{""27135"": 100}",Roseau,27135,FALSE,FALSE,America/Chicago
+56727,48.34945,-95.38946,Grygla,MN,Minnesota,TRUE,,879,0.5,27007,Beltrami,"{""27007"": 85.35, ""27089"": 14.65}",Beltrami|Marshall,27007|27089,FALSE,FALSE,America/Chicago
+56728,48.78736,-96.99149,Hallock,MN,Minnesota,TRUE,,1149,2.3,27069,Kittson,"{""27069"": 100}",Kittson,27069,FALSE,FALSE,America/Chicago
+56729,48.66558,-96.59438,Halma,MN,Minnesota,TRUE,,123,1.1,27069,Kittson,"{""27069"": 100}",Kittson,27069,FALSE,FALSE,America/Chicago
+56731,48.90771,-97.07475,Humboldt,MN,Minnesota,TRUE,,126,1.3,27069,Kittson,"{""27069"": 100}",Kittson,27069,FALSE,FALSE,America/Chicago
+56732,48.5863,-96.49276,Karlstad,MN,Minnesota,TRUE,,978,2.3,27069,Kittson,"{""27069"": 70.59, ""27089"": 18.09, ""27135"": 11.32}",Kittson|Marshall|Roseau,27069|27089|27135,FALSE,FALSE,America/Chicago
+56733,48.63342,-96.89149,Kennedy,MN,Minnesota,TRUE,,381,1,27069,Kittson,"{""27069"": 100}",Kittson,27069,FALSE,FALSE,America/Chicago
+56734,48.76776,-96.58134,Lake Bronson,MN,Minnesota,TRUE,,615,1.4,27069,Kittson,"{""27069"": 100}",Kittson,27069,FALSE,FALSE,America/Chicago
+56735,48.91328,-96.63659,Lancaster,MN,Minnesota,TRUE,,658,0.7,27069,Kittson,"{""27069"": 81.23, ""27135"": 18.77}",Kittson|Roseau,27069|27135,FALSE,FALSE,America/Chicago
+56736,47.71212,-96.20567,Mentor,MN,Minnesota,TRUE,,670,2.3,27119,Polk,"{""27119"": 84.95, ""27125"": 15.05}",Polk|Red Lake,27119|27125,FALSE,FALSE,America/Chicago
+56737,48.41144,-96.01081,Middle River,MN,Minnesota,TRUE,,759,1.2,27089,Marshall,"{""27089"": 100}",Marshall,27089,FALSE,FALSE,America/Chicago
+56738,48.34448,-96.33456,Newfolden,MN,Minnesota,TRUE,,1407,3,27089,Marshall,"{""27089"": 100}",Marshall,27089,FALSE,FALSE,America/Chicago
+56742,47.92728,-95.82076,Oklee,MN,Minnesota,TRUE,,806,2.8,27125,Red Lake,"{""27125"": 68.8, ""27113"": 27.15, ""27119"": 4.05}",Red Lake|Pennington|Polk,27125|27113|27119,FALSE,FALSE,America/Chicago
+56744,48.23456,-97.1089,Oslo,MN,Minnesota,TRUE,,572,2.3,27089,Marshall,"{""27089"": 49.96, ""27119"": 23.26, ""38099"": 23.11, ""38035"": 3.67}",Marshall|Polk|Walsh|Grand Forks,27089|27119|38099|38035,FALSE,FALSE,America/Chicago
+56748,47.92066,-96.00743,Plummer,MN,Minnesota,TRUE,,664,2.9,27125,Red Lake,"{""27125"": 80.5, ""27113"": 19.5}",Red Lake|Pennington,27125|27113,FALSE,FALSE,America/Chicago
+56750,47.89027,-96.30172,Red Lake Falls,MN,Minnesota,TRUE,,2280,3.7,27125,Red Lake,"{""27125"": 79.33, ""27113"": 13.89, ""27119"": 6.78}",Red Lake|Pennington|Polk,27125|27113|27119,FALSE,FALSE,America/Chicago
+56751,48.80929,-95.76035,Roseau,MN,Minnesota,TRUE,,5776,4.7,27135,Roseau,"{""27135"": 100}",Roseau,27135,FALSE,FALSE,America/Chicago
+56754,47.99065,-96.18199,Saint Hilaire,MN,Minnesota,TRUE,,495,5,27113,Pennington,"{""27113"": 91.0, ""27125"": 9.0}",Pennington|Red Lake,27113|27125,FALSE,FALSE,America/Chicago
+56755,48.97141,-97.1152,Saint Vincent,MN,Minnesota,TRUE,,75,0.6,27069,Kittson,"{""27069"": 100}",Kittson,27069,FALSE,FALSE,America/Chicago
+56756,48.90302,-95.56388,Salol,MN,Minnesota,TRUE,,614,1.8,27135,Roseau,"{""27135"": 100}",Roseau,27135,FALSE,FALSE,America/Chicago
+56757,48.47641,-96.90596,Stephen,MN,Minnesota,TRUE,,845,1.4,27089,Marshall,"{""27089"": 94.96, ""27069"": 5.04}",Marshall|Kittson,27089|27069,FALSE,FALSE,America/Chicago
+56758,48.46201,-96.51891,Strandquist,MN,Minnesota,TRUE,,351,1.3,27089,Marshall,"{""27089"": 100}",Marshall,27089,FALSE,FALSE,America/Chicago
+56759,48.55188,-96.08011,Strathcona,MN,Minnesota,TRUE,,363,0.8,27135,Roseau,"{""27135"": 63.75, ""27089"": 36.25}",Roseau|Marshall,27135|27089,FALSE,FALSE,America/Chicago
+56760,48.24037,-96.44586,Viking,MN,Minnesota,TRUE,,412,1.9,27089,Marshall,"{""27089"": 100}",Marshall,27089,FALSE,FALSE,America/Chicago
+56761,48.60862,-95.69725,Wannaska,MN,Minnesota,TRUE,,431,1.7,27135,Roseau,"{""27135"": 100}",Roseau,27135,FALSE,FALSE,America/Chicago
+56762,48.1688,-96.7415,Warren,MN,Minnesota,TRUE,,2337,2.7,27119,Polk,"{""27119"": 51.75, ""27089"": 48.25}",Polk|Marshall,27119|27089,FALSE,FALSE,America/Chicago
+56763,48.80879,-95.34167,Warroad,MN,Minnesota,TRUE,,5161,7.6,27135,Roseau,"{""27135"": 100}",Roseau,27135,FALSE,FALSE,America/Chicago
