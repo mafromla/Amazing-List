@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details - Amazing List</title>
+  <link rel="stylesheet" href="../CSS/productlisting.css">
+  <script src="../Script/script.js"></script>
+</head>
+<body>
+
+  <!-- HEADER (Assume you reuse your global header code) -->
+  <header class="site-header">
+    <div class="header-wrapper">
+      <div class="logo">
+        <a href="index.html">Amazing List</a>
+      </div>
+      <nav id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="buypage.html">Buy</a></li>
+          <li><a href="tradepage.html">Trade</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" onclick="toggleDropdownMenu()">Pages ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="my-listings.html">My Listings</a></li>
+              <li><a href="profile.html">Profile</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- User Profile Dropdown -->
+      <div class="user-profile-dropdown" id="userDropdown">
+        <button class="user-btn" type="button" onclick="toggleProfileMenu()">User ▾</button>
+        <ul class="profile-menu" id="profileMenu">
+          <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="logout.html">Logout</a></li>
+        </ul>
+      </div>
+
+      <!-- + Add Listing Button -->
+      <button class="add-listing-btn" type="button">+ Add Listing</button>
+    </div>
+  </header>
+
+  <!-- Begin Product Details Content -->
+  <div class="product-details">
+
+    <!-- Gallery Section -->
+    <div class="product-gallery">
+      <!-- Main Image -->
+      <img src="../Images/Macbook pro.jpg" alt="Main Product Image" class="main-image">
+
+      <!-- Thumbnail Images -->
+      <div class="thumbnail-images">
+        <img src="../Images/Macbook pro.jpg" alt="Thumbnail 1">
+        <img src="../Images/Macbook pro.jpg" alt="Thumbnail 2">
+        <img src="../Images/Macbook pro.jpg" alt="Thumbnail 3">
+        <img src="../Images/Macbook pro.jpg" alt="Thumbnail 4">
+      </div>
+    </div>
+
+    <!-- Product Info Section -->
+    <div class="product-info">
+      <h1 class="product-title">Apple MacBook Pro 15" with the M2 chip.</h1>
+      <p class="product-price">$400 / mo</p>
+      <ul class="product-specs">
+        <li>Condition: Used</li>
+      </ul>
+      <p class="seller-info">
+        Seller: <a href="#">User 1</a>
+      </p>
+      <p class="product-description">
+        Hey! Selling my Apple MacBook Pro 15" with the M2 chip. It's in good condition, has a really nice screen, and runs super fast! Perfect for work or personal use. Located in Minneapolis, MN. It's been a great laptop, but I’m just upgrading. Asking $1200. DM me if ur interested!
+
+    </p>
+    </div>
+
+    <!-- Reviews & Ratings Section -->
+    <div class="reviews-section">
+      <!-- Average Rating -->
+      <div class="average-rating">
+        Average Rating: 4.5 ★ (2 reviews)
+      </div>
+
+      <!-- List of Reviews -->
+      <div class="reviews-list">
+        <div class="review">
+          <div class="review-header">
+            <span>Jason Asano - 01/17/2025</span>
+            <span>★★★★★</span>
+          </div>
+          <div class="review-body">
+            I got a great deal on a barely-used Tablet from this seller, super happy with my purchase!          </div>
+        </div>
+        <div class="review">
+          <div class="review-header">
+            <span>Tim Hinton - 2/08/2025</span>
+            <span>★★★★☆</span>
+          </div>
+          <div class="review-body">
+            Sold me a good phone but was hard to get in contact with.
+          </div>
+        </div>
+      </div>
+
+      <!-- Add a Review Form -->
+      <div class="review-form">
+        <h3>Write a Review</h3>
+        <form action="#" method="POST">
+          <textarea name="review" placeholder="Write your review here..." required></textarea>
+          <input type="number" name="rating" placeholder="Rating (1-5)" min="1" max="5" required>
+          <button type="submit">Submit Review</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Login Modal (initially hidden) -->
+  <div id="loginModal" class="modal-overlay">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2>Sign In</h2>
+      <form class="login-form" onsubmit="return false;">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="example@email.com">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="********">
+
+        <div class="login-options">
+          <label class="remember-me">
+            <input type="checkbox"> Remember me
+          </label>
+          <a href="#" class="forgot-link">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="login-submit-btn">Log In</button>
+
+        <p class="signup-prompt">
+          Don't have an account? <a href="register.html">Sign Up</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER (Reused) -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>Amazing List</h2>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <p>Follow us:</p>
+        <ul class="social-links">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <p>Subscribe to our newsletter:</p>
+        <form action="#" method="POST">
+          <input type="email" name="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Amazing List. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
