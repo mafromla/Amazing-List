@@ -53,47 +53,57 @@
     font-weight: bold;
     color: var(--white);
   }
-  .mobile-toggle {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    color: var(--white);
-    cursor: pointer;
-  }
-  #mainNav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-  }
-  #mainNav a {
-    color: var(--white);
-    padding: 0.5rem 0.75rem;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-  }
-  #mainNav a:hover {
-    background-color: var(--hover-bg);
-  }
-  .dropdown {
-    position: relative;
-  }
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: var(--sky-blue);
-    list-style: none;
-    padding: 0.5rem 0;
-    min-width: 150px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    z-index: 1000; /* Higher than the hero image */
-  }
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
+  
+	/* Navigation Styles */
+
+	nav {
+	  display: table; /* shrink-to-fit */
+	  margin: 0 auto; /* centers the nav in its container */
+	}
+
+	nav ul {
+	  list-style: none;
+	  display: flex;
+	  align-items: center;
+	}
+
+	nav li {
+	  position: relative;
+	}
+
+	nav a {
+	  display: block;
+	  padding: 0.5rem 1rem;
+	  text-decoration: none;
+	  color: var(--white);
+	  transition: background-color 0.3s ease;
+	}
+
+	nav a:hover {
+	  background-color: var(--hover-bg);
+	}
+	/* Dropdown Menu Styles */
+	.dropdown-menu {
+	  display: none; /* Hidden by default */
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	  background-color: var(--sky-blue);
+	  list-style: none;
+	  padding: 0.5rem 0;
+	  min-width: 150px;
+	  border-radius: 4px;
+	  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	  z-index: 1000;
+	}
+
+	.dropdown:hover .dropdown-menu {
+	  display: block;
+	}
+
+	.dropdown-menu li a {
+	  padding: 0.5rem 1rem;
+	}
   .user-profile-dropdown {
     position: relative;
     margin-left: 1rem;
@@ -116,24 +126,7 @@
     font-weight: 600;
     margin-left: 1rem;
   }
-  @media (max-width: 768px) {
-    .mobile-toggle {
-      display: block;
-    }
-    #mainNav {
-      display: none;
-      flex-direction: column;
-      background-color: var(--sky-blue);
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      padding: 1rem 0;
-    }
-    #mainNav ul {
-      flex-direction: column;
-    }
-  }
+
   
   /* -----------------------------------------
      HERO SECTION
