@@ -9,13 +9,12 @@
 </head>
 <body>
 
-  <!-- HEADER (Assume you reuse your global header code) -->
+  <!-- HEADER (Reused) -->
   <header class="site-header">
     <div class="header-wrapper">
       <div class="logo">
         <a href="index.html">Amazing List</a>
       </div>
-      <button class="mobile-toggle" type="button" onclick="toggleMenu()">☰</button>
       <nav id="mainNav">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -312,17 +311,6 @@
       <p>&copy; 2025 Amazing List. All rights reserved.</p>
     </div>
   </footer>
-
-  <!-- Simple Mobile Menu Toggle Script -->
-  <script>
-    function toggleMenu() {
-      const nav = document.getElementById('mainNav');
-      if (nav.style.display === 'flex') {
-        nav.style.display = 'none';
-      } else {
-        nav.style.display = 'flex';
-      }
-    }
-  </script>
+  
 </body>
 </html>

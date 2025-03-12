@@ -10,29 +10,27 @@
 </head>
 <body>
 
-    <header class="site-header">
-        <div class="header-wrapper">
+  <!-- HEADER (Reused) -->
 
-          <!-- Logo -->
-          <div class="logo">
-            <a href="index.html">Amazing List</a>
-          </div>
-
-          <!-- Navigation Links -->
-          <nav class="nav-links" id="primaryNav">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="buypage.html">Buy</a></li>
-              <li><a href="tradepage.html">Trade</a></li>
-              <li class="dropdown">
-                <a href="javascript:void(0)">Pages ▾</a>
-                <ul class="dropdown-menu">
-                  <li><a href="my-listings.html">My Listings</a></li>
-                  <li><a href="profile.html">Profile</a></li>
-                </ul>
-              </li>
+  <header class="site-header">
+    <div class="header-wrapper">
+      <div class="logo">
+        <a href="index.html">Amazing List</a>
+      </div>
+      <nav id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="buypage.html">Buy</a></li>
+          <li><a href="tradepage.html">Trade</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" onclick="toggleDropdownMenu()">Pages ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="my-listings.html">My Listings</a></li>
+              <li><a href="profile.html">Profile</a></li>
             </ul>
-          </nav>
+          </li>
+        </ul>
+      </nav>
 
           <!-- User Profile Dropdown -->
           <div class="user-profile-dropdown" id="userDropdown">
@@ -93,7 +91,7 @@
         </form>
       </div>
 
-  <!-- Login Modal (initially hidden) -->
+  <!-- Login Modal (initially hidden(Reused)) -->
   <div id="loginModal" class="modal-overlay">
     <div class="modal-content">
       <span class="close-btn" onclick="closeModal()">&times;</span>
@@ -120,6 +118,9 @@
       </form>
     </div>
   </div>
+  
+  
+  <!-- FOOTER (Reused) -->
 
   <footer class="site-footer">
     <div class="footer-content">

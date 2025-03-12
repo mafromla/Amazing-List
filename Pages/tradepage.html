@@ -9,13 +9,12 @@
 </head>
 <body>
 
-  <!-- HEADER (Assume you reuse your global header code) -->
+  <!-- HEADER (Reused) -->
   <header class="site-header">
     <div class="header-wrapper">
       <div class="logo">
         <a href="index.html">Amazing List</a>
       </div>
-      <button class="mobile-toggle" type="button" onclick="toggleMenu()">☰</button>
       <nav id="mainNav">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -46,7 +45,7 @@
     </div>
   </header>
 
-  <!-- HERO SECTION with image link -->
+  <!-- HERO SECTION with image link (Reused) -->
   <section class="hero-section">
     <div class="hero-content">
       <h1>Trade Items</h1>
@@ -54,7 +53,7 @@
     </div>
   </section>
 
-  <!-- SEARCH BAR SECTION -->
+  <!-- SEARCH BAR SECTION (Reused)-->
   <section class="search-bar-section">
     <div class="search-bar-container">
       <input type="text" placeholder="Keywords" aria-label="Keywords">
@@ -160,7 +159,7 @@
     </section>
   </div>
 
-  <!-- Login Modal (initially hidden) -->
+  <!-- Login Modal (initially hidden (Reused)) -->
   <div id="loginModal" class="modal-overlay">
     <div class="modal-content">
       <span class="close-btn" onclick="closeModal()">&times;</span>
@@ -224,16 +223,6 @@
     </div>
   </footer>
 
-  <!-- Simple Mobile Menu Toggle Script -->
-  <script>
-    function toggleMenu() {
-      const nav = document.getElementById('mainNav');
-      if (nav.style.display === 'flex') {
-        nav.style.display = 'none';
-      } else {
-        nav.style.display = 'flex';
-      }
-    }
-  </script>
+
 </body>
 </html>
