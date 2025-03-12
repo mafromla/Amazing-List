@@ -20,7 +20,11 @@ body {
   background-color: var(--white);
   line-height: 1.5;
 }
-
+ }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 /*         HEADER STYLES        */
 .site-header {
   background-color: var(--sky-blue);
@@ -62,59 +66,57 @@ body {
   cursor: pointer;
 }
 
-/* Navigation Links */
-.nav-links {
-  display: flex;
-  position: relative;
-}
-.nav-links ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-.nav-links li {
-  position: relative;
-}
-.nav-links a {
-  text-decoration: none;
-  color: var(--white);
-  font-weight: 500;
-  padding: 0.5rem 0.75rem;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-.nav-links a:hover {
-  background-color: var(--hover-bg);
-}
+	/* Navigation Styles */
+	nav {
+	  display: table; /* shrink-to-fit */
+	  margin: 0 auto; /* centers the nav in its container */
+	}
 
-/* Pages Dropdown */
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  top: calc(var(--header-height));
-  left: 0;
-  background-color: var(--sky-blue);
-  list-style: none;
-  padding: 0.5rem 0;
-  margin: 0;
-  min-width: 150px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  z-index: 999;
-}
-.dropdown-menu li {
-  margin: 0;
-}
-.dropdown-menu a {
-  display: block;
-  padding: 0.5rem 1rem;
-}
-.dropdown-menu a:hover {
-  background-color: var(--hover-bg);
-}
-.dropdown:hover .dropdown-menu {
-  display: block; /* Show on hover for desktop */
-}
+	nav ul {
+	  list-style: none;
+	  display: flex;
+	  align-items: center;
+	}
+
+	nav li {
+	  position: relative;
+	}
+
+	nav a {
+	  display: block;
+	  padding: 0.5rem 1rem;
+	  text-decoration: none;
+	  color: var(--white);
+	  transition: background-color 0.3s ease;
+	}
+
+	nav a:hover {
+	  background-color: var(--hover-bg);
+	}
+
+
+	/* Dropdown Menu Styles */
+	.dropdown-menu {
+	  display: none; /* Hidden by default */
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	  background-color: var(--sky-blue);
+	  list-style: none;
+	  padding: 0.5rem 0;
+	  min-width: 150px;
+	  border-radius: 4px;
+	  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	  z-index: 1000;
+	}
+
+	.dropdown:hover .dropdown-menu {
+	  display: block;
+	}
+
+	.dropdown-menu li a {
+	  padding: 0.5rem 1rem;
+	}
 
 /* User Profile Dropdown (Sign In button) */
 .user-profile-dropdown {
