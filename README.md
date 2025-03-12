@@ -1,3 +1,4 @@
+![amazing-list-LOGO](https://github.com/user-attachments/assets/4a91a6f7-145a-40d9-839a-4498bdb3951d)
 # Amazing List  
 
 A simple website for **buying, selling, and trading items**. This README outlines the folder structure, file purposes, setup instructions, and development guidelines.  
