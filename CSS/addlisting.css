@@ -1,0 +1,126 @@
+/* Root Colors & Global Font */
+:root {
+  --white: #ffffff;
+  --sky-blue: #8DBDFF;
+  --sky-blue-dark: #6CAAFB;
+  --text-color: #333;
+  --hover-bg: rgba(255, 255, 255, 0.2);
+  --light-gray: #f9f9f9;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Match the font from profile.css */
+  color: var(--text-color); /* Use the same text color */
+  background-color: var(--light-gray); /* Light background for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Layout */
+.add-listing-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  background-color: var(--light-gray); /* Light background for contrast */
+}
+
+/* Form Container */
+.add-listing-form {
+  width: 100%;
+  max-width: 600px;
+  background: var(--white);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly darker shadow */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between form elements */
+}
+
+/* Form Title */
+.add-listing-form h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  border-left: 4px solid var(--sky-blue-dark);
+  padding-left: 12px;
+}
+
+/* Labels */
+.add-listing-form label {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+.add-listing-form input,
+.add-listing-form select,
+.add-listing-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: var(--white);
+  font-family: inherit; /* Inherit font from body */
+  transition: border-color 0.2s ease;
+}
+
+.add-listing-form input:focus,
+.add-listing-form select:focus,
+.add-listing-form textarea:focus {
+  border-color: var(--sky-blue-dark);
+  outline: none;
+}
+
+/* Textarea */
+.add-listing-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* File Input */
+.add-listing-form input[type="file"] {
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* Submit Button */
+.add-listing-btn-submit {
+  background-color: var(--sky-blue);
+  color: var(--white);
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-listing-btn-submit:hover {
+  background-color: var(--sky-blue-dark);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .add-listing-form {
+      padding: 20px;
+      gap: 15px;
+  }
+
+  .add-listing-form h1 {
+      font-size: 22px;
+  }
+
+  .add-listing-btn-submit {
+      font-size: 14px;
+      padding: 10px 15px;
+  }
+}

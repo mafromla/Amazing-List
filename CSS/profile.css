@@ -17,9 +17,10 @@
   body {
     font-family: Arial, sans-serif;
     background-color: var(--white);
-    color: var (--text-color);
-    line-height: 1.5;
-  }
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
   a {
     text-decoration: none;
     color: inherit;
@@ -29,8 +30,7 @@
     width: 100%;
     height: auto;
   }
-  
-  /* -----------------------------------------
+ /* -----------------------------------------
      HEADER STYLES
   ----------------------------------------- */
   .site-header {
@@ -56,8 +56,8 @@
 
 	/* Navigation Styles */
 	nav {
-	  display: table; /* shrink-to-fit */
-	  margin: 0 auto; /* centers the nav in its container */
+	  display: table;
+	  margin: 0 auto;
 	}
 
 	nav ul {
@@ -128,236 +128,126 @@
     margin-left: 1rem;
   }
 
-  /* -----------------------------------------
-     HERO SECTION
-  ----------------------------------------- */
-  .hero-section {
-    position: relative;
-    background: url('../Images/Sale.jpg') center/cover no-repeat;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: var(--white);
-  }
-  .hero-section::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(0,0,0,0.3);
-  }
-  .hero-content {
-    position: relative;
-    z-index: 1;
-  }
-  .hero-content h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-  .hero-content p {
-    font-size: 1rem;
-  }
-
-  /* Makes hero images (or any inserted image) fill their container */
-  .hero-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
+/* Body Styles */
   
-  /* -----------------------------------------
-     SEARCH BAR SECTION
-  ----------------------------------------- */
-  .search-bar-section {
+  body {
+    font-family: Arial, sans-serif;
     background-color: var(--white);
-    border-bottom: 1px solid #ddd;
-    padding: 1rem;
-    text-align: center;
-  }
-  .search-bar-container {
-    display: inline-flex;
-    gap: 0.5rem;
-  }
-  .search-bar-container input {
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  .search-btn {
-    background-color: var(--sky-blue-dark);
-    color: var(--white);
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: opacity 0.3s ease;
-  }
-  .search-btn:hover {
-    opacity: 0.8;
-  }
-  
-  /* -----------------------------------------
-     MAIN CONTAINER (Filter Panel + Listings)
-  ----------------------------------------- */
-  .main-container {
-    max-width: 1200px;
-    margin: 2rem auto;
-    display: flex;
-    gap: 2rem;
-    padding: 0 1rem;
-  }
-  @media (max-width: 992px) {
-    .main-container {
-      flex-direction: column;
-    }
-  }
-  
-  /* -----------------------------------------
-     FILTER PANEL
-  ----------------------------------------- */
-  .filter-panel {
-    flex: 0 0 250px;
-    background-color: var(--white);
-    border: 1px solid #eee;
-    border-radius: 4px;
-    padding: 1rem;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  }
-  .filter-panel h2 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
     color: var(--text-color);
+    padding: 40px;
   }
-  .filter-group {
-    margin-bottom: 1rem;
+  
+  .container {
+    display: flex;
+    max-width: 1200px; 
+    width: 100%; 
+    margin: 0 auto; 
+    gap: 40px;
+    padding: 20px; 
+}
+  .sidebar {
+    width: 220px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
   }
-  .filter-group label {
-    display: block;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
-  }
-  .filter-group input,
-  .filter-group select {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  /* Categories Section inside Filter Panel */
-  .filter-categories {
-    margin-bottom: 1rem;
-  }
-  .filter-categories h3 {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  .filter-categories ul {
-    list-style: none;
-    padding: 0;
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
     margin: 0;
   }
-  .filter-categories li {
-    margin-bottom: 0.3rem;
-  }
-  .filter-categories a {
-    color: var(--sky-blue-dark);
-    transition: opacity 0.3s ease;
-  }
-  .filter-categories a:hover {
-    opacity: 0.8;
-  }
-  .filter-btn {
-    background-color: var(--sky-blue-dark);
-    color: var(--white);
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: opacity 0.3s ease;
-  }
-  .filter-btn:hover {
-    opacity: 0.8;
-  }
   
-  /* -----------------------------------------
-     LISTINGS AREA
-  ----------------------------------------- */
-  .listings-area {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  .listings-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .listings-header span {
-    font-size: 0.9rem;
-    color: #666;
-  }
-  .sort-dropdown {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  .sort-dropdown select {
-    padding: 0.3rem 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  /* Listings Grid */
-  .listings-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-  }
-  .listing-card {
-    background-color: var(--white);
-    border: 1px solid #eee;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
-  .listing-card:hover {
-    transform: translateY(-5px);
-  }
-  .listing-card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-  }
-  .listing-info {
-    padding: 1rem;
-  }
-  .listing-info h3 {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+  .sidebar ul li {
+    margin-bottom: 12px;
+    font-weight: 500;
     color: var(--text-color);
   }
-  .listing-location {
-    font-size: 0.85rem;
-    color: #777;
-    margin-bottom: 0.5rem;
-  }
-  .listing-price {
-    font-size: 1rem;
-    font-weight: bold;
-    color: green;
+  
+  .sidebar ul li.active,
+  .sidebar ul li:hover {
+    color: var(--sky-blue-dark);
+    font-weight: 600;
   }
   
+  .sidebar ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .profile-section {
+    flex: 1;
+  }
+  
+  .profile-section h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    border-bottom: 3px solid var(--sky-blue-dark);
+    display: inline-block;
+    padding-bottom: 4px;
+    color: var(--text-color);
+  }
+  
+  form.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .profile-form label {
+    font-weight: 500;
+    font-size: 13px;
+    color: #777;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .profile-form input,
+  .profile-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .profile-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .save-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: var(--sky-blue-dark);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .save-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .view-profile {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  .view-profile:hover {
+    color: var(--sky-blue-dark);
+  }
+
+
+
   /* -----------------------------------------
      FOOTER STYLES
   ----------------------------------------- */
@@ -577,26 +467,4 @@
 }
 .user-profile-dropdown.show .profile-menu {
   display: block;
-}
-
-
-
-.listing-actions {
-  width: 100%; /* Stretch actions area to full width of card */
-  display: flex;
-  justify-content: flex-end; /* Align items to the right side */
-  margin-top: 10px;
-  padding-right: 10px; /* Optional: add slight padding on the right */
-  gap: 15px; /* Space between Heart and Message */
-}
-
-.listing-actions a {
-  font-size: 22px;
-  text-decoration: none;
-  color: #555;
-  transition: color 0.3s;
-}
-
-.listing-actions a:hover {
-  color: #FF5A5F; /* Red on hover */
 }
