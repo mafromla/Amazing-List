@@ -3,7 +3,7 @@
 
 $host = 'localhost';
 $dbname = 'amazinglist'; // Your created database name
-$username = 'root';      // Default XAMPP username is 'root'
+$username = 'root';      
 $password = '';          // Default XAMPP password is empty
 
 try {

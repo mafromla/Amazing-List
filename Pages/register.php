@@ -1,61 +1,79 @@
 <?php
 session_start();
-require 'connect.php'; // Ensure the path is correct
+require 'connect.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Retrieve and sanitize form inputs, including first name and last name.
+    // Step 1: Capture and sanitize form input
     $firstName      = trim($_POST['firstName']);
     $lastName       = trim($_POST['lastName']);
     $username       = trim($_POST['username']);
     $email          = trim($_POST['email']);
     $password       = $_POST['password'];
     $passwordRepeat = $_POST['psw-repeat'];
+    $streetAddress  = !empty($_POST['streetAddress']) ? trim($_POST['streetAddress']) : null;
     $city           = trim($_POST['city']);
     $state          = trim($_POST['state']);
     $zip            = trim($_POST['zip']);
-    
+
     $errors = [];
-    
-    // Validate required fields
-    if (empty($firstName) || empty($lastName) || empty($username) || empty($email) || empty($password) || empty($passwordRepeat) || empty($city) || empty($state) || empty($zip)) {
+
+    // Step 2: Validate
+    if (empty($firstName) || empty($lastName) || empty($username) || empty($email) ||
+        empty($password) || empty($passwordRepeat) || empty($city) || empty($state) || empty($zip)) {
         $errors[] = "Please fill in all required fields.";
     }
+
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $errors[] = "Invalid email address.";
     }
+
     if ($password !== $passwordRepeat) {
         $errors[] = "Passwords do not match.";
     }
-    
-    // Check if username or email already exists in the account table.
+
+    // Step 3: Check for duplicate username/email
     if (empty($errors)) {
-        $stmt = $pdo->prepare("SELECT * FROM account WHERE username = :username OR email = :email");
+        $stmt = $pdo->prepare("SELECT * FROM User WHERE username = :username OR email_address = :email");
         $stmt->execute(['username' => $username, 'email' => $email]);
+
         if ($stmt->rowCount() > 0) {
             $errors[] = "Username or email already exists.";
         } else {
-            // Hash the password for secure storage.
+            // Step 4: Hash password
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-            
-            // Insert the new user into the account table, including first name and last name.
-            $stmt = $pdo->prepare("INSERT INTO account 
-                (first_name, last_name, username, password_hash, email, city, state, zip_code)
-                VALUES (:first_name, :last_name, :username, :password_hash, :email, :city, :state, :zip_code)");
+
+            // Step 5: Insert into User table
+            $stmt = $pdo->prepare("INSERT INTO User 
+                (first_name, last_name, username, password_hash, email_address)
+                VALUES (:first_name, :last_name, :username, :password_hash, :email)");
+
             $result = $stmt->execute([
                 'first_name'    => $firstName,
                 'last_name'     => $lastName,
                 'username'      => $username,
                 'password_hash' => $hashedPassword,
-                'email'         => $email,
-                'city'          => $city,
-                'state'         => $state,
-                'zip_code'      => $zip
+                'email'         => $email
             ]);
-            
+
             if ($result) {
-                // Registration successful: set session variable and redirect to homepage.
-                $_SESSION['account_id'] = $pdo->lastInsertId();
-                header("Location: index.html"); // Redirect to homepage
+                $user_id = $pdo->lastInsertId(); // Get new user ID
+
+                // Step 6: Insert into Address table
+                $stmt = $pdo->prepare("INSERT INTO Address 
+                    (user_id, street_address, city, state, zip_code)
+                    VALUES (:user_id, :street_address, :city, :state, :zip_code)");
+
+                $stmt->execute([
+                    'user_id'        => $user_id,
+                    'street_address' => $streetAddress,
+                    'city'           => $city,
+                    'state'          => $state,
+                    'zip_code'       => $zip
+                ]);
+
+                // Step 7: Store session and redirect
+                $_SESSION['user_id'] = $user_id;
+                header("Location: index.html");
                 exit;
             } else {
                 $errors[] = "Registration failed. Please try again.";
@@ -64,6 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,13 +103,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <nav id="mainNav">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="buypage.html">Buy</a></li>
-          <li><a href="tradepage.html">Trade</a></li>
+          <li><a href="buypage.php">Buy</a></li>
+          <li><a href="tradepage.php">Trade</a></li>
           <li class="dropdown">
             <a href="javascript:void(0)" onclick="toggleDropdownMenu()">Pages ▾</a>
             <ul class="dropdown-menu">
               <li><a href="my-listings.html">My Listings</a></li>
-              <li><a href="profile.html">Profile</a></li>
+              <li><a href="profile.php">Profile</a></li>
+              <li><a href="favorites.php">Favorites</a></li>
+              <li><a href="messages.php">Messages</a></li>
             </ul>
           </li>
         </ul>
@@ -101,7 +122,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <ul class="profile-menu" id="profileMenu">
           <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
           <li><a href="register.php">Register</a></li>
-          <li><a href="logout.html">Logout</a></li>
+          <li><a href="logout.php">Logout</a></li>
         </ul>
       </div>
       <!-- + Add Listing Button -->
@@ -162,6 +183,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
   </div>
 
+
+
   <!-- Login Modal (Reused) -->
   <div id="loginModal" class="modal-overlay">
     <div class="modal-content">
@@ -185,6 +208,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </form>
     </div>
   </div>
+
 
   <!-- FOOTER (Reused) -->
   <footer class="site-footer">

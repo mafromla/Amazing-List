@@ -3,24 +3,21 @@ session_start();
 require './connect.php'; 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Retrieve and sanitize input data
     $email    = trim($_POST['email']);
     $password = $_POST['password'];
     
-    // Simple validation
     if (empty($email) || empty($password)) {
         $error = "Please enter both email and password.";
     } else {
-        // Prepare a query to fetch user data by email
-        $stmt = $pdo->prepare("SELECT * FROM users WHERE email = :email");
+        // Match to new User table + column names
+        $stmt = $pdo->prepare("SELECT * FROM User WHERE email_address = :email");
         $stmt->execute(['email' => $email]);
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
-        
-        // Verify password if user exists
-        if ($user && password_verify($password, $user['password'])) {
-            // Set session and redirect on successful login
-            $_SESSION['user_id'] = $user['id'];
-            header("Location: homepage.php"); // Adjust redirect as needed
+
+        if ($user && password_verify($password, $user['password_hash'])) {
+            // Set session and redirect
+            $_SESSION['user_id'] = $user['user_id'];
+            header("Location: index.html"); // Adjust if needed
             exit;
         } else {
             $error = "Invalid email or password.";
@@ -38,26 +35,42 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <script src="../Script/script.js"></script>
 </head>
 <body>
-  <div class="login-container">
-    <h1>Sign In</h1>
-    <?php
-    // Display errors if there are any
-    if (isset($error)) {
-        echo '<p style="color:red;">' . htmlspecialchars($error) . '</p>';
-    }
-    ?>
-    <form class="login-form" action="login.php" method="POST">
-      <div class="form-group">
-        <label for="loginEmail">Email</label>
-        <input type="email" id="loginEmail" name="email" placeholder="example@email.com" required>
-      </div>
-      <div class="form-group">
-        <label for="loginPassword">Password</label>
-        <input type="password" id="loginPassword" name="password" placeholder="********" required>
-      </div>
-      <button type="submit" class="login-submit-btn">Log In</button>
-    </form>
+  <!-- Trigger Button for Sign In Modal -->
+  <button type="button" onclick="openModal()" class="open-modal-btn">Sign In</button>
+
+  <!-- Login Modal (initially hidden) -->
+  <div id="loginModal" class="modal-overlay">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2>Sign In</h2>
+      <?php
+      // Display errors if there are any
+      if (isset($error)) {
+          echo '<p style="color:red;">' . htmlspecialchars($error) . '</p>';
+      }
+      ?>
+      <form class="login-form" onsubmit="return false;">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="example@email.com">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="********">
+
+        <div class="login-options">
+          <label class="remember-me">
+            <input type="checkbox" > Remember me
+          </label>
+          <a href="#" class="forgot-link">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="login-submit-btn">Log In</button>
+
+        <p class="signup-prompt">
+          Don't have an account? <a href="register.html">Sign Up</a>
+        </p>
+      </form>
+    </div>
   </div>
 </body>
 </html>
-
+</html>

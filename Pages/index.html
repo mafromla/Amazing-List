@@ -22,13 +22,15 @@
         <nav class="nav-links" id="primaryNav">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="buypage.html">Buy</a></li>
-            <li><a href="tradepage.html">Trade</a></li>
+            <li><a href="buypage.php">Buy</a></li>
+            <li><a href="tradepage.php">Trade</a></li>
             <li class="dropdown">
               <a href="javascript:void(0)">Pages ▾</a>
               <ul class="dropdown-menu">
-                <li><a href="my-listings.html">My Listings</a></li>
-                <li><a href="profile.html">Profile</a></li>
+                <li><a href="my-listings.php">My Listings</a></li>
+                <li><a href="profile.php">Profile</a></li>
+                <li><a href="favorites.php">Favorites</a></li>
+                <li><a href="messages.php">Messages</a></li>
               </ul>
             </li>
           </ul>
@@ -40,12 +42,12 @@
           <ul class="profile-menu" id="profileMenu">
             <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
             <li><a href="register.php">Register</a></li>
-            <li><a href="logout.html">Logout</a></li>
+            <li><a href="logout.php">Logout</a></li>
           </ul>
         </div>
 
         <!-- + Add Listing Button -->
-        <button class="add-listing-btn" type="button">+ Add Listing</button>
+        <a href="addlisting.php" class="add-listing-btn"> Add Listing</a>
 
       </div>
     </header>

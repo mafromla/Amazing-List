@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade - Amazing List</title>
+  <link rel="stylesheet" href="../CSS/trade.css">
+  <script src="../Script/script.js"></script>
+</head>
+<body>
+
+  <!-- HEADER (Reused) -->
+  <header class="site-header">
+    <div class="header-wrapper">
+      <div class="logo">
+        <a href="index.html">Amazing List</a>
+      </div>
+      <nav id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="buypage.php">Buy</a></li>
+          <li><a href="tradepage.php">Trade</a></li>
+          <li class="dropdown">
+            <a href="#">Pages ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="my-listings.html">My Listings</a></li>
+              <li><a href="profile.php">Profile</a></li>
+              <li><a href="favorites.php">Favorites</a></li>
+              <li><a href="messages.php">Messages</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- User Profile Dropdown -->
+      <div class="user-profile-dropdown" id="userDropdown">
+        <button class="user-btn" type="button" onclick="toggleProfileMenu()">User ▾</button>
+        <ul class="profile-menu" id="profileMenu">
+          <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
+          <li><a href="register.php">Register</a></li>
+          <li><a href="logout.php">Logout</a></li>
+        </ul>
+      </div>
+
+      <!-- + Add Listing Button -->
+      <button class="add-listing-btn" type="button">+ Add Listing</button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION with image link (Reused) -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Trade Items</h1>
+      <p>Find the best trade deals in town!</p>
+    </div>
+  </section>
+
+  <!-- SEARCH BAR SECTION (Reused)-->
+  <section class="search-bar-section">
+    <div class="search-bar-container">
+      <input type="text" placeholder="Keywords" aria-label="Keywords">
+      <input type="text" placeholder="Location" aria-label="Location">
+      <button class="search-btn" type="button">Search</button>
+    </div>
+  </section>
+
+  <!-- MAIN CONTAINER: FILTER PANEL + LISTINGS -->
+  <div class="main-container">
+    <!-- FILTER PANEL -->
+    <aside class="filter-panel">
+      <h2>Filters</h2>
+
+      <!-- Categories Section -->
+
+      <!-- Additional Filters -->
+      <div class="filter-group">
+        <label for="priceMin">Price (min)</label>
+        <input type="number" id="priceMin" placeholder="0">
+      </div>
+      <div class="filter-group">
+        <label for="priceMax">Price (max)</label>
+        <input type="number" id="priceMax" placeholder="1000">
+      </div>
+      <div class="filter-group">
+        <label for="condition">Condition</label>
+        <select id="condition">
+          <option value="">Any</option>
+          <option value="new">New</option>
+          <option value="used">Used</option>
+          <option value="poor">Poor</option>
+        </select>
+      </div>
+      <button class="filter-btn" type="button">Apply Filters</button>
+    </aside>
+
+    <!-- LISTINGS AREA -->
+    <section class="listings-area">
+        <!-- Listings Header: Sort & Results Info -->
+        <div class="listings-header">
+          <span>Showing 1-7 of 20 results</span>
+          <div class="sort-dropdown">
+            <label for="sortBy">Sort by</label>
+            <select id="sortBy">
+              <option value="date">Date</option>
+              <option value="priceLow">Price: Low to High</option>
+              <option value="priceHigh">Price: High to Low</option>
+            </select>
+          </div>
+        </div>
+        <!-- Grid of Listing Cards -->
+        <div class="listings-grid">
+          <!-- Listing Card 1 -->
+          <div class="listing-card">
+            <a href="product-details1.html">
+              <img src="../Images/Samsung Galaxy 23 Ultra.jpg" alt="Samsung Galaxy S22 Ultra">
+              <div class="listing-info">
+                <h3>Samsung Galaxy S22 Ultra</h3>
+                <p class="listing-location">St Cloud, MN</p>
+                <p class="listing-price">$0 (Trade)</p>
+              </div>
+            </a>
+          </div>
+          <!-- Listing Card 2 -->
+          <div class="listing-card">
+            <a href="product-details2.html">
+              <img src="../Images/Electric Guitar.webp" alt="Electric Guitar">
+              <div class="listing-info">
+                <h3>Electric Guitar</h3>
+                <p class="listing-location">St Paul, MN</p>
+                <p class="listing-price">$0 (Trade)</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Listing Card 3 -->
+          <div class="listing-card">
+            <a href="product-details2.html">
+              <img src="../Images/asus-zenbook-14x-oled-q420_3snw.jpg" alt="Asus Zenbook">
+              <div class="listing-info">
+                <h3>Asus Zenbook</h3>
+                <p class="listing-location">St Paul, MN</p>
+                <p class="listing-price">$0 (Trade)</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Listing Card 4 -->
+          <div class="listing-card">
+            <a href="product-details2.html">
+              <img src="../Images/Truck.jpeg" alt="Truck">
+              <div class="listing-info">
+                <h3>Truck</h3>
+                <p class="listing-location">St Paul, MN</p>
+                <p class="listing-price">$0 (Trade)</p>
+              </div>
+            </a>
+          </div>
+
+
+        </div>
+    </section>
+  </div>
+
+  <?php include 'fetch-trade-listings.php'; ?>
+
+
+  <!-- Login Modal (initially hidden (Reused)) -->
+  <div id="loginModal" class="modal-overlay">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2>Sign In</h2>
+      <form class="login-form" action="login.php" method="POST">
+        <label for="loginEmail">Email</label>
+        <input type="email" id="loginEmail" name="email" placeholder="example@email.com" required>
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" name="password" placeholder="********" required>
+        <div class="login-options">
+          <label class="remember-me">
+            <input type="checkbox" name="remember" value="1"> Remember me
+          </label>
+          <a href="#" class="forgot-link">Forgot Password?</a>
+        </div>
+        <button type="submit" class="login-submit-btn">Log In</button>
+        <p class="signup-prompt">
+          Don't have an account? <a href="register.php">Sign Up</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- FOOTER (Reused) -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>Amazing List</h2>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <p>Follow us:</p>
+        <ul class="social-links">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <p>Subscribe to our newsletter:</p>
+        <form action="#" method="POST">
+          <input type="email" name="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Amazing List. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>
