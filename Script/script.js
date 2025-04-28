@@ -63,3 +63,28 @@ window.onclick = function(event) {
       closeModal();
     }
   });
+
+
+
+  function sortItems() {
+    var sortValue = document.getElementById('sortBy').value;
+    window.location.href = "buypage.php?sort=" + sortValue;
+}
+
+// Message Modal
+function openMessageModal(itemId, receiverId, listingType) {
+  document.getElementById('messageModal').style.display = 'block';
+  document.getElementById('itemId').value = itemId;
+  document.getElementById('receiverId').value = receiverId;
+  document.getElementById('listingType').value = listingType;
+
+  if (listingType === 'TRADE') {
+    document.getElementById('offerSection').style.display = 'block';
+  } else {
+    document.getElementById('offerSection').style.display = 'none';
+  }
+}
+
+function closeMessageModal() {
+  document.getElementById('messageModal').style.display = 'none';
+}
