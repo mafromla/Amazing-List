@@ -35,19 +35,24 @@ if ($result->rowCount() > 0) {
         echo '<h3>' . htmlspecialchars($row['title']) . '</h3>';
         echo '<p class="listing-location">' . htmlspecialchars($row['city']) . ', ' . htmlspecialchars($row['state']) . ' ' . htmlspecialchars($row['zip_code']) . '</p>';
         echo '<p class="listing-price">$' . htmlspecialchars($row['price']) . '</p>';
-        echo '</div>'; 
-        echo '</a>'; 
-    
-        // Heart and Message buttons
-        echo '<div class="listing-actions">';
-        echo '<a href="favorites.php?item_id=' . $row['item_id'] . '" class="favorite-btn" title="Add to Favorites">❤️</a>';
-        echo '<a href="message.php?seller_id=' . $row['user_id'] . '&item_id=' . $row['item_id'] . '" class="message-btn" title="Message Seller">💬</a>';
-        echo '</div>'; 
-    
         echo '</div>';
+        echo '</a>';
+        
+        // Listing Actions
+        echo '<div class="listing-actions">';
+        echo '<a href="add_favorite.php?item_id=' . $row['item_id'] . '" class="favorite-btn" title="Add to Favorites">❤️</a>';
+        echo '<button type="button" class="message-btn" onclick="openMessageModal('
+            . "'" . $row['item_id'] . "',"
+            . "'" . $row['user_id'] . "',"
+            . "'BUY'"
+        . ')">💬 Message Seller</button>';
+        echo '</div>'; 
+        
+        echo '</div>'; // end listing-card
     }
-    
 } else {
     echo "<p>No new listings available.</p>";
 }
 ?>
+
+

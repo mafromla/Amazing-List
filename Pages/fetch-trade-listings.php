@@ -39,15 +39,12 @@ if ($result->rowCount() > 0) {
     
         // Heart and Message/Offer buttons
         echo '<div class="listing-actions">';
-        echo '<a href="favorites.php?item_id=' . $row['item_id'] . '" class="favorite-btn" title="Add to Favorites">❤️</a>';
-
-        // NEW Message/Offer button for TRADE
+        echo '<a href="add_favorite.php?item_id=' . $row['item_id'] . '" class="favorite-btn" title="Add to Favorites">❤️</a>';
         echo '<button class="message-btn" onclick="openMessageModal('
             . "'" . $row['item_id'] . "',"
             . "'" . $row['user_id'] . "',"
             . "'TRADE'"
         . ')">💬 Message / Make Offer</button>';
-
         echo '</div>'; 
     
         echo '</div>';

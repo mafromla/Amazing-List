@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,17 +17,17 @@
   <header class="site-header">
     <div class="header-wrapper">
       <div class="logo">
-        <a href="index.html">Amazing List</a>
+        <a href="index.php">Amazing List</a>
       </div>
       <nav id="mainNav">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="buypage.php">Buy</a></li>
           <li><a href="tradepage.php">Trade</a></li>
           <li class="dropdown">
             <a href="#">Pages ▾</a>
             <ul class="dropdown-menu">
-              <li><a href="my-listings.html">My Listings</a></li>
+              <li><a href="my-listings.php">My Listings</a></li>
               <li><a href="profile.php">Profile</a></li>
               <li><a href="favorites.php">Favorites</a></li>
               <li><a href="messages.php">Messages</a></li>
@@ -34,16 +38,25 @@
 
       <!-- User Profile Dropdown -->
       <div class="user-profile-dropdown" id="userDropdown">
-        <button class="user-btn" type="button" onclick="toggleProfileMenu()">User ▾</button>
+        <button class="user-btn" type="button" onclick="toggleProfileMenu()">
+          <?php if (isset($_SESSION['username'])): ?>
+            <?= htmlspecialchars($_SESSION['username']) ?> ▾
+          <?php else: ?>
+            User ▾
+          <?php endif; ?>
+        </button>
         <ul class="profile-menu" id="profileMenu">
-          <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
-          <li><a href="register.php">Register</a></li>
-          <li><a href="logout.php">Logout</a></li>
+          <?php if (isset($_SESSION['username'])): ?>
+            <li><a href="logout.php">Logout</a></li>
+          <?php else: ?>
+            <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
+            <li><a href="register.php">Register</a></li>
+          <?php endif; ?>
         </ul>
       </div>
 
               <!-- + Add Listing Button -->
-      <button class="add-listing-btn" type="button">+ Add Listing</button>
+      <button class="add-listing-btn" type="button" onclick="window.location.href='addlisting.php'"> Add Listing</button>
     </div>
   </header>
 
@@ -339,28 +352,33 @@
     </div>
 
 
-        <!-- MESSAGE MODAL -->
-    <div id="messageModal" class="modal-overlay" style="display: none;">
-      <div class="modal-content">
-        <span class="close-btn" onclick="closeMessageModal()">&times;</span>
-        <h2>Contact Seller</h2>
-        <form action="send_message_or_offer.php" method="POST">
-          <input type="hidden" name="receiver_id" id="receiverId">
-          <input type="hidden" name="item_id" id="itemId">
-          <input type="hidden" name="listing_type" id="listingType">
+  <!-- MESSAGE MODAL -->
+  <div id="messageModal" class="message-modal-overlay" style="display: none;">
+    <div class="message-modal-content">
+      <span class="close-btn-message" onclick="closeMessageModal()">&times;</span>
+      <h2>Contact Seller</h2>
+      <form action="send_message_or_offer.php" method="POST">
+        <input type="hidden" name="receiver_id" id="receiverId">
+        <input type="hidden" name="item_id" id="itemId">
+        <input type="hidden" name="listing_type" id="listingType">
 
-          <textarea name="message_text" placeholder="Write your message here..." required></textarea>
+        <textarea name="message_text" placeholder="Write your message here..." required></textarea>
 
-          <div id="offerSection" style="display: none;">
-            <h3>Make an Offer</h3>
-            <textarea name="offer_text" placeholder="Describe your trade offer..."></textarea>
-            <input type="number" name="offer_amount" placeholder="Optional Cash Amount ($)">
-          </div>
+        <div id="offerSection" style="display: none;">
+          <h3>Make an Offer</h3>
+          <textarea name="offer_text" placeholder="Describe your trade offer..."></textarea>
+          <input type="number" name="offer_amount" placeholder="Optional Cash Amount ($)">
+        </div>
 
-          <button type="submit">Send</button>
-        </form>
-      </div>
+        <button type="submit">Send</button>
+      </form>
     </div>
+  </div>
+
+
+
+
+
 
 
 

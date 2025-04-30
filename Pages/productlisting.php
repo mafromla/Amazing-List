@@ -71,7 +71,7 @@ if (!$item) {
       </div>
 
       <!-- + Add Listing Button -->
-      <button class="add-listing-btn" type="button"> Add Listing</button>
+      <button class="add-listing-btn" type="button" onclick="window.location.href='addlisting.php'"> Add Listing</button>
     </div>
   </header>
 

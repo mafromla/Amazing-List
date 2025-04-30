@@ -27,9 +27,7 @@ $favorites = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
   <meta charset="UTF-8">
   <title>Favorites - Amazing List</title>
-  <link rel="stylesheet" href="../CSS/profile.css">
-  <link rel="stylesheet" href="../CSS/favorites.css">
-
+  <link rel="stylesheet" href="../CSS/universal-style.css">
 </head>
 <body>
 <header class="site-header">
@@ -37,14 +35,14 @@ $favorites = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         <!-- Logo -->
         <div class="logo">
-          <a href="./index.html">Amazing List</a>
+          <a href="./index.php">Amazing List</a>
         </div>
 
 
         <!-- Navigation Links -->
         <nav class="nav-links" id="primaryNav">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="buypage.php">Buy</a></li>
             <li><a href="tradepage.php">Trade</a></li>
             <li class="dropdown">
@@ -61,16 +59,25 @@ $favorites = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         <!-- User Profile Dropdown -->
         <div class="user-profile-dropdown" id="userDropdown">
-          <button class="user-btn" type="button" onclick="toggleProfileMenu()">User ▾</button>
+          <button class="user-btn" type="button" onclick="toggleProfileMenu()">
+            <?php if (isset($_SESSION['username'])): ?>
+              <?= htmlspecialchars($_SESSION['username']) ?> ▾
+            <?php else: ?>
+              User ▾
+            <?php endif; ?>
+          </button>
           <ul class="profile-menu" id="profileMenu">
-            <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
-            <li><a href="register.php">Register</a></li>
-            <li><a href="logout.php">Logout</a></li>
+            <?php if (isset($_SESSION['username'])): ?>
+              <li><a href="logout.php">Logout</a></li>
+            <?php else: ?>
+              <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
+              <li><a href="register.php">Register</a></li>
+            <?php endif; ?>
           </ul>
         </div>
 
         <!-- + Add Listing Button -->
-        <button class="add-listing-btn" type="button">+ Add Listing</button>
+        <button class="add-listing-btn" type="button" onclick="window.location.href='addlisting.php'"> Add Listing</button>
 
       </div>
     </header>
@@ -81,25 +88,35 @@ $favorites = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <ul>
       <li class="active"><a href="favorites.php">Favorites</a></li>
       <li><a href="profile.php">My Profile</a></li>
+      <li><a href="messages.php">Messages</a></li>
       <li><a href="logout.php">Sign Out</a></li>
     </ul>
   </div>
 
   <!-- Favorites Section -->
-  <div class="listings-grid">
-    <?php foreach ($favorites as $item): ?>
-      <div class="listing-card">
-        <a href="productlisting.php?id=<?= htmlspecialchars($item['item_id']) ?>">
-          <img src="../<?= htmlspecialchars($item['image_url']) ?>" alt="<?= htmlspecialchars($item['title']) ?>">
-          <div class="listing-info">
-            <h3><?= htmlspecialchars($item['title']) ?></h3>
-            <p class="listing-price">$<?= htmlspecialchars($item['price']) ?></p>
+  <div class="favorites-section">
+    <h2>My Favorites</h2>
+
+    <?php if (empty($favorites)): ?>
+      <p class="no-favorites-msg">You have no favorite items yet.</p>
+    <?php else: ?>
+      <div class="listings-grid">
+        <?php foreach ($favorites as $item): ?>
+          <div class="listing-card">
+            <a href="productlisting.php?id=<?= htmlspecialchars($item['item_id']) ?>">
+            <img src="../<?= htmlspecialchars($item['image_url']) ?>" alt="<?= htmlspecialchars($item['title']) ?>">
+            <div class="listing-info">
+                <h3><?= htmlspecialchars($item['title']) ?></h3>
+                <p class="listing-price">$<?= htmlspecialchars($item['price']) ?></p>
+              </div>
+            </a>
           </div>
-        </a>
+        <?php endforeach; ?>
       </div>
-    <?php endforeach; ?>
+    <?php endif; ?>
   </div>
 </div>
+
 
 
     <!-- FOOTER (Reused) -->

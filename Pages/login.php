@@ -2,6 +2,7 @@
 session_start();
 require './connect.php'; 
 
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email    = trim($_POST['email']);
     $password = $_POST['password'];
@@ -17,7 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($user && password_verify($password, $user['password_hash'])) {
             // Set session and redirect
             $_SESSION['user_id'] = $user['user_id'];
-            header("Location: index.html"); // Adjust if needed
+            $_SESSION['username'] = $user['username'];
+            header("Location: index.php"); // Adjust if needed
             exit;
         } else {
             $error = "Invalid email or password.";

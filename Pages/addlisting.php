@@ -37,7 +37,7 @@ require './connect.php';
         </li>
       </ul>
     </nav>
-    <button class="add-listing-btn" type="button" onclick="window.location.href='new-listing.php'">+ New Listing</button>
+    <button class="add-listing-btn" type="button" onclick="window.location.href='new-listing.php'"> Add Listing</button>
   </div>
 </header>
 

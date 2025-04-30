@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,11 +17,11 @@
   <header class="site-header">
     <div class="header-wrapper">
       <div class="logo">
-        <a href="index.html">Amazing List</a>
+        <a href="index.php">Amazing List</a>
       </div>
       <nav id="mainNav">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="buypage.php">Buy</a></li>
           <li><a href="tradepage.php">Trade</a></li>
           <li class="dropdown">
@@ -34,16 +38,25 @@
 
       <!-- User Profile Dropdown -->
       <div class="user-profile-dropdown" id="userDropdown">
-        <button class="user-btn" type="button" onclick="toggleProfileMenu()">User ▾</button>
+        <button class="user-btn" type="button" onclick="toggleProfileMenu()">
+          <?php if (isset($_SESSION['username'])): ?>
+            <?= htmlspecialchars($_SESSION['username']) ?> ▾
+          <?php else: ?>
+            User ▾
+          <?php endif; ?>
+        </button>
         <ul class="profile-menu" id="profileMenu">
-          <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
-          <li><a href="register.php">Register</a></li>
-          <li><a href="logout.php">Logout</a></li>
+          <?php if (isset($_SESSION['username'])): ?>
+            <li><a href="logout.php">Logout</a></li>
+          <?php else: ?>
+            <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
+            <li><a href="register.php">Register</a></li>
+          <?php endif; ?>
         </ul>
       </div>
 
       <!-- + Add Listing Button -->
-      <button class="add-listing-btn" type="button">+ Add Listing</button>
+      <button class="add-listing-btn" type="button" onclick="window.location.href='addlisting.php'"> Add Listing</button>
     </div>
   </header>
 
@@ -66,51 +79,43 @@
 
   <!-- MAIN CONTAINER: FILTER PANEL + LISTINGS -->
   <div class="main-container">
-    <!-- FILTER PANEL -->
-    <aside class="filter-panel">
-      <h2>Filters</h2>
+  <aside class="filter-panel">
+    <h2>Filters</h2>
+    <div class="filter-group">
+      <label for="priceMin">Price (min)</label>
+      <input type="number" id="priceMin" placeholder="0">
+    </div>
+    <div class="filter-group">
+      <label for="priceMax">Price (max)</label>
+      <input type="number" id="priceMax" placeholder="1000">
+    </div>
+    <div class="filter-group">
+      <label for="condition">Condition</label>
+      <select id="condition">
+        <option value="">Any</option>
+        <option value="new">New</option>
+        <option value="used">Used</option>
+        <option value="poor">Poor</option>
+      </select>
+    </div>
+    <button class="filter-btn" type="button">Apply Filters</button>
+  </aside>
 
-      <!-- Categories Section -->
-
-      <!-- Additional Filters -->
-      <div class="filter-group">
-        <label for="priceMin">Price (min)</label>
-        <input type="number" id="priceMin" placeholder="0">
-      </div>
-      <div class="filter-group">
-        <label for="priceMax">Price (max)</label>
-        <input type="number" id="priceMax" placeholder="1000">
-      </div>
-      <div class="filter-group">
-        <label for="condition">Condition</label>
-        <select id="condition">
-          <option value="">Any</option>
-          <option value="new">New</option>
-          <option value="used">Used</option>
-          <option value="poor">Poor</option>
+  <section class="listings-area">
+    <div class="listings-header">
+      <span>Showing trade items</span>
+      <div class="sort-dropdown">
+        <label for="sortBy">Sort by</label>
+        <select id="sortBy">
+          <option value="date">Date</option>
+          <option value="priceLow">Price: Low to High</option>
+          <option value="priceHigh">Price: High to Low</option>
         </select>
       </div>
-      <button class="filter-btn" type="button">Apply Filters</button>
-    </aside>
+    </div>
 
-    <!-- LISTINGS AREA -->
-    <section class="listings-area">
-        <!-- Listings Header: Sort & Results Info -->
-        <div class="listings-header">
-          <span>Showing 1-7 of 20 results</span>
-          <div class="sort-dropdown">
-            <label for="sortBy">Sort by</label>
-            <select id="sortBy">
-              <option value="date">Date</option>
-              <option value="priceLow">Price: Low to High</option>
-              <option value="priceHigh">Price: High to Low</option>
-            </select>
-          </div>
-        </div>
-        <!-- Grid of Listing Cards -->
-        <div class="listings-grid">
-          <!-- Listing Card 1 -->
-          <div class="listing-card">
+
+    <div class="listing-card">
             <a href="product-details1.html">
               <img src="../Images/Samsung Galaxy 23 Ultra.jpg" alt="Samsung Galaxy S22 Ultra">
               <div class="listing-info">
@@ -119,50 +124,24 @@
                 <p class="listing-price">$0 (Trade)</p>
               </div>
             </a>
-          </div>
-          <!-- Listing Card 2 -->
-          <div class="listing-card">
-            <a href="product-details2.html">
-              <img src="../Images/Electric Guitar.webp" alt="Electric Guitar">
-              <div class="listing-info">
-                <h3>Electric Guitar</h3>
-                <p class="listing-location">St Paul, MN</p>
-                <p class="listing-price">$0 (Trade)</p>
-              </div>
-            </a>
-          </div>
-
-          <!-- Listing Card 3 -->
-          <div class="listing-card">
-            <a href="product-details2.html">
-              <img src="../Images/asus-zenbook-14x-oled-q420_3snw.jpg" alt="Asus Zenbook">
-              <div class="listing-info">
-                <h3>Asus Zenbook</h3>
-                <p class="listing-location">St Paul, MN</p>
-                <p class="listing-price">$0 (Trade)</p>
-              </div>
-            </a>
-          </div>
-
-          <!-- Listing Card 4 -->
-          <div class="listing-card">
-            <a href="product-details2.html">
-              <img src="../Images/Truck.jpeg" alt="Truck">
-              <div class="listing-info">
-                <h3>Truck</h3>
-                <p class="listing-location">St Paul, MN</p>
-                <p class="listing-price">$0 (Trade)</p>
-              </div>
-            </a>
+            <div class="listing-actions">
+              <form action="favorites.php" method="POST" style="display:inline;">
+                <input type="hidden" name="item_id" value="<?php echo $row['item_id']; ?>">
+                <button type="submit" class="favorite-btn" title="Add to Favorites">❤️</button>
+              </form>
+              <a href="message.php?seller_id=<?php echo $row['user_id']; ?>&item_id=<?php echo $row['item_id']; ?>" class="message-btn" title="Message Seller">
+                💬
+              </a>
+            </div>
           </div>
 
 
-        </div>
-    </section>
-  </div>
 
-  <?php include 'fetch-trade-listings.php'; ?>
-
+    <div class="listings-grid">
+      <?php include 'fetch-trade-listings.php'; ?>
+    </div>
+  </section>
+</div>
 
   <!-- Login Modal (initially hidden (Reused)) -->
   <div id="loginModal" class="modal-overlay">
@@ -187,6 +166,32 @@
       </form>
     </div>
   </div>
+
+<!-- MESSAGE MODAL -->
+<div id="messageModal" class="message-modal-overlay" style="display: none;">
+  <div class="modal-content-modern">
+    <span class="close-btn" onclick="closeMessageModal()">&times;</span>
+    <h2 class="modal-title">Contact Seller</h2>
+    <form class="message-form" action="send_message_or_offer.php" method="POST">
+      <input type="hidden" name="receiver_id" id="receiverId">
+      <input type="hidden" name="item_id" id="itemId">
+      <input type="hidden" name="listing_type" id="listingType">
+
+      <textarea class="modal-textarea" name="message_text" placeholder="Write your message here..." required></textarea>
+
+      <div id="offerSection" style="display: none;">
+        <h3 class="modal-subtitle">Make an Offer</h3>
+        <textarea class="modal-textarea" name="offer_text" placeholder="Describe your trade offer..."></textarea>
+        <input type="number" name="offer_amount" class="modal-input" placeholder="Optional Cash Amount ($)">
+      </div>
+
+      <button type="submit" class="modal-submit-btn">Send</button>
+    </form>
+  </div>
+</div>
+
+
+
 
 
   <!-- FOOTER (Reused) -->
