@@ -5,7 +5,8 @@ CREATE TABLE User (
     username VARCHAR(30) UNIQUE NOT NULL,
     password_hash VARCHAR(128) NOT NULL,
     email_address VARCHAR(320) UNIQUE NOT NULL,
-    profile_info TEXT
+    profile_info TEXT,
+    profile_image_url VARCHAR(255)
 );
 
 CREATE TABLE Address (
@@ -37,18 +38,23 @@ CREATE TABLE Item (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     is_starred BOOLEAN DEFAULT FALSE,
     is_sold BOOLEAN DEFAULT FALSE,
+    image_url VARCHAR(255),
     FOREIGN KEY (user_id) REFERENCES User(user_id) ON DELETE CASCADE,
     FOREIGN KEY (category_id) REFERENCES Categories(category_id)  
 );
 
 CREATE TABLE Offer (
-    offer_id INT PRIMARY KEY AUTO_INCREMENT,
-    recipient_id INT NOT NULL,
-    money_requested INT DEFAULT 0,
-    money_offered INT DEFAULT 0,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (recipient_id) REFERENCES User(user_id) ON DELETE CASCADE
+  offer_id INT PRIMARY KEY AUTO_INCREMENT,
+  recipient_id INT NOT NULL,
+  sender_id INT NOT NULL,
+  money_requested INT DEFAULT 0,
+  money_offered INT DEFAULT 0,
+  status ENUM('pending', 'accepted', 'rejected', 'cancelled') DEFAULT 'pending',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (recipient_id) REFERENCES User(user_id),
+  FOREIGN KEY (sender_id) REFERENCES User(user_id)
 );
+
 
 CREATE TABLE Offer_Items (
     offer_item_id INT PRIMARY KEY AUTO_INCREMENT,
