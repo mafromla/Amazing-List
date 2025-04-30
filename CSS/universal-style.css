@@ -8,28 +8,49 @@
     --text-color: #333;
     --hover-bg: rgba(255,255,255,0.2);
     --light-gray: #f9f9f9;
+    --light-border: #e0e0e0;
+    --highlight: #8DBDFF;
+    --gray: #777;
+    --blue-gray: #646a81;
   }
+  
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+  
   body {
     font-family: Arial, sans-serif;
     background-color: var(--white);
     color: var(--text-color);
-    margin: 0;
-    padding: 0;
-}
+    line-height: 1.5;
+  }
+  
   a {
     text-decoration: none;
     color: inherit;
   }
+  
   img {
     display: block;
     width: 100%;
     height: auto;
   }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid var(--highlight);
+    padding-bottom: 10px;
+  }
+
+
  /* -----------------------------------------
      HEADER STYLES
   ----------------------------------------- */
@@ -128,129 +149,119 @@
     margin-left: 1rem;
   }
 
-/* Body Styles */
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: var(--white);
-    color: var(--text-color);
-    padding: 40px;
-  }
-  
-  .container {
-    display: flex;
-    max-width: 1200px; 
-    width: 100%; 
-    margin: 0 auto; 
-    gap: 40px;
-    padding: 20px; 
-}
-  .sidebar {
-    width: 220px;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    padding: 20px;
-    background-color: #f9f9f9;
-  }
-  
-  .sidebar ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-  }
-  
-  .sidebar ul li {
-    margin-bottom: 12px;
-    font-weight: 500;
-    color: var(--text-color);
-  }
-  
-  .sidebar ul li.active,
-  .sidebar ul li:hover {
-    color: var(--sky-blue-dark);
-    font-weight: 600;
-  }
-  
-  .sidebar ul li a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  
-  
-  .profile-section {
-    flex: 1;
-  }
-  
-  .profile-section h2 {
-    font-size: 24px;
-    margin-bottom: 24px;
-    border-bottom: 3px solid var(--sky-blue-dark);
-    display: inline-block;
-    padding-bottom: 4px;
-    color: var(--text-color);
-  }
-  
-  form.profile-form {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-  
-  .profile-form label {
-    font-weight: 500;
-    font-size: 13px;
-    color: #777;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-  }
-  
-  .profile-form input,
-  .profile-form textarea {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 14px;
-    width: 100%;
-  }
-  
-  .profile-form textarea {
-    resize: vertical;
-    min-height: 80px;
-  }
-  
-  .save-btn {
-    margin-top: 20px;
-    padding: 12px 24px;
-    background-color: var(--sky-blue-dark);
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 15px;
-    transition: background-color 0.2s ease;
-  }
-  
-  .save-btn:hover {
-    opacity: 0.9;
-  }
-  
-  .view-profile {
-    margin-top: 10px;
-    display: inline-block;
-    font-size: 14px;
-    color: var(--text-color);
-    text-decoration: none;
-  }
-  
-  .view-profile:hover {
-    color: var(--sky-blue-dark);
-  }
-
 
 
   /* -----------------------------------------
+     Layout Container (Sidebar + Main)
+  ----------------------------------------- */
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    gap: 2rem;
+  }
+  
+  .sidebar {
+    flex: 0 0 220px;
+    background-color: #fff;
+    border: 1px solid var(--light-border);
+    border-radius: 8px;
+    padding: 1.5rem 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .sidebar li {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    color: var(--blue-gray);
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar li.active,
+  .sidebar li:hover {
+    color: var(--highlight);
+    border-left: 3px solid var(--highlight);
+    background-color: #fef8e7;
+  }
+  
+
+  /* -----------------------------------------
+   Messages Section Styling (Updated)
+----------------------------------------- */
+.message-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fdfdfd;
+  border: 1px solid var(--light-border);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.message-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.message-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.message-icon {
+  font-size: 1rem;
+  color: #999;
+}
+
+.sender {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.item {
+  color: var(--sky-blue-dark);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.offer-label {
+  background-color: orange;
+  color: white;
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.offer-highlight {
+  border-left: 4px solid orange;
+  background-color: #fff8f0;
+}
+
+  
+  
+
+ /* -----------------------------------------
      FOOTER STYLES
   ----------------------------------------- */
   .site-footer {
@@ -455,7 +466,7 @@
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   text-align: right;
-  z-index: 1000; /* Higher than the hero image */
+  z-index: 1000;
 }
 .profile-menu li {
   margin: 0;
@@ -470,3 +481,153 @@
 .user-profile-dropdown.show .profile-menu {
   display: block;
 }
+
+
+.footer-logo h2 {
+    color: var(--white) !important;
+  }
+
+
+  /*   Profile Page Styles */
+  .profile-section {
+    flex: 1;
+  }
+  
+  .profile-section h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    border-bottom: 3px solid var(--sky-blue-dark);
+    display: inline-block;
+    padding-bottom: 4px;
+    color: var(--text-color);
+  }
+  
+  form.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .profile-form label {
+    font-weight: 500;
+    font-size: 13px;
+    color: #777;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .profile-form input,
+  .profile-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .profile-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .save-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: var(--sky-blue-dark);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .save-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .view-profile {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  .view-profile:hover {
+    color: var(--sky-blue-dark);
+  }
+
+
+/* -----------------------------------------
+   Favorites page Styles
+
+/* ----------------------------------------- */
+.listings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    margin-top: 20px;
+}
+
+/* Individual Listing Card */
+.listing-card {
+    background-color: var(--light-gray);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.listing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Listing Image */
+.listing-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Listing Info */
+.listing-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.listing-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.listing-info p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.listing-info .listing-price {
+    font-weight: bold;
+    color: var(--sky-blue-dark);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .listings-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+

@@ -1,0 +1,43 @@
+/* Messages Page Styling */
+.message-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  
+  .message-list li {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-left: 4px solid var(--sky-blue-dark);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .message-list li strong {
+    color: #333;
+  }
+  
+  .message-list li p {
+    margin-top: 0.5rem;
+    white-space: pre-wrap;
+    line-height: 1.4;
+    color: #555;
+  }
+  
+  /* Title Header */
+  h2 {
+    font-size: 1.5rem;
+    color: var(--sky-blue-dark);
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  /* Optional container if you want spacing */
+  .message-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
