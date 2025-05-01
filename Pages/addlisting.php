@@ -20,10 +20,10 @@ require './connect.php';
 
 <header class="site-header">
   <div class="header-wrapper">
-    <div class="logo"><a href="index.html">Amazing List</a></div>
+    <div class="logo"><a href="index.php">Amazing List</a></div>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="buypage.php">Buy</a></li>
         <li><a href="tradepage.php">Trade</a></li>
         <li class="dropdown">

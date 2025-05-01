@@ -128,7 +128,7 @@ $messages = $stmt->fetchAll(PDO::FETCH_ASSOC);
       </div>
     <?php endforeach; ?>
   <?php endif; ?>
-</div> <!-- .messages-section -->
+</div> 
 
       
 

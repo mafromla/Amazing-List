@@ -1,9 +1,10 @@
 <?php
+session_start();
 include 'connect.php';
 
 // Check if an ID was passed
-if (!isset($_GET['id'])) {
-    echo "No product selected.";
+if (!isset($_GET['id']) || empty($_GET['id'])) {
+    header("Location: index.php?error=no_product_selected");
     exit;
 }
 
@@ -21,9 +22,12 @@ $stmt->execute([$item_id]);
 $item = $stmt->fetch(PDO::FETCH_ASSOC);
 
 if (!$item) {
-    echo "Item not found.";
+    header("Location: index.php?error=item_not_found");
     exit;
 }
+
+// Check if the logged-in user is the owner of the listing
+$isOwner = isset($_SESSION['user_id']) && $_SESSION['user_id'] === $item['user_id'];
 ?>
 
 <!DOCTYPE html>
@@ -41,17 +45,17 @@ if (!$item) {
   <header class="site-header">
     <div class="header-wrapper">
       <div class="logo">
-        <a href="index.html">Amazing List</a>
+        <a href="index.php">Amazing List</a>
       </div>
       <nav id="mainNav">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="buypage.php">Buy</a></li>
           <li><a href="tradepage.php">Trade</a></li>
           <li class="dropdown">
             <a href="javascript:void(0)" onclick="toggleDropdownMenu()">Pages ▾</a>
             <ul class="dropdown-menu">
-              <li><a href="my-listings.html">My Listings</a></li>
+              <li><a href="my-listings.php">My Listings</a></li>
               <li><a href="profile.php">Profile</a></li>
               <li><a href="favorites.php">Favorites</a></li>
               <li><a href="messages.php">Messages</a></li>
@@ -64,9 +68,12 @@ if (!$item) {
       <div class="user-profile-dropdown" id="userDropdown">
         <button class="user-btn" type="button" onclick="toggleProfileMenu()">User ▾</button>
         <ul class="profile-menu" id="profileMenu">
-          <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
-          <li><a href="register.php">Register</a></li>
-          <li><a href="logout.php">Logout</a></li>
+          <?php if (isset($_SESSION['user_id'])): ?>
+            <li><a href="logout.php">Logout</a></li>
+          <?php else: ?>
+            <li><a href="javascript:void(0)" onclick="openModal()">Sign In</a></li>
+            <li><a href="register.php">Register</a></li>
+          <?php endif; ?>
         </ul>
       </div>
 
@@ -83,15 +90,14 @@ if (!$item) {
     <!-- Main Image -->
     <img src="<?php echo '../' . htmlspecialchars($item['image_url']); ?>" alt="Main Product Image" class="main-image">
 
-
-    <!-- Thumbnail Images (repeating main image for now) -->
+    <!-- Thumbnail Images -->
     <div class="thumbnail-images">
         <img src="<?php echo '../' . htmlspecialchars($item['image_url']); ?>" alt="Thumbnail 1">
         <img src="<?php echo '../' . htmlspecialchars($item['image_url']); ?>" alt="Thumbnail 2">
         <img src="<?php echo '../' . htmlspecialchars($item['image_url']); ?>" alt="Thumbnail 3">
         <img src="<?php echo '../' . htmlspecialchars($item['image_url']); ?>" alt="Thumbnail 4">
     </div>
-
+  </div>
 
   <!-- Product Info Section -->
   <div class="product-info">
@@ -107,9 +113,17 @@ if (!$item) {
     <p class="product-description">
       <?php echo nl2br(htmlspecialchars($item['description'])); ?>
     </p>
+
+    <?php if ($isOwner): ?>
+        <!-- Delete Button -->
+        <form action="delete_listing.php" method="POST" onsubmit="return confirm('Are you sure you want to delete this listing?');">
+            <input type="hidden" name="item_id" value="<?php echo $item['item_id']; ?>">
+            <button type="submit" class="delete-btn">🗑️ Delete Listing</button>
+        </form>
+    <?php endif; ?>
   </div>
 
-  <!-- Reviews & Ratings Section (static for now) -->
+  <!-- Reviews & Ratings Section -->
   <div class="reviews-section">
     <!-- Average Rating -->
     <div class="average-rating">
@@ -151,7 +165,7 @@ if (!$item) {
 
 </div>
 
-<!-- FOOTER (copied from template) -->
+<!-- FOOTER -->
 <footer class="site-footer">
     <div class="footer-content">
       <div class="footer-logo">
@@ -185,8 +199,7 @@ if (!$item) {
     <div class="footer-bottom">
       <p>&copy; 2025 Amazing List. All rights reserved.</p>
     </div>
-  </footer>
-
+</footer>
 
 </body>
 </html>
